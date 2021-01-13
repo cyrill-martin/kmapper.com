@@ -2,47 +2,70 @@
 
 // Import partial
 @import
-  "simple-grid"
+  "simple-grid",
+  "hamburgers/hamburgers"
 ;
+
+$logo-width: 120px;
+$margin: 0.5rem;
+
+.hamburger {
+	display: none;
+}
 
 .site-nav {
 	position: fixed;
 	top: 0.5rem;
 	z-index: 10;
 
-	.site-logo img {
-		width: 120px;
+
+	.site-logo {
+		width: $logo-width;
+
+		img {
+			width: $logo-width;
+		}
 	}
 
 }
 
 .site-imprint-sm {
 	position: fixed;
-	bottom: 0;
+	bottom:  $margin;
 }
 
+// if the screen is greater as the $breakpoint-med, always show .site-pages!
+@media only screen and (min-width: $breakpoint-med) {
+	.site-pages {
+		margin-top: 50px;
+		display: block !important;
+	}
+}
+
+// if the screen is smaller than $breakpoint-med
 @media only screen and (max-width: $breakpoint-med) {
+
+	.hamburger {
+		position: absolute;
+		top: $margin;
+		right: $margin;
+		display: block;
+		z-index: 20;
+	}
+
 	.site-nav {
 		position: relative;
 		top: 0;
 		left: 0;
+
+		.site-pages {
+			display: none;
+		}
 	}
+
 	.site-imprint-sm {
 		position: relative;
 		top: 0;
 		left: 0;
 	}
-}
-
-// For testing only!
-.navigation {
-	// background-color: lightblue;
-}
-
-.content {
-	// background-color: lightgrey;
-}
-
-.footer {
-	// background-color: lightyellow;
 }
