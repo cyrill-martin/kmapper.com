@@ -1,6 +1,6 @@
 // Look for .hamburger
 var hamburger = document.querySelector(".hamburger");
-var sitepages = document.querySelector(".site-pages");
+var sitelinks = document.querySelector(".site-links");
 // On click
 hamburger.addEventListener("click", function() {
 	// Toggle class "is-active"
@@ -9,13 +9,11 @@ hamburger.addEventListener("click", function() {
 	if (window.getComputedStyle(hamburger).display === "block") {
 
 		if (hamburger.classList.contains("is-active")) {
-			sitepages.style.display = "block";
+			sitelinks.style.display = "block";
 		} else {
-			sitepages.style.display = "none";
+			sitelinks.style.display = "none";
 		}
 	} else if (window.getComputedStyle(hamburger).display === "none") {
-		sitepages.style.display = "block";
+		sitelinks.style.display = "block";
 	}
 });
-
-// && window.getComputedStyle(sitepages).display === "none"
