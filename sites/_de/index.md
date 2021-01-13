@@ -1,5 +1,5 @@
 ---
 layout: home
-lang: en
 uid: hme
+permalink: /de/
 ---

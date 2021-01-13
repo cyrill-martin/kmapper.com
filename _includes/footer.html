@@ -2,7 +2,12 @@
   kmapper GmbH <br>
   Austrasse 52 <br>
   4051 Basel <br>
-  Schweiz <br>
+  {%- if page.lang == "de" -%}
+  	Schweiz
+  {%- else -%}
+  	Switzerland
+  {%- endif -%}
+  <br>
   <br>
   {{ site.telephone }}<br>
   <a href="mailto:cyrill.martin@hey.com">{{ site.email }}</a>

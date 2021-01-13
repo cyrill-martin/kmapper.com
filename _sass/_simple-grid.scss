@@ -35,7 +35,6 @@ $font-height: 1.5;
 $dark-grey: #333447;
 
 // universal
-
 html,
 body {
   height: 100%;
@@ -81,7 +80,7 @@ h6 {
 
 p {
   font-size: 1.125rem;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.8;
 }
 
@@ -98,7 +97,6 @@ p {
 }
 
 // utility
-
 .left {
   text-align: left;
 }
@@ -122,7 +120,6 @@ p {
 }
 
 // grid
-
 $width: 96%;
 $gutter: 4%;
 $breakpoint-small: 33.75em; // 540px

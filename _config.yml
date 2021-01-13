@@ -30,8 +30,29 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima
-plugins:
-  - jekyll-feed
+
+#plugins:
+  # - jekyll-feed
+
+collections_dir: sites
+collections: 
+  de:
+    output: true
+  en:
+    output: true
+    permalink: /en/:name
+
+defaults: 
+  - scope:
+      path: ""
+      type: "de"
+    values:
+      lang: "de"
+  - scope:
+      path: ""
+      type: "en"
+    values:
+      lang: "en"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

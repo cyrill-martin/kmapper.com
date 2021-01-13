@@ -6,35 +6,95 @@
 
 <div class="site-nav">
 
-  <div class="site-logo">
-    <a href="{{ "/" | relative_url }}"><img src="/assets/images/kmapper_k_3b.png"></a>
-  </div>
+  {%- if page.lang == "de" -%}
 
-  <div class="site-links">
-    <div id="services">
-      <div class="site-page">
-        <a href="/informationsarchitektur">Informationsarchitektur</a>
-      </div>
-      <div class="site-page">
-        <a href="/prototyping">Prototyping</a>
-      </div>
-      <div class="site-page">
-        <a href="/entwicklung">Entwicklung</a>
-      </div>
+    <div class="site-logo">
+      <a href="{{ "/" | relative_url }}de/"><img src="/assets/images/kmapper_k_3b.png"></a>
     </div>
-    <div id="projects">
-      <div class="site-page">
-        <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>
+
+    <div class="site-links">
+
+      <div class="site-lang">
+        {%- for site_en in site.en -%}
+          {%- if page.uid == site_en.uid -%}
+            <b>DE</b> | <a href="{{ site_en.url }}">EN</a>
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if page.uid == "hme" -%}
+          <b>DE</b> | <a href="{{ "/" | relative_url }}">EN</a>
+        {%- endif -%}
       </div>
+
+      <div id="services">
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}de/informationsarchitektur">Informationsarchitektur</a>
+        </div>
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}de/prototyping">Prototyping</a>
+        </div>
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}de/entwicklung">Entwicklung</a>
+        </div>
+      </div>
+      <div id="projects">
+        <div class="site-page">
+          <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>
+        </div>
+      </div>
+      <div id="info">
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}de/ueber">Über</a>
+        </div>
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}de/impressum">Impressum</a>
+        </div>
+      </div>
+
     </div>
-    <div id="info">
-      <div class="site-page">
-        <a href="/ueber">Über</a>
-      </div>
-      <div class="site-page">
-        <a href="/impressum">Impressum</a>
-      </div>
+
+  {%- else -%}
+
+    <div class="site-logo">
+      <a href="{{ "/" | relative_url }}"><img src="/assets/images/kmapper_k_3b.png"></a>
     </div>
-  </div>
+
+    <div class="site-links">
+
+      <div class="site-lang">
+        {%- for site_de in site.de -%}
+          {%- if page.uid == site_de.uid -%}
+            <a href="{{ site_de.url }}">DE</a> | <b>EN</b>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+
+      <div id="services">
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}en/informationarchitecture">Information Architecture</a>
+        </div>
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}en/prototyping">Prototyping</a>
+        </div>
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}en/development">Development</a>
+        </div>
+      </div>
+      <div id="projects">
+        <div class="site-page">
+          <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>
+        </div>
+      </div>
+      <div id="info">
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}en/about">About</a>
+        </div>
+        <div class="site-page">
+          <a href="{{ "/" | relative_url }}en/imprint">Imprint</a>
+        </div>
+      </div>
+
+    </div>
+
+  {%- endif -%}
 
 </div>
