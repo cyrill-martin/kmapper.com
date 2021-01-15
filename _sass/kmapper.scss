@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-// Import partial
+// Import partials
 @import
   "simple-grid",
   "hamburgers/hamburgers"
@@ -10,10 +10,12 @@ $logo-width: 120px;
 $margin: 0.5rem;
 
 a {
+	color: #514efd;
 	text-decoration: none;
 }
+
 a:hover {
-	color: #514efd;
+	text-decoration: underline;
 }
 
 .hamburger {
@@ -46,27 +48,54 @@ a:hover {
 
 		#projects {
 			margin-top: 5rem;
+
+			#kmapper-preview {
+				display: none;
+				
+				img {
+					position: relative;
+					top: -95px;
+					left: 80px;
+					width: 80px;
+					z-index: -1;
+				}
+			}
+
 		}
 
 		#info {
 			position: fixed;
 			bottom: 180px;
-			// margin-top: 5rem;
 		}
 
 		.site-page {
 			font-weight: bold;
 			margin: $margin 0 $margin 0;
+
+			a {
+			  position: relative;
+			  text-decoration: none;
+			  display: inline-block;
+			  color: $dark-grey;
+			  padding: 0 1px;
+
+			  &:hover {
+			    color: white;
+			    background: #5153FE; 
+			  }
+			}
 		}
-
 	}
-
 }
 
 .site-imprint-sm {
 	position: fixed;
 	bottom: $margin*2;
 	font-size: 0.9em;
+}
+
+.service-terms {
+
 }
 
 // if the screen is greater than $breakpoint-med
@@ -104,16 +133,16 @@ a:hover {
 			position: fixed;
 			top: 0;
 			right: 0;
-			padding-left: $margin;
+			padding-left: $margin*4;
 			background-color: white;
 			width: 80%;
 			height: 100%;
 
-
 			.site-lang {
 				position: relative;
 				top: 0;
-				padding: $margin;
+				left: 0;
+				margin: $margin*2 0 $margin*4 0;
 			}
 
 			#services {

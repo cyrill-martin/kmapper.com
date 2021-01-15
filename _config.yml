@@ -38,6 +38,7 @@ collections_dir: sites
 collections: 
   de:
     output: true
+    # no default permalink (otherwise /de/index)
   en:
     output: true
     permalink: /en/:name

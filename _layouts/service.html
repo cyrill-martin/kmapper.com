@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div>
+
+	{%- if page.title -%}
+		<!-- Show page title -->
+    	<h1>{{ page.title }}</h1>
+  	{%- endif -%}
+
+  <div>
+
+  	<div class="service-terms">
+  		<p>
+		  	{%- if page.terms -%}
+		  		<!-- List the key terms -->
+		  		{{ page.terms | join: " &#183; " }}
+		  	{%- endif -%}
+	  	</p>
+  	</div>
+
+    {{ content }}
+
+  </div>
+
+</div>

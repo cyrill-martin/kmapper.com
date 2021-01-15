@@ -9,7 +9,7 @@
   {%- if page.lang == "de" -%}
 
     <div class="site-logo">
-      <a href="{{ "/" | relative_url }}de/"><img src="/assets/images/kmapper_k_3b.png"></a>
+      <a href="{{ "/" | relative_url }}de/"><img src="{{ "/" | relative_url }}assets/images/kmapper_k_3b.png"></a>
     </div>
 
     <div class="site-links">
@@ -17,7 +17,7 @@
       <div class="site-lang">
         {%- for site_en in site.en -%}
           {%- if page.uid == site_en.uid -%}
-            <b>DE</b> | <a href="{{ site_en.url }}">EN</a>
+            <b>DE</b> | <a href="{{ site_en.url | relative_url }}">EN</a>
           {%- endif -%}
         {%- endfor -%}
         {%- if page.uid == "hme" -%}
@@ -27,7 +27,7 @@
 
       <div id="services">
         <div class="site-page">
-          <a href="{{ "/" | relative_url }}de/informationsarchitektur">Informationsarchitektur</a>
+          <a href="{{ "/" | relative_url }}de/daten-und-informationsarchitektur">Architektur</a>
         </div>
         <div class="site-page">
           <a href="{{ "/" | relative_url }}de/prototyping">Prototyping</a>
@@ -38,7 +38,10 @@
       </div>
       <div id="projects">
         <div class="site-page">
-          <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>
+          <a id="kmapper-link" href="https://www.kmapper.com" target="_blank">kmapper.org</a>
+        </div>
+        <div id="kmapper-preview">
+          <img src="{{ "/" | relative_url }}assets/images/kmapper_preview.png">
         </div>
       </div>
       <div id="info">
@@ -70,7 +73,7 @@
 
       <div id="services">
         <div class="site-page">
-          <a href="{{ "/" | relative_url }}en/informationarchitecture">Information Architecture</a>
+          <a href="{{ "/" | relative_url }}en/data-and-information-architecture">Architecture</a>
         </div>
         <div class="site-page">
           <a href="{{ "/" | relative_url }}en/prototyping">Prototyping</a>
@@ -81,7 +84,10 @@
       </div>
       <div id="projects">
         <div class="site-page">
-          <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>
+          <a id="kmapper-link" href="https://www.kmapper.com" target="_blank">kmapper.org</a>
+        </div>
+        <div id="kmapper-preview">
+          <img src="{{ "/" | relative_url }}assets/images/kmapper_preview.png">
         </div>
       </div>
       <div id="info">
