@@ -1,6 +1,6 @@
 ---
 layout: home
 uid: hme
-title: Slogan?
+title: ??? ??? ???
 permalink: /de/
 ---

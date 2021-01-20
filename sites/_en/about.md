@@ -4,12 +4,6 @@ uid: abt
 title: About
 ---
 
-<!-- <ul>
-	<li><a href="#kmapper">kmapper</a></li>
-	<li><a href="#people">Leute</a></li>
-	<li><a href="#jobs">Jobs</a></li>
-</ul> -->
-
 <div class="background-k">
 	{%- if page.title -%}
 		<!-- Show page title -->

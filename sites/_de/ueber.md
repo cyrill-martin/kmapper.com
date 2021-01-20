@@ -5,12 +5,6 @@ title: Über
 permalink: /de/ueber/
 ---
 
-<!-- <ul>
-	<li><a href="#kmapper">kmapper</a></li>
-	<li><a href="#people">Leute</a></li>
-	<li><a href="#jobs">Jobs</a></li>
-</ul> -->
-
 <div class="background-k">
 	{%- if page.title -%}
 		<!-- Show page title -->
@@ -18,10 +12,10 @@ permalink: /de/ueber/
   	{%- endif -%}
 	<h2>kmapper</h2>
 	<p>
-		Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Webtechnologien sind nur die Werkzeuge dafür. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken.
+		Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken.
 	</p>
 	<p>
-		kmapper geht auf das offene Projekt <a href="https://www.kmapper.com" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open-Access-Forschung nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren. 
+		kmapper geht auf das offene Projekt <a href="https://www.kmapper.com" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open Access-Forschung nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren. 
 	</p>
 	<h3>Prinzipien</h3> 
 	<p>
