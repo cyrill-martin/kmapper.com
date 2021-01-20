@@ -19,6 +19,7 @@ layout: default
 
     <div class="service-image">
       <img src="{% capture url %}/assets/images/{{ page.image }}{% endcapture %}{{ url | relative_url }}">
+      <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.image }}"> -->
     </div>
 
     {{ content }}

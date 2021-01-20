@@ -21,8 +21,8 @@
 title: kmapper
 email: cyrill.martin@hey.com
 telephone: +41 79 745 62 05
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cyrill-martin.github.io/kmapper.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/kmapper.com" # the subpath of your site, e.g. /blog
+url: "https://cyrill-martin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # theme: minima
