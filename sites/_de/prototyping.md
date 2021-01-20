@@ -23,4 +23,4 @@ Sie haben ein Konzept zur Daten- und Informationsarchitektur. Sie erhalten eine 
 - basierend auf Live- oder Testdaten 
 - umfassend dokumentiert 
 
-Mit dem Prototypen wechseln Sie in die nächste Projektphase - mit kmapper oder einem Partner Ihrer Wahl. 
+Mit dem validierten Prototypen wechseln Sie in die nächste Projektphase. 

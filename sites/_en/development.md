@@ -3,27 +3,10 @@ layout: service
 uid: dev
 title: Development
 terms: 
-  - API
-  - Formalization
-  - Open Data
-  - Python
-  - Flask
-  - XSL
-  - HTML
-  - CSS
-  - JavaScript
-  - D3.js
-  - Jekyll
-  - GitHub Pages
-  - Static Site
-  - Microservice
-  - Docker
-  - JamStack
-  - Dynamic Site
-  - Monolith
-  - Ruby
-  - Ruby on Rails
-  - Project Management
+  - Term
+  - Term
+  - Term
+  - Term
 image: circles_en-3.png
 ---
 

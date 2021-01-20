@@ -3,15 +3,10 @@ layout: service
 uid: prt 
 title: Prototyping
 terms: 
-  - Design
-  - Evaluation
-  - Proof of Concept
-  - Prototyp
-  - Minimal Viable Product
-  - Usability Testing
-  - User Research
-  - Project Management
-  - Requirements Engineering
+  - Term
+  - Term
+  - Term
+  - Term
 image: circles_en-2.png
 --- 
 

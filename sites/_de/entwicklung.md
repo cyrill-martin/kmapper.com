@@ -4,7 +4,7 @@ uid: dev
 title: Entwicklung
 permalink: /de/entwicklung/
 terms: 
-  - API
+  - REST-API
   - Formalisierung
   - Open Data
   - Python
@@ -15,7 +15,6 @@ terms:
   - JavaScript
   - D3.js
   - Jekyll
-  - GitHub Pages
   - Static Site
   - Microservice
   - Docker
@@ -28,16 +27,11 @@ terms:
 image: circles_de-3.png
 ---
 
-Sie haben ein validiertes Konzept zur Daten- und Informationsarchitektur. Sie erhalten die passende _Entwicklungsdienstleistung_, um ...: 
+Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen für Ihre Software. Sie erhalten die passende Software, um Ihre Website, Web-Applikation oder Web-Services zu finalisieren. 
 
-Website, Web-Applikation oder Web-Service
-
-<!-- - basierend auf offenen Web-Standards -->
-- als Ergänzung zur bestehenden Infrastruktur oder gehostet in der Cloud
+- basierend auf offenen Web-Standards 
+- als Ergänzung zu Ihrer bestehenden Infrastruktur oder gehostet in der Cloud 
+- inklusive Support 
 - umfassend dokumentiert 
-- Dummy
-- Dummy
 
-<!-- Scripting, Datenformalisierung
-Import, Migration, Transformation! -->
-Nach der abgeschlossenen Entwicklung lancieren Sie ihr Projekt digital - mit kmapper oder einem Partner Ihrer Wahl. 
+Nach abgeschlossener Entwicklung lancieren Sie Ihr Projekt digital. 

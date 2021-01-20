@@ -31,4 +31,4 @@ Sie kennen Strategie und Ziele Ihres Projekts. Sie erhalten ein Architekturkonze
 - umfassend dokumentiert 
 <!-- - kommunizierbar für unterschiedliche Zielgruppen (Business, Sales, Entwicklung, etc.) -->
 
-Mit dem Konzept zur Daten- und Informationsarchitektur wechseln Sie in die nächste Projektphase - mit kmapper oder einem Partner Ihrer Wahl. 
+Mit dem Konzept zur Daten- und Informationsarchitektur wechseln Sie in die nächste Projektphase. 

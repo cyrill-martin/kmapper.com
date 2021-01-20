@@ -3,22 +3,10 @@ layout: service
 uid: inf
 title: Data & Information Architecture
 terms: 
-  - Audit
-  - Inventory
-  - Classification
-  - Structuring
-  - Visualization
-  - Modeling
-  - Capturing
-  - Cleansing
-  - Wire framing
-  - Management
-  - Flow
-  - Open Data
-  - API Economy
-  - User Research
-  - Project Management
-  - Requirements Engineering
+  - Term
+  - Term
+  - Term
+  - Term
 image: circles_en-1.png
 ---
 
