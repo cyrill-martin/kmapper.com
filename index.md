@@ -2,4 +2,5 @@
 layout: home
 lang: en
 uid: hme
+title: Slogan?
 ---

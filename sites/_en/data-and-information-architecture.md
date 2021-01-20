@@ -2,18 +2,29 @@
 layout: service
 uid: inf
 title: Data & Information Architecture
-
 terms: 
-  - Content inventory
+  - Audit
+  - Inventory
   - Classification
-  - Content audits
-  - Project management
-  - User research
-  - Data architecture
-  - API evaluation
-  - Data management
-  - Data audits
-  - Data modeling
+  - Structuring
+  - Visualization
+  - Modeling
+  - Capturing
+  - Cleansing
+  - Wire framing
+  - Management
+  - Flow
+  - Open Data
+  - API Economy
+  - User Research
+  - Project Management
+  - Requirements Engineering
+image: circles_en-1.png
 ---
 
-You'll get ... based on your strategy and goals - fully documented - understandable and EVALUIERBAR by business AND tech. Ready to go forward into prototyping with kmapper or your partner of choice. 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+- Bullet
+- Bullet
+- Bullet
+- Bullet

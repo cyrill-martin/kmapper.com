@@ -2,27 +2,35 @@
 layout: service
 uid: dev
 title: Development
-
 terms: 
-  - API Development
-  - Data formalization
-  - Flask
-  - Project management
+  - API
+  - Formalization
+  - Open Data
   - Python
+  - Flask
   - XSL
+  - HTML
+  - CSS
   - JavaScript
   - D3.js
-  - HTML/CSS
-  - Static site
   - Jekyll
   - GitHub Pages
-  - JamStack
+  - Static Site
   - Microservice
   - Docker
-  - Dynamic site
+  - JamStack
+  - Dynamic Site
+  - Monolith
   - Ruby
   - Ruby on Rails
-  - Monolith
+  - Project Management
+image: circles_en-3.png
 ---
 
-You'll get ...   
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+- Bullet
+- Bullet
+- Bullet
+- Bullet
+

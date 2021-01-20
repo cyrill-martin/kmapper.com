@@ -18,6 +18,23 @@ a:hover {
 	text-decoration: underline;
 }
 
+ul {
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.8; 
+}
+
+.background-k {
+	background-image: url("/assets/images/kmapper_k.png");
+	background-repeat: no-repeat;
+	background-size: 35% auto;
+	background-position: 0 1%;
+}
+
+.home {
+	height: 80vh;
+}
+
 .hamburger {
 	display: none;
 }
@@ -81,11 +98,16 @@ a:hover {
 
 			  &:hover {
 			    color: white;
-			    background: #5153FE; 
+			    background: #43A6DD
+			    // background: #5153FE; 
 			  }
 			}
 		}
 	}
+}
+
+.content {
+
 }
 
 .site-imprint-sm {
@@ -95,7 +117,29 @@ a:hover {
 }
 
 .service-terms {
+	font-size: 1.125rem;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
 
+.principle {
+	
+}
+
+.team-member {
+	position: relative;
+	width: 100%;
+	max-width: 225px;
+	margin-top: 1.5em;
+}
+
+.service-image {
+	position: relative;
+	width: 100%;
+	img {
+		width: 35%;
+		min-width: 350px;
+	}
 }
 
 // if the screen is greater than $breakpoint-med
@@ -109,6 +153,13 @@ a:hover {
 
 // if the screen is smaller than $breakpoint-med
 @media only screen and (max-width: $breakpoint-med) {
+
+	.background-k {
+		background-image: url("/assets/images/kmapper_k.png");
+		background-repeat: no-repeat;
+		background-size: 75% auto;
+		background-position: 0 1%;
+	}
 
 	.hamburger {
 		position: fixed;
@@ -165,5 +216,13 @@ a:hover {
 		position: relative;
 		top: 0;
 		left: 0;
+	}
+
+
+	.service-image {
+		text-align: center;
+		img {
+			width: 85%;
+		}
 	}
 }

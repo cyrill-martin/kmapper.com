@@ -3,24 +3,24 @@ layout: service
 uid: prt
 title: Prototyping
 permalink: /de/prototyping/
-
 terms: 
-  - first term
-  - term2
-  - term3
-  - term4
-  - term5
-  - last term
+  - Design
+  - Evaluation
+  - Proof of Concept
+  - Prototyp
+  - Minimal Viable Product
+  - Usability Testing
+  - Nutzerforschung
+  - Projektmanagement
+  - Anforderungsanalyse
+image: circles_de-2.png
 ---
 
-Sie erhalten funktionierende Web-Applikation basierend auf echten oder Dummy-Daten. Sicher online gehostet, einfach zugänglich und testbar - ohne eigene Infrastruktur aufzusetzen. 
+Sie haben ein Konzept zur Daten- und Informationsarchitektur. Sie erhalten eine testbare Prototyp-Applikation, um Ihr Konzept zu validieren und iterativ anzupassen: 
 
-Stack: Monolith vs. JamStack vs. simple Static Page (Dokument-Basiert)
+- sicher in der Cloud gehostet 
+- zugänglich via Browser, keine eigene Infrastruktur nötig 
+- basierend auf Live- oder Testdaten 
+- umfassend dokumentiert 
 
-User-Testing + Dokumentation
-
-Iterativ: POC - Prototyp - MVP
-
-Sie erhalten komplette Code-Basis und Dokumentation. 
-Damit können Sie einen Schritt weiter gehen mit kmapper oder einem Partner ihrer Wahl. 
-
+Mit dem Prototypen wechseln Sie in die nächste Projektphase - mit kmapper oder einem Partner Ihrer Wahl. 

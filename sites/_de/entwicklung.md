@@ -3,23 +3,41 @@ layout: service
 uid: dev
 title: Entwicklung
 permalink: /de/entwicklung/
-
 terms: 
-  - first term
-  - term2
-  - term3
-  - term4
-  - term5
-  - last term
+  - API
+  - Formalisierung
+  - Open Data
+  - Python
+  - Flask
+  - XSL
+  - HTML
+  - CSS
+  - JavaScript
+  - D3.js
+  - Jekyll
+  - GitHub Pages
+  - Static Site
+  - Microservice
+  - Docker
+  - JamStack
+  - Dynamic Site
+  - Monolith
+  - Ruby
+  - Ruby on Rails
+  - Projektmanagement
+image: circles_de-3.png
 ---
 
-Open Data-Integration!!!
+Sie haben ein validiertes Konzept zur Daten- und Informationsarchitektur. Sie erhalten die passende _Entwicklungsdienstleistung_, um ...: 
 
-Sie erhalten fertige Applikation: Website, API, Microservice
-JamStack vs Monolith.
+Website, Web-Applikation oder Web-Service
 
-Scripting, Datenformalisierung
-Import, Migration, Transformation!
-Klassifikation. 
+<!-- - basierend auf offenen Web-Standards -->
+- als Ergänzung zur bestehenden Infrastruktur oder gehostet in der Cloud
+- umfassend dokumentiert 
+- Dummy
+- Dummy
 
-Projekt Management  
+<!-- Scripting, Datenformalisierung
+Import, Migration, Transformation! -->
+Nach der abgeschlossenen Entwicklung lancieren Sie ihr Projekt digital - mit kmapper oder einem Partner Ihrer Wahl. 

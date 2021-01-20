@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div>
+<div class="background-k">
 
 	{%- if page.title -%}
 		<!-- Show page title -->
@@ -11,13 +11,15 @@ layout: default
   <div>
 
   	<div class="service-terms">
-  		<p>
 		  	{%- if page.terms -%}
 		  		<!-- List the key terms -->
 		  		{{ page.terms | join: " &#183; " }}
 		  	{%- endif -%}
-	  	</p>
   	</div>
+
+    <div class="service-image">
+      <img src="{% capture url %}/assets/images/{{ page.image }}{% endcapture %}{{ url | relative_url }}">
+    </div>
 
     {{ content }}
 
