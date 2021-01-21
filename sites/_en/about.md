@@ -5,7 +5,7 @@ title: About
 description: 
 ---
 
-<div class="background-k">
+<div>
 	{%- if page.title -%}
 		<!-- Show page title -->
     	<h1>{{ page.title }}</h1>

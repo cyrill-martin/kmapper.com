@@ -25,7 +25,7 @@ terms:
   - Ruby
   - Ruby on Rails
   - Projektmanagement
-image: circles_de-3.png
+image: circles_de_lato-3-color.png
 ---
 
 Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen für Ihre Software. Sie erhalten die passende Software, um Ihre Website, Web-Applikation oder Web-Services zu finalisieren. 

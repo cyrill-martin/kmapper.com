@@ -70,3 +70,4 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#   - gradients.scss

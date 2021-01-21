@@ -21,7 +21,7 @@ terms:
   - Nutzerforschung
   - Projektmanagement
   - Anforderungsanalyse
-image: circles_de-1.png
+image: circles_de_lato-1-color.png
 ---
 
 Sie kennen Strategie und Ziele Ihres Projekts. Sie erhalten ein Architekturkonzept, um Ihre Daten und Informationen passend zu präsentieren und zugänglich zu machen: 

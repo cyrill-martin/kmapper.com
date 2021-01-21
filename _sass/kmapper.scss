@@ -142,8 +142,8 @@ ul {
 	position: relative;
 	width: 100%;
 	img {
-		width: 35%;
-		min-width: 350px;
+		width: 40%;
+		min-width: 500px;
 	}
 }
 
@@ -232,14 +232,15 @@ ul {
 		position: relative;
 		top: 0;
 		left: 0;
-		float: right;
+		text-align: center;
+		margin-top: $margin*2;
 	}
-
 
 	.service-image {
 		text-align: center;
 		img {
 			width: 85%;
+			min-width: 360px;
 		}
 	}
 }

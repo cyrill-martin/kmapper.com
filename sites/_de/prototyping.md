@@ -14,7 +14,7 @@ terms:
   - Nutzerforschung
   - Projektmanagement
   - Anforderungsanalyse
-image: circles_de-2.png
+image: circles_de_lato-2-color.png
 ---
 
 Sie haben ein Konzept zur Daten- und Informationsarchitektur. Sie erhalten eine testbare Prototyp-Applikation, um Ihr Konzept zu validieren und iterativ anzupassen: 
