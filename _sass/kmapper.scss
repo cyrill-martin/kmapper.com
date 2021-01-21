@@ -98,8 +98,7 @@ ul {
 
 			  &:hover {
 			    color: white;
-			    background: #43A6DD
-			    // background: #5153FE; 
+			    background: #43A6DD 
 			  }
 			}
 		}
@@ -114,6 +113,13 @@ ul {
 	position: fixed;
 	bottom: $margin*2;
 	font-size: 0.9em;
+}
+
+.copyright-statement {
+	position: fixed;
+	bottom: $margin*2;
+	right: $margin*2;
+	font-size: 0.8rem;
 }
 
 .service-terms {
@@ -221,6 +227,13 @@ ul {
 		position: relative;
 		top: 0;
 		left: 0;
+	}
+
+	.copyright-statement {
+		position: relative;
+		top: 0;
+		left: 0;
+		float: right;
 	}
 
 
