@@ -4,21 +4,21 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ page.title }} | {{ site.title }}</title>
 	<meta name="description" content="{{ page.description }}" />
-	<link rel="canonical" href="{{site.url}}{{page.url}}" />
+	<link rel="canonical" href="{{site.url}}{{ site.baseurl }}{{page.url}}" />
 	<meta property="og:locale" content="{{ page.lang }}" />
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:description" content="{{ page.description }}" />
-	<meta property="og:url" content="{{site.url}}{{page.url}}" />
+	<meta property="og:url" content="{{site.url}}{{ site.baseurl }}{{page.url}}" />
 	<meta property="og:site_name" content="{{ site.title }}" />
-	<meta property="og:image" content="{{site.url}}/assets/images/kmapper_k.png" />
+	<meta property="og:image" content="{{site.url}}{{ site.baseurl }}/assets/images/kmapper_k.png" />
 	<meta property="og:type" content="website" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:image" content="{{site.url}}/assets/images/kmapper_k.png" />
+	<meta property="twitter:image" content="{{site.url}}{{ site.baseurl }}/assets/images/kmapper_k.png" />
 	<meta property="twitter:title" content="{{ page.title }}" />
 	<script type="application/ld+json">
-		{"url":"{{site.url}}{{page.url}}","@type":"WebPage","description":"{{ page.description }}","headline":"{{ page.title }}","mainEntityOfPage":{"@type":"WebPage","@id":"{{site.url}}{{page.url}}"},"image":"{{site.url}}/assets/images/kmapper_k.png","@context":"https://schema.org"}
+		{"url":"{{site.url}}{{ site.baseurl }}{{page.url}}","@type":"WebPage","description":"{{ page.description }}","headline":"{{ page.title }}","mainEntityOfPage":{"@type":"WebPage","@id":"{{site.url}}{{ site.baseurl }}{{page.url}}"},"image":"{{site.url}}{{ site.baseurl }}/assets/images/kmapper_k.png","@context":"https://schema.org"}
 	</script>
   	<meta name="robots" content="noindex, nofollow">
-  	<!-- <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}"> -->
   	<link rel="stylesheet" href="{{ "/" | relative_url }}assets/css/main.css">
+  	<link rel="shortcut icon" type="image/x-icon" href="{{site.url}}{{ site.baseurl }}/favicon.ico?">
 </head>
