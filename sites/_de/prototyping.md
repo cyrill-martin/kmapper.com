@@ -2,6 +2,7 @@
 layout: service
 uid: prt
 title: Prototyping
+description: 
 permalink: /de/prototyping/
 terms: 
   - Design

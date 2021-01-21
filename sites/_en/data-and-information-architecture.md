@@ -2,6 +2,7 @@
 layout: service
 uid: inf
 title: Data & Information Architecture
+description: 
 terms: 
   - Term
   - Term

@@ -2,6 +2,7 @@
 layout: about
 uid: abt
 title: About
+description: 
 ---
 
 <div class="background-k">

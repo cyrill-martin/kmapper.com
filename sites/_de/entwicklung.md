@@ -2,6 +2,7 @@
 layout: service
 uid: dev
 title: Entwicklung
+description: 
 permalink: /de/entwicklung/
 terms: 
   - REST-API

@@ -2,6 +2,7 @@
 layout: service
 uid: inf
 title: Daten- & Informationsarchitektur
+description: 
 permalink: /de/daten-und-informationsarchitektur/
 terms: 
   - Audit

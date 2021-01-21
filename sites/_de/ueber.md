@@ -2,6 +2,7 @@
 layout: about
 uid: abt
 title: Über
+description: 
 permalink: /de/ueber/
 ---
 
