@@ -51,8 +51,6 @@ permalink: /de/ueber/
 			</p>
 		</div>
 	</div>
-</div>
-<div>
 	<!-- <h2>Leute</h2> -->
 	<div class="row">
 		<div class="col-3">
@@ -71,6 +69,13 @@ permalink: /de/ueber/
 				<a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a> &#183; 
 				<a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a> &#183; 
 				<a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<p>
+				Für den Designteil in Projekten arbeite ich mit der <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, ein Markenbüro für Strategie und Design. 
 			</p>
 		</div>
 	</div>

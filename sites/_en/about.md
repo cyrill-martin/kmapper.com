@@ -50,8 +50,6 @@ description:
 			</p>
 		</div>
 	</div>
-</div>
-<div>
 	<!-- <h2>Leute</h2> -->
 	<div class="row">
 		<div class="col-3">
@@ -70,6 +68,13 @@ description:
 				<a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a> &#183; 
 				<a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a> &#183; 
 				<a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<p>
+				For the design part in projects, I work with <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, a brand studio for strategy and design. 
 			</p>
 		</div>
 	</div>
