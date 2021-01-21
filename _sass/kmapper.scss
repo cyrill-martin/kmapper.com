@@ -24,14 +24,20 @@ ul {
 	line-height: 1.8; 
 }
 
-.background-k {
-	background-repeat: no-repeat;
-	background-size: 35% auto;
-	background-position: 0 1%;
-}
-
 .home {
-	height: 80vh;
+		position: relative;
+		width: 100%;
+		height: 94vh;
+	img { 
+		margin-top: $margin*2;
+		height: 100%;
+		width: auto;
+	}
+
+	h1 {
+		position: fixed;
+		top: $margin*2;
+	}
 }
 
 .hamburger {
@@ -167,8 +173,21 @@ ul {
 	  font-size: 1.5rem;
 	}
 
-	.background-k {
-		background-size: 75% auto;
+	.home {
+		position: relative;
+		width: 100%;
+		height: auto;
+		img { 
+			margin-top: $margin*2;
+			width: 100%;
+			height: auto;
+		}
+
+		h1 {
+			position: fixed;
+			top: 150px;
+
+		}
 	}
 
 	.hamburger {
