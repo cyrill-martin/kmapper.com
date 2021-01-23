@@ -1,28 +1,29 @@
 ---
 layout: default
 ---
-<div>
+<div class="row">
+    <div class="col-12">
 
-	{%- if page.title -%}
-		<!-- Show page title -->
-    <h1>{{ page.title }}</h1>
-  {%- endif -%}
+  	{%- if page.title -%}
+  		<!-- Show page title -->
+      <h1>{{ page.title }}</h1>
+    {%- endif -%}
 
-  <div>
+    <div>
 
-  	<div class="service-terms">
-		  	{%- if page.terms -%}
-		  		<!-- List the key terms -->
-		  		{{ page.terms | join: " &#183; " }}
-		  	{%- endif -%}
-  	</div>
+    	<div class="service-terms">
+  		  	{%- if page.terms -%}
+  		  		<!-- List the key terms -->
+  		  		{{ page.terms | join: " &#183; " }}
+  		  	{%- endif -%}
+    	</div>
 
-    <div class="service-image">
-      <img src="{% capture url %}/assets/images/{{ page.image }}{% endcapture %}{{ url | relative_url }}">
+      <div class="service-image">
+        <img src="{% capture url %}/assets/images/{{ page.image }}{% endcapture %}{{ url | relative_url }}">
+      </div>
+
+      {{ content }}
+
     </div>
-
-    {{ content }}
-
   </div>
-
 </div>
