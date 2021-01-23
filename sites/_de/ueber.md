@@ -4,79 +4,49 @@ uid: abt
 title: Über
 description: 
 permalink: /de/ueber/
+
+h2-kmapper: kmapper
+
+p-1-kmapper: Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken.
+
+p-2-kmapper: kmapper geht auf das offene Projekt <a href="https://www.kmapper.com" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open Access-Forschung nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren.
+
+h3-principles: Prinzipien
+
+p-1-principles: kmapper befürwortet kurze Entwicklungszyklen und basiert auf den Prinzipien <b>Feedback</b>, <b>Simplicity</b> und <b>Change</b>.
+
+h4-feedback: Feedback
+
+p-1-feedback: Durch häufigere Iterationen und entsprechenden Kontakt mit Ihnen, erhalten Sie einen klaren Einblick in die Entwicklung. Sie können Feedback geben und die Entwicklung nach Bedarf steuern.
+
+p-2-feedback: Eine präzise Dokumentation jeder Iteration und schriftliches Feedback vermeiden kostspielige Besprechungen.
+
+h4-simplicity: Simplicity
+
+p-1-simplicity: Ausgehend von der einfachsten Lösung berücksichtigt ein System die aktuell nötigen Anforderungen.
+
+p-2-simplicity: Durch viele kleine Schritte haben Sie mehr Kontrolle über den Entwicklungsprozess und das zu entwickelnde System.
+
+h4-change: Change
+
+p-1-change: Wenn ein Problem mit der Zeit besser verstanden wird, können sich Ihre Anforderungen ändern.
+
+p-2-change: Änderungen werden berücksichtigt und neue Anforderungen für die nächste Iteration geplant.
+
+person-1-name: Cyrill Martin
+
+person-1-image: cyrill.png
+
+person-1-p-1: Ich bin <b>Daten & Informationsarchitekt</b> und <b>Entwickler</b>, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidment hat - erfahren in der Strukturierung von Inhalten und Daten für Mensch und Maschine.
+
+person-1-p-2: Ich habe in der Forschungs- und Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.
+
+person-1-email: <a href="mailto:cyrill.martin@hey.com">E-Mail</a> &#183;
+person-1-linkedin: <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a> &#183;
+person-1-twitter: <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a> &#183;
+person-1-github: <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
+
+p-karlie: Für den Designteil in Projekten arbeite ich mit der <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, ein Markenbüro für Strategie und Design.
 ---
 
-<div>
-	{%- if page.title -%}
-		<!-- Show page title -->
-    	<h1>{{ page.title }}</h1>
-  	{%- endif -%}
-	<h2>kmapper</h2>
-	<p>
-		Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken. 
-	</p>
-	<p>
-		kmapper geht auf das offene Projekt <a href="https://www.kmapper.com" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open Access-Forschung nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren. 
-	</p>
-	<h3>Prinzipien</h3> 
-	<p>
-		kmapper befürwortet kurze Entwicklungszyklen und basiert auf den Prinzipien <b>Feedback</b>, <b>Simplicity</b> und <b>Change</b>.
-	</p>
-	<div class="row">
-		<div class="col-4 principle">
-			<h4>Feedback</h4>
-			<p>
-				Durch häufigere Iterationen und entsprechenden Kontakt mit Ihnen, erhalten Sie einen klaren Einblick in die Entwicklung. Sie können Feedback geben und die Entwicklung nach Bedarf steuern. 
-			</p>
-			<p>
-				Eine präzise Dokumentation jeder Iteration und schriftliches Feedback vermeiden kostspielige Besprechungen. 
-			</p> 
-		</div>
-		<div class="col-4 principle">
-			<h4>Simplicity</h4>
-			<p>
-				Ausgehend von der einfachsten Lösung berücksichtigt ein System die aktuell nötigen Anforderungen. 
-			</p>
-			<p>
-				Durch viele kleine Schritte haben Sie mehr Kontrolle über den Entwicklungsprozess und das zu entwickelnde System.
-			</p>
-		</div>
-		<div class="col-4 principle">
-			<h4>Change</h4>
-			<p>
-				Wenn ein Problem mit der Zeit besser verstanden wird, können sich Ihre Anforderungen ändern.
-			</p>
-			<p>
-				Änderungen werden berücksichtigt und neue Anforderungen für die nächste Iteration geplant.
-			</p>
-		</div>
-	</div>
-	<!-- <h2>Leute</h2> -->
-	<div class="row">
-		<div class="col-3">
-			<img class="team-member" src="{{ "/assets/images/people/cyrill.png" | relative_url }}">
-		</div>
-		<div class="col-9">
-			  <h3>Cyrill Martin</h3> 
-			<p>
-				Ich bin <b>Daten & Informationsarchitekt</b> und <b>Entwickler</b>, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidment hat - erfahren in der Strukturierung von Inhalten und Daten für Mensch und Maschine. 
-			</p>
-			<p>
-				Ich habe in der Forschung und im Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen: <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>
-			</p>
-			<p>
-				<a href="mailto:cyrill.martin@hey.com">E-Mail</a> &#183; 
-				<a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a> &#183; 
-				<a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a> &#183; 
-				<a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
-			</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-12">
-			<p>
-				Für den Designteil in Projekten arbeite ich mit der <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, ein Markenbüro für Strategie und Design. 
-			</p>
-		</div>
-	</div>
-</div>
+{{ content }}

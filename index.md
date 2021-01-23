@@ -2,7 +2,7 @@
 layout: home
 lang: en
 uid: hme
-title: ...
-subtitle: ...
+title: Data. Information. Transfer.
+subtitle: Knowledge mapped
 description: 
 ---

@@ -1,8 +1,8 @@
 ---
 layout: home
 uid: hme
-title: ...
-subtitle: ...
+title: Daten. Information. Transfer.
+subtitle: Wissen abgebildet
 description: 
 permalink: /de/
 ---

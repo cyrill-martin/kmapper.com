@@ -3,79 +3,47 @@ layout: about
 uid: abt
 title: About
 description: 
----
 
-<div>
-	{%- if page.title -%}
-		<!-- Show page title -->
-    	<h1>{{ page.title }}</h1>
-  	{%- endif -%}
-	<h2>kmapper</h2>
-	<p>
-		The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so. kmapper is about using these technologies to bring your real-world project to digital life. 
-	</p>
-	<p>
-		kmapper is rooted in the open project <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>. A tool making use of open access research to visualize subjects in an interdisciplinary context. 
-	</p>
-	<h3>Principles</h3> 
-	<p>
-		kmapper advocates short development cycles and follows the principles of <b>Feedback</b>, <b>Simplicity</b>, and <b>Change</b>. 
-	</p>
-	<div class="row">
-		<div class="col-4 principle">
-			<h4>Feedback</h4>
-			<p>
-				Having contact with you in more frequent iterations, you get a clear insight into what is being developed. You can give feedback and steer the development as needed. 
-			</p>
-			<p>
-				Concise documentation of each iteration and written feedback avoids costly meetings. 
-			</p> 
-		</div>
-		<div class="col-4 principle">
-			<h4>Simplicity</h4>
-				<p>
-					Starting with the simplest solution, a system tackles current instead of future needs.
-				</p>
-				<p>
-					With many little steps made, you have more control over the development process and the system being developed.
-				</p>
-		</div>
-		<div class="col-4 principle">
-			<h4>Change</h4>
-			<p>
-				As a problem is better understood, your requirements might change.
-			</p>
-			<p>
-				Changes are embraced and new requirements are planned for the next iteration.
-			</p>
-		</div>
-	</div>
-	<!-- <h2>Leute</h2> -->
-	<div class="row">
-		<div class="col-3">
-			<img class="team-member" src="{{ "/assets/images/people/cyrill.png" | relative_url }}">
-		</div>
-		<div class="col-9">
-			<h3>Cyrill Martin</h3> 
-			<p>
-				I'm a <b>data & information architect</b> and <b>developer</b>, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines. 
-			</p>
-			<p>
-				I've worked in research and publishing. You can have a look at my CV here: <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>
-			</p>
-			<p>
-				<a href="mailto:cyrill.martin@hey.com">E-Mail</a> &#183; 
-				<a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a> &#183; 
-				<a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a> &#183; 
-				<a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
-			</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-12">
-			<p>
-				For the design part in projects, I work with <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, a brand studio for strategy and design. 
-			</p>
-		</div>
-	</div>
-</div>
+h2-kmapper: kmapper
+
+p-1-kmapper: The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so. kmapper is about using these technologies to bring your real-world project to digital life.
+
+p-2-kmapper: kmapper is rooted in the open project <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>. A tool making use of open access research to visualize subjects in an interdisciplinary context.
+
+h3-principles: Principles
+
+p-1-principles: kmapper befürwortet kurze Entwicklungszyklen und basiert auf den Prinzipien <b>Feedback</b>, <b>Simplicity</b> und <b>Change</b>.
+
+h4-feedback: Feedback
+
+p-1-feedback: Having contact with you in more frequent iterations, you get a clear insight into what is being developed. You can give feedback and steer the development as needed.
+
+p-2-feedback: Concise documentation of each iteration and written feedback avoids costly meetings.
+
+h4-simplicity: Simplicity
+
+p-1-simplicity: Starting from the simplest solution, a system takes into account the current requirements.
+
+p-2-simplicity: With many little steps made, you have more control over the development process and the system being developed
+
+h4-change: Change
+
+p-1-change: As a problem is better understood, your requirements might change.
+
+p-2-change: Changes are embraced and new requirements are planned for the next iteration.
+
+person-1-name: Cyrill Martin
+
+person-1-image: cyrill.png
+
+person-1-p-1: I'm a <b>data & information architect</b> and <b>developer</b>, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines.
+
+person-1-p-2: I've worked in research and publishing environments. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>
+
+person-1-email: <a href="mailto:cyrill.martin@hey.com">E-Mail</a> &#183;
+person-1-linkedin: <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a> &#183;
+person-1-twitter: <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a> &#183;
+person-1-github: <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
+
+p-karlie: For the design part in projects, I work with <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, a brand studio for strategy and design.
+---
