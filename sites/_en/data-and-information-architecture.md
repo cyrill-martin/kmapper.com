@@ -4,17 +4,30 @@ uid: inf
 title: Data & Information Architecture
 description: test test
 terms: 
-  - Term
-  - Term
-  - Term
-  - Term
+  - Audit
+  - Inventory
+  - Classification
+  - Structuring
+  - Visualization
+  - Modeling
+  - Capturing
+  - Cleansing
+  - Wire Framing
+  - Management
+  - Flow
+  - Open Data
+  - API Economy
+  - User Research
+  - Project Management
+  - Requirements Engineering
 image: circles_en_lato-1-color.png
-gradient: grad-1
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+After the first project phase you will know the strategy and goals of your project. Together, we will develop a fitting architecture to present and share your data and information: 
 
-- Bullet
-- Bullet
-- Bullet
-- Bullet
+- based on your strategy and goals 
+- adapted to the needs of your users 
+- taking into account the organizational and technical feasibility 
+- comprehensively documented 
+
+With the developed architecture, you move to the next project phase. 

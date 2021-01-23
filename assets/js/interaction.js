@@ -19,7 +19,7 @@ hamburger.addEventListener("click", function() {
 	}
 });
 
-// kmapper.org preview
+// kmapper.org visual
 //////////////////////
 let s_width = screen.width;
 let kmapper_link = document.getElementById("kmapper-link");

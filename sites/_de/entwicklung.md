@@ -16,11 +16,9 @@ terms:
   - JavaScript
   - D3.js
   - Jekyll
-  - Static Site
   - Microservice
   - Docker
   - JamStack
-  - Dynamic Site
   - Monolith
   - Ruby
   - Ruby on Rails
@@ -28,10 +26,9 @@ terms:
 image: circles_de_lato-3-color.png
 ---
 
-Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen für Ihre Software. Sie erhalten die passende Software, um Ihre Website, Web-Applikation oder Web-Services zu finalisieren. 
+Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen für Ihre Software. Sie erhalten die passende Software, um Ihre Website, Web-Applikation oder Web-Services zu finalisieren: 
 
-- basierend auf offenen Web-Standards 
-- als Ergänzung zu Ihrer bestehenden Infrastruktur oder gehostet in der Cloud 
+- als Ergänzung zu Ihrer bestehenden Infrastruktur oder als eigene Applikation in der Cloud 
 - inklusive Support 
 - umfassend dokumentiert 
 

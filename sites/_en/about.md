@@ -12,7 +12,7 @@ description:
   	{%- endif -%}
 	<h2>kmapper</h2>
 	<p>
-		The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so. kmapper is about bringing your real-world project to digital life using these technologies. 
+		The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so. kmapper is about using these technologies to bring your real-world project to digital life. 
 	</p>
 	<p>
 		kmapper is rooted in the open project <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>. A tool making use of open access research to visualize subjects in an interdisciplinary context. 
@@ -58,7 +58,7 @@ description:
 		<div class="col-9">
 			<h3>Cyrill Martin</h3> 
 			<p>
-				I'm a <b>data & information architect</b> and <b>developer</b>, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines.
+				I'm a <b>data & information architect</b> and <b>developer</b>, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines. 
 			</p>
 			<p>
 				I've worked in research and publishing. You can have a look at my CV here: <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>
@@ -79,7 +79,3 @@ description:
 		</div>
 	</div>
 </div>
-
-<!-- ## Jobs
-
-Looking for Full Stack Web Developer partner with DevOps interest! Leap of Faith! -->

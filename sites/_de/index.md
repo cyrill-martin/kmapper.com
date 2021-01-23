@@ -1,7 +1,8 @@
 ---
 layout: home
 uid: hme
-title: 
+title: ...
+subtitle: ...
 description: 
 permalink: /de/
 ---

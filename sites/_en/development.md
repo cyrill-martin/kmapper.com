@@ -4,18 +4,29 @@ uid: dev
 title: Development
 description: 
 terms: 
-  - Term
-  - Term
-  - Term
-  - Term
+  - REST API
+  - Formalization
+  - Open Data
+  - Python
+  - Flask
+  - XSL
+  - HTML
+  - CSS
+  - JavaScript
+  - D3.js
+  - Jekyll
+  - Microservice
+  - Docker
+  - JamStack
+  - Monolith
+  - Ruby
+  - Ruby on Rails
+  - Project Management
 image: circles_en_lato-3-color.png
-gradient: grad-3
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+You know your data and information architecture or you already have a validated software prototype. You get the right software to finalize your website, web application or web service: 
 
-- Bullet
-- Bullet
-- Bullet
-- Bullet
-
+- supplementary to your existing infrastructure or as a new cloud application 
+- including support
+- comprehensively documented

@@ -13,7 +13,7 @@ permalink: /de/ueber/
   	{%- endif -%}
 	<h2>kmapper</h2>
 	<p>
-		Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken.
+		Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken. 
 	</p>
 	<p>
 		kmapper geht auf das offene Projekt <a href="https://www.kmapper.com" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open Access-Forschung nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren. 
@@ -35,7 +35,7 @@ permalink: /de/ueber/
 		<div class="col-4 principle">
 			<h4>Simplicity</h4>
 			<p>
-				Ausgehend von der einfachsten Lösung berücksichtigt ein System aktuelle und nicht zukünftige Anforderungen.
+				Ausgehend von der einfachsten Lösung berücksichtigt ein System die aktuell nötigen Anforderungen. 
 			</p>
 			<p>
 				Durch viele kleine Schritte haben Sie mehr Kontrolle über den Entwicklungsprozess und das zu entwickelnde System.
@@ -80,7 +80,3 @@ permalink: /de/ueber/
 		</div>
 	</div>
 </div>
-
-<!-- ## Jobs
-
-Looking for Full Stack Web Developer partner with DevOps interest! Leap of Faith! -->

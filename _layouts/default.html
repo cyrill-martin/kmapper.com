@@ -1,5 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  
+  <!-- This is to get the url of the translated page (stored here in liquid variable 'translation'). 
+    It is used further down by the script handling the "lang" cookie
+    and according redirects to the preferred language -->
+  {%- if page.lang == "de" -%}
+    {%- for site_en in site.en -%}
+      {%- if page.uid == site_en.uid -%}
+        {%- assign translation = site_en.url -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if page.uid == "hme" -%}
+      {%- assign translation = "/" -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- for site_de in site.de -%}
+      {%- if page.uid == site_de.uid -%}
+        {%- assign translation = site_de.url -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 
   {%- include head.html -%}
 
@@ -24,8 +44,67 @@
       </div>
     </div>
 
-    <script src="{{ "/assets/js/interaction.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/interaction.js" | relative_url }}"></script>
+    <script type="text/javascript">
+      // Cookie handling
 
+      // Set cookie when language is changed
+/*      let lang_DE = document.getElementById("lang-DE");
+      let lang_EN = document.getElementById("lang-EN");
+
+      lang_DE.addEventListener("click", function() {
+        let plusOneYear = new Date();
+        plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
+        console.log("clicked DE");
+        document.cookie = "lang=de; path=/; SameSite=strict; expires=" + String(plusOneYear);
+      });
+
+      lang_EN.addEventListener("click", function() {
+        let plusOneYear = new Date();
+        plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
+        console.log("clicked EN");
+        document.cookie = "lang=en; path=/; SameSite=strict; expires=" + String(plusOneYear);
+      });*/
+
+      // Function to check the existence of a cookie by name
+/*      function getCookie(c_name) {
+          let c_value = document.cookie,
+              c_start = c_value.indexOf(" " + c_name + "=");
+          if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+          if (c_start == -1) {
+              c_value = null;
+          } else {
+              c_start = c_value.indexOf("=", c_start) + 1;
+              let c_end = c_value.indexOf(";", c_start);
+              if (c_end == -1) {
+                  c_end = c_value.length;
+              }
+              c_value = decodeURI(c_value.substring(c_start, c_end));
+          }
+          console.log(c_value);
+          return c_value;
+      }*/
+      // Check cookie "lang"
+/*      function checkCookie() {
+          let cookie = getCookie("lang");
+          if (cookie == null) {
+            // Do cookie doesn't exist stuff;
+            let plusOneYear = new Date();
+            plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
+            document.cookie = "lang={{ page.lang }}; path=/; SameSite=strict; expires=" + String(plusOneYear);
+          }
+          else {
+              // Do cookie exists stuff
+              let doc_lang = document.documentElement.lang;
+              if (doc_lang != cookie) {
+                // Redirect to translation
+                window.location.replace("{{ translation }}");
+              }
+          }
+      }
+      checkCookie();*/
+    </script>
+    
   </body>
 
 </html>

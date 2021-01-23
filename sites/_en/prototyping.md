@@ -4,17 +4,20 @@ uid: prt
 title: Prototyping
 description: 
 terms: 
-  - Term
-  - Term
-  - Term
-  - Term
+  - Prototype
+  - Design
+  - Evaluation
+  - Minimal Viable Product
+  - Usability Testing
+  - User Research
+  - Project Management
+  - Requirements Engineering
 image: circles_en_lato-2-color.png
-gradient: grad-2
 --- 
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Based on your data and information architecture, you will receive a usable prototype application to validate your concept and iteratively adapt it: 
 
-- Bullet
-- Bullet
-- Bullet
-- Bullet
+- securely hosted in the cloud
+- accessible via browser, no own infrastructure required
+- based on live or test data
+- comprehensively documented

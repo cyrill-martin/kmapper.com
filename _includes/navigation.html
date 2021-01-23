@@ -17,11 +17,11 @@
       <div class="site-lang">
         {%- for site_en in site.en -%}
           {%- if page.uid == site_en.uid -%}
-            <b>DE</b> | <a href="{{ site_en.url | relative_url }}">EN</a>
+            <b>DE</b> | <a id="lang-EN" href="{{ site_en.url | relative_url }}">EN</a>
           {%- endif -%}
         {%- endfor -%}
         {%- if page.uid == "hme" -%}
-          <b>DE</b> | <a href="{{ "/" | relative_url }}">EN</a>
+          <b>DE</b> | <a id="lang-EN" href="{{ "/" | relative_url }}">EN</a>
         {%- endif -%}
       </div>
 
@@ -66,7 +66,7 @@
       <div class="site-lang">
         {%- for site_de in site.de -%}
           {%- if page.uid == site_de.uid -%}
-            <a href="{{ site_de.url | relative_url }}">DE</a> | <b>EN</b>
+            <a id="lang-DE" href="{{ site_de.url | relative_url }}">DE</a> | <b>EN</b>
           {%- endif -%}
         {%- endfor -%}
       </div>
