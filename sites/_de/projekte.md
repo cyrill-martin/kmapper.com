@@ -7,13 +7,20 @@ permalink: /de/projekte/
 
 projects:
 - title: e-editiones.ch
-  image: dummy
-  desc: Ontologies
-  stack: Jekyll - Python, XSL
+  image: 
+  desc: ...
+  stack: 
+    - Jekyll
+    - Python
+    - XSL
+    - Docker
   url: http://e-editiones.ch
 - title: kmapper.org
-  image: here
-  desc: Visulization
-  stack: Ruby on Rails - Postgresql - D3.js
+  image: 
+  desc: ...
+  stack: 
+    - Ruby on Rails
+    - Postgresql
+    - D3.js
   url: http://kmapper.org
 ---

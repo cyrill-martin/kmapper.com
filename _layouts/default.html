@@ -49,25 +49,29 @@
       // Cookie handling
 
       // Set cookie when language is changed
-/*      let lang_DE = document.getElementById("lang-DE");
+      let lang_DE = document.getElementById("lang-DE");
       let lang_EN = document.getElementById("lang-EN");
 
-      lang_DE.addEventListener("click", function() {
-        let plusOneYear = new Date();
-        plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
-        console.log("clicked DE");
-        document.cookie = "lang=de; path=/; SameSite=strict; expires=" + String(plusOneYear);
-      });
-
-      lang_EN.addEventListener("click", function() {
-        let plusOneYear = new Date();
-        plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
-        console.log("clicked EN");
-        document.cookie = "lang=en; path=/; SameSite=strict; expires=" + String(plusOneYear);
-      });*/
+      if (typeof(lang_DE) != 'undefined' && lang_DE != null) {
+        lang_DE.addEventListener("click", function() {
+          // make function to get plusOneYear
+          let plusOneYear = new Date();
+          plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
+          console.log("clicked DE");
+          document.cookie = "lang=de; path=/; SameSite=strict; expires=" + String(plusOneYear);
+        })
+      };
+      if (typeof(lang_EN) != 'undefined' && lang_EN != null) {
+        lang_EN.addEventListener("click", function() {
+          let plusOneYear = new Date();
+          plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
+          console.log("clicked EN");
+          document.cookie = "lang=en; path=/; SameSite=strict; expires=" + String(plusOneYear);
+        })
+      }
 
       // Function to check the existence of a cookie by name
-/*      function getCookie(c_name) {
+      function getCookie(c_name) {
           let c_value = document.cookie,
               c_start = c_value.indexOf(" " + c_name + "=");
           if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
@@ -83,9 +87,9 @@
           }
           console.log(c_value);
           return c_value;
-      }*/
+      }
       // Check cookie "lang"
-/*      function checkCookie() {
+      function checkCookie() {
           let cookie = getCookie("lang");
           if (cookie == null) {
             // Do cookie doesn't exist stuff;
@@ -102,7 +106,7 @@
               }
           }
       }
-      checkCookie();*/
+      checkCookie();
     </script>
     
   </body>

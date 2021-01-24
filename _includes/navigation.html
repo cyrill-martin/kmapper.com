@@ -15,14 +15,8 @@
     <div class="site-links">
 
       <div class="site-lang">
-        {%- for site_en in site.en -%}
-          {%- if page.uid == site_en.uid -%}
-            <b>DE</b> | <a id="lang-EN" href="{{ site_en.url | relative_url }}">EN</a>
-          {%- endif -%}
-        {%- endfor -%}
-        {%- if page.uid == "hme" -%}
-          <b>DE</b> | <a id="lang-EN" href="{{ "/" | relative_url }}">EN</a>
-        {%- endif -%}
+        <!-- {{ translation }} is assigned in default.html -->
+        <b>DE</b> | <a id="lang-EN" href="{{ translation | relative_url }}">EN</a>
       </div>
 
       <div id="services">
@@ -67,11 +61,8 @@
     <div class="site-links">
 
       <div class="site-lang">
-        {%- for site_de in site.de -%}
-          {%- if page.uid == site_de.uid -%}
-            <a id="lang-DE" href="{{ site_de.url | relative_url }}">DE</a> | <b>EN</b>
-          {%- endif -%}
-        {%- endfor -%}
+        <!-- {{ translation }} is assigned in default.html -->
+        <a id="lang-DE" href="{{ translation | relative_url }}">DE</a> | <b>EN</b>
       </div>
 
       <div id="services">
