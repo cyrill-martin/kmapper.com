@@ -3,6 +3,6 @@ layout: home
 lang: en
 uid: hme
 title: Data. Information. Transfer.
-subtitle: Knowledge mapped
+subtitle: Visions mapped
 description: 
 ---
