@@ -24,7 +24,6 @@
   {%- include head.html -%}
 
   <body>
-
     <script type="text/javascript">
       // Cookie handling
       // Function to get today + one year
@@ -94,7 +93,7 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="{{ "/assets/js/interaction.js" | relative_url }}"></script>
+
     <script type="text/javascript">
       // Overwrite cookie "lang" when language is changed
       // Get the DE | EN elements on the page
@@ -117,7 +116,50 @@
         })
       };
     </script>
-    
+    <script type="text/javascript" src="{{ "/assets/js/interaction.js" | relative_url }}"></script>
+
+    <script type="text/javascript" src="{{ "/assets/js/cookieconsent.js" | relative_url }}" data-cfasync=”false”></script>
+    {%- if page.lang == "de" -%}
+      <script>
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#ffffff",
+              "text": "#333447"
+            },
+            "button": {
+              "background": "#514efd"
+            }
+          },
+          "position": "bottom-right",
+          "content": {
+            "message": "Diese Website platziert ein Cookie, um sich an Ihre ausgewählte Sprache zu erinnern.",
+            "dismiss": "Verstanden",
+            "link": "Mehr erfahren"
+          }
+        });
+      </script>
+    {%- else -%}
+      <script>
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#ffffff",
+              "text": "#333447"
+            },
+            "button": {
+              "background": "#514efd",
+              "message": "test"
+            }
+          },
+          "position": "bottom-right",
+          "content": {
+            "message": "This website places one cookie to remember your selected language."
+          }
+        });
+      </script>
+    {%- endif -%}
+
   </body>
 
 </html>

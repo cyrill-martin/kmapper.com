@@ -2,8 +2,9 @@
 
 // Import partials
 @import
-  "simple-grid",
-  "hamburgers/hamburgers"
+	"cookieconsent",
+  	"simple-grid",
+  	"hamburgers/hamburgers"
 ;
 
 $logo-width: 120px;
@@ -179,11 +180,11 @@ ul {
 @media only screen and (max-width: $breakpoint-med) {
 
 	h1 {
-	  font-size: 2rem;
+	  font-size: 1.8rem;
 	}
 
 	h2 {
-	  font-size: 1.5rem;
+	  font-size: 1.4rem;
 	}
 
 	.home {
@@ -265,9 +266,10 @@ ul {
 
 	.service-image {
 		text-align: center;
+		width: 100%;
 		img {
-			width: 85%;
-			min-width: 360px;
+			width: 100%;
+			min-width: 325px;
 		}
 	}
 }
