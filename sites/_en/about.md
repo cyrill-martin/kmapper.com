@@ -12,7 +12,7 @@ p-2-kmapper: kmapper is rooted in the open project <a href="http://kmapper.org" 
 
 h3-principles: Principles
 
-p-1-principles: kmapper befürwortet kurze Entwicklungszyklen und basiert auf den Prinzipien <b>Feedback</b>, <b>Simplicity</b> und <b>Change</b>.
+p-1-principles: kmapper advocated short development cycles and is based on the principles of <b>Feedback</b>, <b>Simplicity</b>, and <b>Change</b>.
 
 h4-feedback: Feedback
 

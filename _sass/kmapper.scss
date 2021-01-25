@@ -167,6 +167,24 @@ ul {
 	}
 }
 
+.project {
+
+	.project-image {
+		position: relative;
+		img {
+			width: 100%;
+		}
+	}
+
+	.project-image-mobile {
+		position: relative;
+		text-align: center;
+		img {
+			width: 50%;
+		}
+	}
+}
+
 // if the screen is greater than $breakpoint-med
 @media only screen and (min-width: $breakpoint-med) {
 	// always, always show .site-pages!
@@ -270,6 +288,21 @@ ul {
 		img {
 			width: 100%;
 			min-width: 325px;
+		}
+	}
+
+	.project {
+
+		.project-image {
+			img {
+				width: 100%;
+			}
+		}
+
+		.project-image-mobile {
+			img {
+				width: 25%;
+			}
 		}
 	}
 }

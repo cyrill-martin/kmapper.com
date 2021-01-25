@@ -7,7 +7,8 @@ permalink: /de/projekte/
 
 projects:
 - title: e-editiones.ch
-  image: 
+  image: eeditionesCH.png
+  image_mobile: eeditionesCH_mobile.png
   desc: ...
   stack: 
     - Jekyll
@@ -16,7 +17,8 @@ projects:
     - Docker
   url: http://e-editiones.ch
 - title: kmapper.org
-  image: 
+  image: kmapperOrg.png
+  image_mobile: kmapperOrg_mobile.png
   desc: ...
   stack: 
     - Ruby on Rails

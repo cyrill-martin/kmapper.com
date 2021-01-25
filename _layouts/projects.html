@@ -12,25 +12,33 @@ layout: default
 	</div>
 </div>
 
-<div class="row">
+{%- for project in page.projects -%}
 
-	{%- for project in page.projects -%}
+	<div class="row project">
 
-	<div class="col-3">
-		<a href="{{ project.url }}" target="_blank"><img class="project-image" src="{% capture url %}/assets/images/projects/{{ project.image }}{% endcapture %}{{ url | relative_url }}"></a>
+		<div class="row">
+			<div class="col-12 project-info">
+				<h2><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h2> 
+				<p>
+					{{ project.desc }}
+				</p>
+				<p>
+					{{ project.stack | join: " &#183; " }}
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-8 project-image">
+				<a href="{{ project.url }}" target="_blank"><img src="{% capture url %}/assets/images/projects/{{ project.image }}{% endcapture %}{{ url | relative_url }}"></a>
+			</div>
+			<div class="col-4 project-image-mobile">
+				<a href="{{ project.url }}" target="_blank"><img src="{% capture url %}/assets/images/projects/{{ project.image_mobile }}{% endcapture %}{{ url | relative_url }}"></a>
+			</div>
+		</div>
+
 	</div>
-	<div class="col-9">
-		<h4><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h4> 
-		<p>
-			{{ project.desc }}
-		</p>
-		<p>
-			{{ project.stack | join: " &#183; " }}
-		</p>
-	</div>
 
-	{%- endfor -%}
-
-</div>
+{%- endfor -%}
 
 {{ content }}
