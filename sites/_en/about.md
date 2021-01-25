@@ -8,7 +8,7 @@ h2-kmapper: kmapper
 
 p-1-kmapper: The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so. kmapper is about using these technologies to bring your real-world project to digital life.
 
-p-2-kmapper: kmapper is rooted in the open project <a href="https://www.kmapper.com" target="_blank">kmapper.org</a>. A tool making use of open access research to visualize subjects in an interdisciplinary context.
+p-2-kmapper: kmapper is rooted in the open project <a href="http://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research to visualize subjects in an interdisciplinary context.
 
 h3-principles: Principles
 

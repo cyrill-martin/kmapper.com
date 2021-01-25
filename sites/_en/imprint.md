@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: imprint
 uid: imp
 title: Imprint
 description: 
