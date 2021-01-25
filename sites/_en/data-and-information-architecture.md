@@ -23,7 +23,7 @@ terms:
 image: circles_en_lato-1-color.png
 ---
 
-After the first project phase you will know the strategy and goals of your project. Together, we will develop a fitting architecture to present and share your data and information: 
+After the first phase you will know the strategy and goals of your project. Together, we will develop a fitting architecture to present and share your data and information: 
 
 - based on your strategy and goals 
 - adapted to the needs of your users 

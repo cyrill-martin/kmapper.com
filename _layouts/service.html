@@ -24,6 +24,28 @@ layout: default
 
       {{ content }}
 
+      <p>
+        {%- assign inf_disp = "none" -%}
+        {%- assign prt_disp = "none" -%}
+        {%- assign dev_disp = "none" -%}
+
+        {%- if page.uid == "inf" -%}
+          {%- assign prt_disp = "inline" -%}
+        {%- elsif page.uid == "prt" -%}
+          {%- assign dev_disp = "inline" -%}
+        {%- endif -%}
+
+        {%- if page.lang == "de" -%}
+          <a style="display: {{ inf_disp }}" href="{{ "/" | relative_url }}de/daten-und-informationsarchitektur">Architektur</a>
+          <a style="display: {{ prt_disp }}" href="{{ "/" | relative_url }}de/prototyping">Prototyping</a>
+          <a style="display: {{ dev_disp }}" href="{{ "/" | relative_url }}de/entwicklung">Entwicklung</a>
+        {%- else -%}
+          <a style="display: {{ inf_disp }}" href="{{ "/" | relative_url }}en/data-and-information-architecture">Architecture</a>
+          <a style="display: {{ prt_disp }}" href="{{ "/" | relative_url }}en/prototyping">Prototyping</a>
+          <a style="display: {{ dev_disp }}" href="{{ "/" | relative_url }}en/development">Development</a>
+        {%- endif -%}
+      </p>
+
     </div>
   </div>
 </div>

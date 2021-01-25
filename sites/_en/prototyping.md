@@ -21,3 +21,5 @@ Based on your data and information architecture, you will receive a usable proto
 - accessible via browser, no own infrastructure required
 - based on live or test data
 - comprehensively documented
+
+With the validated prototype, you move to the next project phase. 
