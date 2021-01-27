@@ -18,12 +18,13 @@ layout: default
 
 		<div class="row">
 			<div class="col-12 project-info">
-				<h2><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h2> 
+				<h3>{{ project.title }}</h3>
+				<h4><a href="{{ project.url }}" target="_blank">{{ project.link_text }}</a></h4>
 				<p>
 					{{ project.desc }}
 				</p>
 				<p>
-					{{ project.stack | join: " &#183; " }}
+					<span class="stack">Stack</span>{{ project.stack | join: " &#183; " }}
 				</p>
 			</div>
 		</div>
@@ -40,5 +41,3 @@ layout: default
 	</div>
 
 {%- endfor -%}
-
-{{ content }}
