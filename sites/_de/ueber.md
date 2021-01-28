@@ -2,7 +2,7 @@
 layout: about
 uid: abt
 title: Über
-description: 
+description: kmapper erweckt Ihr Projekt zum digitalen Leben und basiert auf den Prinzipien Feedback, Simplicity und Change
 permalink: /de/ueber/
 
 h2-kmapper: kmapper
@@ -36,7 +36,7 @@ p-2-change: Änderungen werden berücksichtigt und neue Anforderungen für die n
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>Ich bin <b>Daten & Informationsarchitekt</b> und <b>Entwickler</b>, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidment hat - erfahren in der Strukturierung von Inhalten und Daten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
+  desc: <p>Ich bin <b>Daten & Informationsarchitekt</b> und <b>Entwickler</b>, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Inhalten und Daten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
   socials:
     - <a href="mailto:cyrill.martin@hey.com">E-Mail</a>
     - <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a>

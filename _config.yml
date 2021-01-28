@@ -25,7 +25,7 @@ hr_place: Basel-Stadt
 
 email: cyrill.martin@hey.com
 telephone: +41 79 745 62 05
-baseurl: "/kmapper.com" # the subpath of your site, e.g. /blog
+baseurl: "/kmapper-GmbH" # the subpath of your site, e.g. /blog
 url: "https://cyrill-martin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

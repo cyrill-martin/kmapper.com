@@ -2,7 +2,7 @@
 layout: service
 uid: dev
 title: Entwicklung
-description: 
+description: kmapper entwickelt Websites, Web-Applikationen und Web-Services
 permalink: /de/entwicklung/
 terms: 
   - REST-API

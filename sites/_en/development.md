@@ -2,7 +2,7 @@
 layout: service
 uid: dev
 title: Development
-description: 
+description: kmapper develops websites, web applications, and web services
 terms: 
   - REST API
   - Formalization

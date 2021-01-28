@@ -2,7 +2,7 @@
 layout: projects
 uid: prj
 title: Projekte
-description: 
+description: kmapper begleitet Sie von der Idee über die Architektur bis hin zur fertigen Applikation
 permalink: /de/projekte/
 
 projects:
@@ -16,14 +16,14 @@ projects:
       e-editiones.ch wurde von Cyrill Martin während des Projekts <a href="https://github.com/nie-ine/" target="_blank">Nationale Infrastruktur für Editionen</a> an der Universität Basel entwickelt und wird von kmapper weiterentwickelt.
     </p>
     <p>
-      Kern der Website ist die Bibliothek der geisteswissenschaftlichen Ontologien, die als Turtle-Dateien in einem eigenen <a href="https://github.com/nie-ine/Ontologies" target="_blank">GitHub Repository</a> gepflegt werden. Für die Website werden die Ontologien automatisiert in verschiedene RDF-Formate und HTML umgewandelt. e-editiones.ch unterstützt Content Negotiation, um spezifsche Formate maschinell anzufragen und erfüllt die Kriterien von <a href="https://www.w3.org/DesignIssues/LinkedData.html#fivestar" target="_blank">5 Star Linked Open Data</a>.
+      Kern der Website ist die Bibliothek der geisteswissenschaftlichen Ontologien, die als Turtle-Dateien in einem eigenen <a href="https://github.com/nie-ine/Ontologies" target="_blank">GitHub Repository</a> gepflegt werden. Für die Website werden die Ontologien automatisiert in verschiedene RDF-Formate und HTML umgewandelt. e-editiones.ch unterstützt Content Negotiation, um spezifische Formate maschinell anzufragen und erfüllt die Kriterien von <a href="https://www.w3.org/DesignIssues/LinkedData.html#fivestar" target="_blank">5 Star Linked Open Data</a>.
     </p>
   stack: 
     - Jekyll
     - Python
     - XSL
     - Docker
-- title: Visualizing Subjects in an Interdisciplinary Context
+- title: Themen in einem interdisziplinären Kontext visualisieren
   link_text: kmapper.org
   url: http://kmapper.org/doaj?q=sustainability
   image: kmapperOrg.png

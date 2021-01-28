@@ -2,7 +2,7 @@
 layout: service
 uid: prt 
 title: Prototyping
-description: 
+description: kmapper develops working prototype applications to validate your concept and iteratively adapt it
 terms: 
   - Prototype
   - Design
@@ -15,7 +15,7 @@ terms:
 image: circles_en_lato-2-color.png
 --- 
 
-Based on your data and information architecture, you will receive a usable prototype application to validate your concept and iteratively adapt it: 
+Based on your data and information architecture, you will receive a working prototype application to validate your concept and iteratively adapt it: 
 
 - securely hosted in the cloud
 - accessible via browser, no own infrastructure required

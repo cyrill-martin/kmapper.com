@@ -2,7 +2,7 @@
 layout: about
 uid: abt
 title: About
-description: 
+description: kmapper brings your real-world project to digital life and is based on the principles of Feedback, Simplicity, and Change
 
 h2-kmapper: kmapper
 

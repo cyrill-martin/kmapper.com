@@ -2,6 +2,6 @@
 layout: imprint
 uid: imp
 title: Impressum
-description: 
+description: Impressum der kmapper GmbH
 permalink: /de/impressum/
 ---

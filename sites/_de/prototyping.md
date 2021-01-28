@@ -2,7 +2,7 @@
 layout: service
 uid: prt
 title: Prototyping
-description: 
+description: kmapper entwickelt online nutzbare Prototyp-Applikationen, um Konzepte und Ideen zu validieren und iterativ anzupassen
 permalink: /de/prototyping/
 terms: 
   - Prototyp

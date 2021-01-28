@@ -2,8 +2,7 @@
 layout: projects
 uid: prj
 title: Projects
-description: 
-
+description: With kmapper, you go from idea to architecture to finished application
 projects:
 - title: Domain Ontologies for the Humanities
   link_text: e-editiones.ch
@@ -15,7 +14,7 @@ projects:
       e-editiones.ch was developed by Cyrill Martin during the <a href="https://github.com/nie-ine/" target="_blank"> National Infrastructure for Editions</a> project at the University of Basel and is being further developed by kmapper.
     </p>
     <p>
-      The core of the website is the library of humanities ontologies, which are maintained as Turtle files in their own <a href="https://github.com/nie-ine/Ontologies" target="_blank">GitHub Repository</a>. For the website, the ontologies are automatically converted into various RDF formats and HTML. e-editiones.ch supports content negotiation in order to request specific formats programmatically and meets the criteria of <a href="https://www.w3.org/DesignIssues/LinkedData.html#fivestar" target="_blank">5 Star Linked Open Data</a>.
+      Core of the website is the library of humanities ontologies, which are maintained as Turtle files in their own <a href="https://github.com/nie-ine/Ontologies" target="_blank">GitHub Repository</a>. For the website, the ontologies are automatically converted into various RDF formats and HTML. e-editiones.ch supports content negotiation in order to request specific formats programmatically and meets the criteria of <a href="https://www.w3.org/DesignIssues/LinkedData.html#fivestar" target="_blank">5 Star Linked Open Data</a>.
     </p>
   stack: 
     - Jekyll

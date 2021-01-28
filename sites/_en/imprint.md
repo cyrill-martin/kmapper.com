@@ -2,6 +2,6 @@
 layout: imprint
 uid: imp
 title: Imprint
-description: 
+description: Imprint of kmapper GmbH
 ---
   

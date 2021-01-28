@@ -2,7 +2,7 @@
 layout: service
 uid: inf
 title: Daten- & Informationsarchitektur
-description: 
+description: kmapper erarbeitet die passende Architektur, um Ihre Daten und Informationen zu präsentieren und zugänglich zu machen
 permalink: /de/daten-und-informationsarchitektur/
 terms: 
   - Audit
