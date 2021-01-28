@@ -30,7 +30,7 @@ projects:
   image_mobile: kmapperOrg_mobile.png
   desc:
     <p>
-      Die Bewältigung komplexer Probleme der realen Welt erfordert interdisziplinäre Forschung und eine offene, einfach zu navigierende Wissenslandschaft. kmapper ist so ein Knowledge Mapper.
+      Die Bewältigung komplexer Probleme erfordert interdisziplinäre Forschung und eine offene, einfach zu navigierende Wissenslandschaft. kmapper ist so ein Knowledge Mapper.
     </p>
     <p>
       Mit kmapper.org können Sie im <a href="https://doaj.org" target="_blank">DOAJ</a> indexierte Artikel durchsuchen und die Ergebnisse werden entsprechend ihrer Relevanz und wissenschaftlicher Disziplin visualisiert.

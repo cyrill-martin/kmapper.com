@@ -11,8 +11,14 @@ layout: default
 		</div>
 	</div>
 </div>
-
+{%- assign gradient = "grad-purpleish" -%}
 {%- for project in page.projects -%}
+
+	{%- assign mod = forloop.index | modulo: 2 -%}
+
+	{%- if mod == 0 -%}
+		{%- assign gradient = "grad-blueish" -%}
+	{%- endif -%}
 
 	<div class="row project">
 
@@ -29,7 +35,7 @@ layout: default
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row {{ gradient }}">
 			<div class="col-8 project-image">
 				<a href="{{ project.url }}" target="_blank"><img src="{% capture url %}/assets/images/projects/{{ project.image }}{% endcapture %}{{ url | relative_url }}"></a>
 			</div>
