@@ -23,7 +23,7 @@ projects:
     - Docker
 - title: Visualizing Subjects in an Interdisciplinary Context
   link_text: kmapper.org
-  url: http://kmapper.org/doaj?q=sustainability
+  url: https://kmapper.org/doaj?q=sustainability
   image: kmapperOrg.png
   image_mobile: kmapperOrg_mobile.png
   desc: 
