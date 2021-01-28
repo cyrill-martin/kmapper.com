@@ -22,6 +22,9 @@ title: kmapper
 company: kmapper GmbH
 companyAddOn_de: (in Gründung)
 companyAddOn_en: (under incorporation)
+hr_number: 
+hr_place: Basel-Stadt
+
 email: cyrill.martin@hey.com
 telephone: +41 79 745 62 05
 baseurl: "/kmapper.com" # the subpath of your site, e.g. /blog
