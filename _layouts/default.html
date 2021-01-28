@@ -66,7 +66,7 @@
           else { // Cookie exists
               // Check document language vs. cookie "lang"
               if (docLang != cookie) { // Redirect to translation if they are not the same
-                // {{ translation }} is assigned in default.html 
+                // {{ translation }} is assigned above
                 window.location.replace("{{ translation | relative_url }}");
               }
           }

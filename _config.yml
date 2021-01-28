@@ -19,6 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: kmapper
+company: kmapper GmbH
+companyAddOn_de: (in Gründung)
+companyAddOn_en: (under incorporation)
 email: cyrill.martin@hey.com
 telephone: +41 79 745 62 05
 baseurl: "/kmapper.com" # the subpath of your site, e.g. /blog

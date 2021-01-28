@@ -1,5 +1,10 @@
 <div class="site-imprint-sm">
-  kmapper GmbH <br>
+  {{ site.company }}
+  {%- if page.lang == "de" -%}
+    &nbsp;{{ site.companyAddOn_de }}<br>
+  {%- else -%}
+    &nbsp;{{ site.companyAddOn_en }}<br>
+  {%- endif -%}
   Austrasse 52 <br>
   4051 Basel <br>
   {%- if page.lang == "de" -%}
@@ -10,8 +15,8 @@
   <br>
   <br>
   {{ site.telephone }}<br>
-  <a href="mailto:cyrill.martin@hey.com">{{ site.email }}</a>
+  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </div>
 <div class="copyright-statement">
-  &#169; {{ 'now' | date: "%Y" + 1 }} kmapper GmbH
+  &#169; {{ 'now' | date: "%Y" + 1 }} {{ site.company }} {%- if page.lang == "de" -%} &nbsp;{{ site.companyAddOn_de }} {%- else -%} &nbsp;{{ site.companyAddOn_en }} {%- endif -%}
 </div>

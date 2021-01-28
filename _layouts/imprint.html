@@ -13,15 +13,24 @@ layout: default
 		<h4>Kontaktadresse</h4>
 
 		<p>
-			kmapper GmbH (in Gründung)<br>
+			{{ site.company }}
+			{%- if page.lang == "de" -%}
+				&nbsp;{{ site.companyAddOn_de }}<br>
+			{%- else -%}
+			    &nbsp;{{ site.companyAddOn_en }}<br>
+			{%- endif -%}
 			Austrasse 52<br>
 			4051 Basel<br>
-			Schweiz
+			{%- if page.lang == "de" -%}
+				Schweiz<br>
+			{%- else -%}
+				Switzerland<br>
+			{%- endif -%}
 		</p>
 
 		<p>
-			E-Mail: <a href="mailto:cyrill.martin@hey.com">cyrill.martin@hey.com</a><br>
-			Telefon: +41 79 745 62 05
+			E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+			Telefon: {{ site.telephone }}
 		</p>
 
 		<h4>Vertretungsberechtigte Person(en)</h4>
@@ -35,7 +44,7 @@ layout: default
 		<p>
 			Eingetragener Firmenname: <br>
 			Nummer: <br>
-			Handelsregisteramt: Basel-Stadt
+			Handelsregisteramt: 
 		</p>
 
 		<h3>Haftungsausschluss</h3>
@@ -73,13 +82,22 @@ layout: default
 		<p>
 			Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 			<br><br>
-			kmapper GmbH<br/>
-			Cyrill Martin<br/>
-			Austrasse 52<br/>
+			{{ site.company }}
+			{%- if page.lang == "de" -%}
+				&nbsp;{{ site.companyAddOn_de }}<br>
+			{%- else -%}
+			    &nbsp;{{ site.companyAddOn_en }}<br>
+			{%- endif -%}
+			Austrasse 52<br>
 			4051 Basel<br>
+			{%- if page.lang == "de" -%}
+				Schweiz<br>
+			{%- else -%}
+				Switzerland<br>
+			{%- endif -%}
 			<br>
-			Telefon: +41 79 745 62 05<br/>
-			E-Mail: cyrill.martin@hey.com<br/>
+			Telefon: {{ site.telephone }}<br/>
+			E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a><br/>
 			Website: https://kmapper.com
 		</p>
 
