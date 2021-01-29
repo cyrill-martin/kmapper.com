@@ -12,7 +12,7 @@ terms:
   - Usability-Tests
   - Nutzerforschung
   - Projektmanagement
-  - Anforderungsanalyse
+  - Requirements Engineering
 image: circles_de_lato-2-color.png
 ---
 

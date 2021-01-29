@@ -12,9 +12,6 @@ terms:
   - Modeling
   - Capturing
   - Cleansing
-  - Wire Framing
-  - Management
-  - Flow
   - Open Data
   - API Economy
   - User Research

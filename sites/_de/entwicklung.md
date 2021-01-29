@@ -26,9 +26,9 @@ terms:
 image: circles_de_lato-3-color.png
 ---
 
-Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen für Ihre Software. Sie erhalten die passende Software, um Ihre Website, Web-Applikation oder Web-Services zu finalisieren: 
+Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen. Sie erhalten die passende Software, um Ihre Website, Web-Applikation oder Web-Services zu finalisieren: 
 
-- als Ergänzung zu Ihrer bestehenden Infrastruktur oder als eigene Applikation in der Cloud 
+- als Ergänzung zu Ihrer bestehenden Infrastruktur oder als neue Applikation in der Cloud 
 - inklusive Support 
 - umfassend dokumentiert 
 

@@ -31,7 +31,7 @@ projects:
       Tackling complex real-world problems needs interdisciplinary research and an open knowledge landscape easy to navigate. kmapper is such a knowledge mapper.
     </p>
     <p>
-      kmapper.org lets you search articles indexed in the <a href="https://doaj.org" target="_blank">DOAJ</a> and visualizes the results based on relevance and scientific discipline. 
+      kmapper.org lets you search articles indexed in the <a href="https://doaj.org" target="_blank">DOAJ</a> and visualizes the results based on relevance and scientific discipline.
     </p>
   stack: 
     - Ruby on Rails

@@ -13,9 +13,6 @@ terms:
   - Modellierung
   - Beschaffung
   - Bereinigung
-  - Wire Framing
-  - Management
-  - Flow
   - Open Data
   - API Economy
   - Nutzerforschung

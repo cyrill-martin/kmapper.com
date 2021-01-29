@@ -25,7 +25,7 @@ terms:
 image: circles_en_lato-3-color.png
 ---
 
-You know your data and information architecture or you already have a validated software prototype. You get the right software to finalize your website, web application or web service: 
+You know your data and information architecture or you already have a validated prototype. You get the right software to finalize your website, web application or web service: 
 
 - supplementary to your existing infrastructure or as a new cloud application 
 - including support

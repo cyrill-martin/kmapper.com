@@ -23,7 +23,7 @@ projects:
     - Python
     - XSL
     - Docker
-- title: Themen in einem interdisziplinären Kontext visualisieren
+- title: Themen im interdisziplinären Kontext visualisiert
   link_text: kmapper.org
   url: https://kmapper.org/doaj?q=sustainability
   image: kmapperOrg.png
@@ -33,8 +33,7 @@ projects:
       Die Bewältigung komplexer Probleme erfordert interdisziplinäre Forschung und eine offene, einfach zu navigierende Wissenslandschaft. kmapper ist so ein Knowledge Mapper.
     </p>
     <p>
-      Mit kmapper.org können Sie im <a href="https://doaj.org" target="_blank">DOAJ</a> indexierte Artikel durchsuchen und die Ergebnisse werden entsprechend ihrer Relevanz und wissenschaftlicher Disziplin visualisiert.
-    </p>
+      Mit kmapper.org suchen Sie im <a href="https://doaj.org" target="_blank">DOAJ</a> indexierte Artikel und ie Ergebnisse werden entsprechend ihrer Relevanz und wissenschaftlicher Disziplin visualisiert.
   stack: 
     - Ruby on Rails
     - PostgreSQL

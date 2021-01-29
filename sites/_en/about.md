@@ -24,7 +24,7 @@ h4-simplicity: Simplicity
 
 p-1-simplicity: Starting from the simplest solution, a system takes into account the current requirements.
 
-p-2-simplicity: With many little steps made, you have more control over the development process and the system being developed
+p-2-simplicity: With many little steps made, you have more control over the development process and the system being developed.
 
 h4-change: Change
 
