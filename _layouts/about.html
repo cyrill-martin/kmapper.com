@@ -60,7 +60,7 @@ layout: default
 			<h3>{{ person.name }}</h3>
 			{{ person.desc }} 
 			<p>
-				{{ person.socials | join: " &#183; " }}
+				<a href="mailto:{{ site.email }}">E-Mail</a> &#183; {{ person.socials | join: " &#183; " }}
 			</p>
 		</div>
 	</div>

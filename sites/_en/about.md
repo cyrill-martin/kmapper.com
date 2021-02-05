@@ -37,7 +37,6 @@ people:
   image: cyrill.png
   desc: <p>I'm a <b>data & information architect</b> and <b>developer</b>, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines.</p><p>I've worked in research and publishing environments. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
   socials:
-    - <a href="mailto:cyrill.martin@hey.com">E-Mail</a>
     - <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>
     - <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
