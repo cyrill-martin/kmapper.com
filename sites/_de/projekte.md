@@ -33,7 +33,7 @@ projects:
       Die Bewältigung komplexer Probleme erfordert interdisziplinäre Forschung und eine offene, einfach zu navigierende Wissenslandschaft. kmapper ist so ein Knowledge Mapper.
     </p>
     <p>
-      Mit kmapper.org suchen Sie im <a href="https://doaj.org" target="_blank">DOAJ</a> indexierte Artikel und ie Ergebnisse werden entsprechend ihrer Relevanz und wissenschaftlicher Disziplin visualisiert.
+      Mit kmapper.org suchen Sie im <a href="https://doaj.org" target="_blank">DOAJ</a> indexierte Artikel und die Ergebnisse werden entsprechend ihrer Relevanz und wissenschaftlicher Disziplin visualisiert.
   stack: 
     - Ruby on Rails
     - PostgreSQL
