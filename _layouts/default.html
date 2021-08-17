@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   
-  <!-- This is to get the url of the translated page (stored here in liquid variable 'translation'). 
-    It is used further down by the script handling the "lang" cookie
-    and according redirects to the preferred language -->
+  <!-- This is to get the url of the translated page (stored here in liquid variable 'translation') -->
   {%- if page.lang == "de" -%}
     {%- for site_en in site.en -%}
       {%- if page.uid == site_en.uid -%}
