@@ -15,7 +15,7 @@ p-2-tutorials:
 
 p-3: Ein besseres Verständnis der grundlegenden Prinzipien, wenn auch auf sehr abstrakter Ebene, erleichtert die Arbeit in Web-Projekten und das Gespräch mit Web-Entwicklern. Die Tutorials vermeiden es, sich in Details zu verlieren. Während sie ermutigen, sich der Komplexität der Dinge bewusst zu werden, ermutigen sie auch, die Details zu ignorieren. 
 
-p-4: Da Sie einen <b>Browser</b> verwenden, um diese Seite zu lesen, gehen die Tutorial davon aus, dass Sie wissen, was ein Browser und was eine <b>URL</b> ist. Die Tutorials gehen auch davon aus, dass Sie wissen, dass ein <b>Server</b> ein Computer ist auf dem eine Software läuft, um über ein Netzwerk (z.B. das Internet) mit anderen Computern zu kommunizieren. 
+p-4: Da Sie einen <b>Browser</b> verwenden, um diese Seite zu lesen, wird davon ausgegangen, dass Sie wissen, was ein Browser und was eine <b>URL</b> ist. Es wird ebenfalls davon ausgegangen, dass Sie wissen, dass ein <b>Server</b> ein Computer ist auf dem eine Software läuft, um über ein Netzwerk (z.B. das Internet) mit anderen Computern zu kommunizieren. 
 
 image-1: tutorials.png
 ---

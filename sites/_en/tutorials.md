@@ -15,7 +15,7 @@ p-2-tutorials:
 
 p-3: Any better understanding of the basic principles, even in a very abstract way, will make it easier for you to work in web projects and talk to web developers. The tutorials avoid going down any rabbit holes of complexity. While they encourage you to be aware of the complexity, they also encourage you to ignore the details for now.
 
-p-4: Since you are currently using a <b>browser</b> to read this, the tutorials assume you know what a browser is. Since you used a <b>URL</b> to access this page or a search engine to find this page, the tutorials assume you know what a URL is. The tutorials also assume you know that a <b>server</b> is a computer running a software so other computers can communicate with it over a network (the internet in our case).
+p-4: Since you are currently using a <b>browser</b> to read this, it's assumed you know what a browser is. Since you used a <b>URL</b> to access this page or a search engine to find this page, it' assumed you know what a URL is. It is also assumed you know that a <b>server</b> is a computer running a software so other computers can communicate with it over a network (the internet in our case).
 
 image-1: tutorials.png
 ---
