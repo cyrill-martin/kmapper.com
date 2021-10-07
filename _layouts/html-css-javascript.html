@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-12 tutorial">
+    <h1>Web Tutorials</h1>
+    {%- if page.title -%}
+    <!-- Show page title -->
+    <h2>{{ page.title }}</h2>
+    {%- endif -%}
+    <h3>HTML</h3>
+    <p>
+      {{ page.p-1 }}
+    </p>
+    <p class="tutorial-image">
+      <img
+        class="image-portrait"
+        src="{% capture url %}/assets/images/tutorials/html-css-javascript/{{ page.image-1 }}{% endcapture %}{{ url | relative_url }}"
+      />
+    </p>
+    <p>
+      {{ page.p-2 }}
+    </p>
+    <p class="tutorial-image">
+      <img
+        style="max-width: 380px; width: 100%"
+        src="{% capture url %}/assets/images/tutorials/html-css-javascript/{{ page.image-2 }}{% endcapture %}{{ url | relative_url }}"
+      />
+    </p>
+    <p>
+      {{ page.p-3 }}
+    </p>
+    <p class="tutorial-image">
+      <img
+        class="image-landscape"
+        src="{% capture url %}/assets/images/tutorials/html-css-javascript/{{ page.image-3 }}{% endcapture %}{{ url | relative_url }}"
+      />
+    </p>
+    <p>
+      {{ page.p-4 }}
+    </p>
+    <h3>CSS</h3>
+    <p>
+      {{ page.p-5 }}
+    </p>
+    <p>
+      {{ page.p-6 }}
+    </p>
+    <p class="tutorial-image">
+      <img
+        style="max-width: 600px; width: 100%"
+        src="{% capture url %}/assets/images/tutorials/html-css-javascript/html-css-javascript-7_en.png{% endcapture %}{{ url | relative_url }}"
+      />
+    </p>
+    <p>
+      {{ page.p-7 }}
+    </p>
+    <div id="js-demo-div">
+      <h3>JavaScript</h3>
+      <p>
+        {{ page.p-8 }}
+      </p>
+      <p>
+        {{ page.p-9 }}
+      </p>
+      <p>
+        {{ page.p-10 }}
+      </p>
+    </div>
+    <p style="text-align: center">
+      <button class="demo-button" id="change-button">
+        {{ page.change-button }}
+      </button>
+      <button class="demo-button" id="info-button">
+        {{ page.info-button }}
+      </button>
+    </p>
+    <p>
+      {{ page.p-11 }}
+    </p>
+    <p class="tutorial-image">
+      <img
+        style="max-width: 600px; width: 100%"
+        src="{% capture url %}/assets/images/tutorials/html-css-javascript/{{ page.image-4 }}{% endcapture %}{{ url | relative_url }}"
+      />
+    </p>
+  </div>
+  <script type="text/javascript" src="{{ "/assets/js/js-demo.js" | relative_url }}"></script>
+</div>

@@ -76,17 +76,14 @@
     <div class="container">
       <div class="row">
         <div class="col-3 navigation">
-          <!-- This content will take up 3/12 of the container -->
           {%- include navigation.html -%}
         </div>
         <div class="col-9 content">
-          <!-- This content will take up 9/12 of the container -->
           {{ content }}
         </div>
       </div>
       <div class="row footer">
         <div class="col-12">
-          <!-- This content will take up 12/12 of the container -->
           {%- include footer.html -%}
         </div>
       </div>
@@ -115,7 +112,6 @@
       };
     </script>
     <script type="text/javascript" src="{{ "/assets/js/interaction.js" | relative_url }}"></script>
-
     <script type="text/javascript" src="{{ "/assets/js/cookieconsent.js" | relative_url }}" data-cfasync=”false”></script>
     {%- if page.lang == "de" -%}
       <script>

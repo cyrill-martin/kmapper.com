@@ -6,7 +6,7 @@ description: With kmapper, you go from idea to architecture to finished applicat
 projects:
 - title: Domain Ontologies for the Humanities
   link_text: e-editiones.ch
-  url: http://e-editiones.ch/ontology
+  url: https://e-editiones.ch/ontology
   image: eeditionesCH.png
   image_mobile: eeditionesCH_mobile.png
   desc:

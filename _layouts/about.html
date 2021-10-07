@@ -3,72 +3,56 @@ layout: default
 ---
 
 <div class="row">
-	<div class="col-12">
-		{%- if page.title -%}
-			<!-- Show page title -->
-	    	<h1>{{ page.title }}</h1>
-	  	{%- endif -%}
-		<h2>{{ page.h2-kmapper }}</h2>
-		<p>
-			{{ page.p-1-kmapper }} 
-		</p>
-		<p>
-			{{ page.p-2-kmapper }}
-		</p>
-		<h3>{{ page.h3-principles }}</h3> 
-		<p>
-			{{ page.p-1-principles }}
-		</p>
-	</div>
+  <div class="col-12">
+    {%- if page.title -%}
+    <!-- Show page title -->
+    <h1>{{ page.title }}</h1>
+    {%- endif -%}
+    <h2>{{ page.h2-kmapper }}</h2>
+    <p>{{ page.p-1-kmapper }}</p>
+    <p>{{ page.p-2-kmapper }}</p>
+    <h3>{{ page.h3-principles }}</h3>
+    <p>{{ page.p-1-principles }}</p>
+  </div>
 </div>
 <div class="row">
-	<div class="col-4 principle">
-		<h4>{{ page.h4-feedback }}</h4>
-		<p>
-			{{ page.p-1-feedback }} 
-		</p>
-		<p>
-			{{ page.p-2-feedback }} 
-		</p> 
-	</div>
-	<div class="col-4 principle">
-		<h4>{{ page.h4-simplicity }}</h4>
-		<p>
-			{{ page.p-1-simplicity }}
-		</p>
-		<p>
-			{{ page.p-2-simplicity }}
-		</p>
-	</div>
-	<div class="col-4 principle">
-		<h4>{{ page.h4-change }}</h4>
-		<p>
-			{{ page.p-1-change }}
-		</p>
-		<p>
-			{{ page.p-2-change }}
-		</p>
-	</div>
+  <div class="col-4 principle">
+    <h4>{{ page.h4-feedback }}</h4>
+    <p>{{ page.p-1-feedback }}</p>
+    <p>{{ page.p-2-feedback }}</p>
+  </div>
+  <div class="col-4 principle">
+    <h4>{{ page.h4-simplicity }}</h4>
+    <p>{{ page.p-1-simplicity }}</p>
+    <p>{{ page.p-2-simplicity }}</p>
+  </div>
+  <div class="col-4 principle">
+    <h4>{{ page.h4-change }}</h4>
+    <p>{{ page.p-1-change }}</p>
+    <p>{{ page.p-2-change }}</p>
+  </div>
 </div>
 <!-- <h2>Leute</h2> -->
 {%- for person in page.people -%}
-	<div class="row">
-		<div class="col-3">
-			<img class="team-member" src="{% capture url %}/assets/images/people/{{ person.image }}{% endcapture %}{{ url | relative_url }}">
-		</div>
-		<div class="col-9">
-			<h3>{{ person.name }}</h3>
-			{{ person.desc }} 
-			<p>
-				<a href="mailto:{{ site.email }}">E-Mail</a> &#183; {{ person.socials | join: " &#183; " }}
-			</p>
-		</div>
-	</div>
+<div class="row">
+  <div class="col-3">
+    <img
+      class="team-member"
+      src="{% capture url %}/assets/images/people/{{ person.image }}{% endcapture %}{{ url | relative_url }}"
+    />
+  </div>
+  <div class="col-9">
+    <h3>{{ person.name }}</h3>
+    {{ person.desc }}
+    <p>
+      <a href="mailto:{{ site.email }}">E-Mail</a> &#183; {{ person.socials |
+      join: " &#183; " }}
+    </p>
+  </div>
+</div>
 {%- endfor -%}
 <div class="row">
-	<div class="col-12">
-		<p>
-			{{ page.p-karlie }}
-		</p>
-	</div>
+  <div class="col-12">
+    <p>{{ page.p-karlie }}</p>
+  </div>
 </div>

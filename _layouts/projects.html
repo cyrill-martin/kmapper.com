@@ -2,48 +2,47 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-12">
-		<div>
-			{%- if page.title -%}
-				<!-- Show page title -->
-		    	<h1>{{ page.title }}</h1>
-		  	{%- endif -%}
-		</div>
-	</div>
+  <div class="col-12">
+    <div>
+      {%- if page.title -%}
+      <!-- Show page title -->
+      <h1>{{ page.title }}</h1>
+      {%- endif -%}
+    </div>
+  </div>
 </div>
-{%- assign gradient = "grad-purpleish" -%}
+{%- assign gradient = "grad-purpleish" -%} 
 {%- for project in page.projects -%}
-
-	{%- assign mod = forloop.index | modulo: 2 -%}
-
-	{%- if mod == 0 -%}
-		{%- assign gradient = "grad-blueish" -%}
-	{%- endif -%}
-
-	<div class="row project">
-
-		<div class="row">
-			<div class="col-12 project-info">
-				<h3>{{ project.title }}</h3>
-				<h4><a href="{{ project.url }}" target="_blank">{{ project.link_text }}</a></h4>
-				<p>
-					{{ project.desc }}
-				</p>
-				<p>
-					<span class="stack">Stack</span>{{ project.stack | join: " &#183; " }}
-				</p>
-			</div>
-		</div>
-
-		<div class="row {{ gradient }}">
-			<div class="col-8 project-image">
-				<a href="{{ project.url }}" target="_blank"><img src="{% capture url %}/assets/images/projects/{{ project.image }}{% endcapture %}{{ url | relative_url }}"></a>
-			</div>
-			<div class="col-4 project-image-mobile">
-				<a href="{{ project.url }}" target="_blank"><img src="{% capture url %}/assets/images/projects/{{ project.image_mobile }}{% endcapture %}{{ url | relative_url }}"></a>
-			</div>
-		</div>
-
-	</div>
-
+{%- assign mod = forloop.index | modulo: 2 -%}
+{%- if mod == 0 -%}
+{%- assign gradient = "grad-blueish" -%}
+{%- endif -%}
+<div class="row project">
+  <div class="row">
+    <div class="col-12 project-info">
+      <h3>{{ project.title }}</h3>
+      <h4>
+        <a href="{{ project.url }}" target="_blank">{{ project.link_text }}</a>
+      </h4>
+      <p>{{ project.desc }}</p>
+      <p>
+        <span class="stack">Stack</span>{{ project.stack | join: " &#183; " }}
+      </p>
+    </div>
+  </div>
+  <div class="row {{ gradient }}">
+    <div class="col-8 project-image">
+      <a href="{{ project.url }}" target="_blank"
+        ><img
+          src="{% capture url %}/assets/images/projects/{{ project.image }}{% endcapture %}{{ url | relative_url }}"
+      /></a>
+    </div>
+    <div class="col-4 project-image-mobile">
+      <a href="{{ project.url }}" target="_blank"
+        ><img
+          src="{% capture url %}/assets/images/projects/{{ project.image_mobile }}{% endcapture %}{{ url | relative_url }}"
+      /></a>
+    </div>
+  </div>
+</div>
 {%- endfor -%}

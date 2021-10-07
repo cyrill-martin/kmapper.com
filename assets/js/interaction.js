@@ -21,7 +21,7 @@ hamburger.addEventListener("click", function() {
 
 // kmapper.org visual
 //////////////////////
-let s_width = screen.width;
+let s_width = window.innerWidth;
 let kmapper_link = document.getElementById("kmapper-link");
 
 function showKmap() {
@@ -40,7 +40,7 @@ if (s_width > 832) {
 
 // Check screen resizing
 window.addEventListener("resize", function() {
-	s_width = screen.width;
+	s_width = window.innerWidth;
 
 	if (s_width > 832) { // Add event listener if big screen
 		kmapper_link.addEventListener("mouseover", showKmap);
