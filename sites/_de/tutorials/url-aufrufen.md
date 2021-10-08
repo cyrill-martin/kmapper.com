@@ -1,7 +1,7 @@
 ---
 layout: accessing-url
 uid: aurl
-permalink: /de/tutorials/:name
+permalink: /de/tutorials/url-aufrufen
 title: Eine URL mit dem Browser aufrufen
 description: Folgendes passiert, wenn Sie eine URL im Browser eintippen und 'Enter' drücken.
 

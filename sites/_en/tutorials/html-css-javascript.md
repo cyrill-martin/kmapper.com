@@ -1,7 +1,7 @@
 ---
 layout: html-css-javascript
 uid: hcj
-permalink: /en/tutorials/:name
+permalink: /en/tutorials/html-css-javascript
 title: HTML, CSS, JavaScript - The Frontend Building Blocks
 description: This is how the building blocks of the website frontend, HTML, CSS, JavaScript, work.
 

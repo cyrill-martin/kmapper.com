@@ -1,7 +1,7 @@
 ---
 layout: accessing-url
 uid: aurl
-permalink: /en/tutorials/:name
+permalink: /en/tutorials/accessing-url
 title: Accessing a URL from the Browser
 description: This is what happens when you type a URL into your browser's address bar and hit 'Enter'.
 

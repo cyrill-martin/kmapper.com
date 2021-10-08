@@ -3,6 +3,7 @@ layout: tutorials
 uid: tut
 title: Web Tutorials
 description: Tutorials, welche die grundlegenden Prinzipien des Webs behandeln.
+permalink: /de/tutorials/
 
 p-1: Diese Reihe von Tutorials soll einen Überblick darüber geben, was passiert, wenn der Browser verwendet wird, um eine Website zu besuchen. Sie sollen dabei helfen, Web-Technologien besser zu verstehen und schätzen zu lernen. 
 
