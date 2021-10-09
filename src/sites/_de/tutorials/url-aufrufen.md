@@ -1,9 +1,9 @@
 ---
 layout: accessing-url
 uid: aurl
-permalink: /de/tutorials/url-aufrufen
 title: Eine URL mit dem Browser aufrufen
 description: Folgendes passiert, wenn Sie eine URL im Browser eintippen und 'Enter' drücken.
+permalink: /:collection/tutorials/:name/
 
 p-1: Sie geben eine URL in die Adressleiste des Browsers ein und drücken 'Enter'. Als erstes wird der Browser einem bestimmten Verfahren folgen, um die Internet Protocol-Adresse des Servers zu ermitteln, der Zugriff auf den Inhalt der Website hat, die Sie besuchen möchten. 
 

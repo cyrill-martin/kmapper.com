@@ -3,7 +3,6 @@ layout: projects
 uid: prj
 title: Projekte
 description: kmapper begleitet Sie von der Idee über die Architektur bis hin zur fertigen Applikation
-permalink: /de/projekte/
 
 projects:
 - title: Domain-Ontologien für die Geisteswissenschaften

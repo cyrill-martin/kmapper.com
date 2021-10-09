@@ -5,7 +5,7 @@ const demoDiv = document.getElementById("js-demo-div");
 let changeClicked = false;
 let numberOfClicks = 0;
 
-changeButton.addEventListener("click", function () {
+changeButton.addEventListener("click", () => {
   if (!changeClicked) {
     demoDiv.style.cssText = `
       padding: 1rem;
@@ -24,7 +24,7 @@ changeButton.addEventListener("click", function () {
   changeClicked = !changeClicked;
 });
 
-infoButton.addEventListener("click", function () {
+infoButton.addEventListener("click", () => {
   alert(`
     Clicks: \t\t\t ${(numberOfClicks += 1)}
 

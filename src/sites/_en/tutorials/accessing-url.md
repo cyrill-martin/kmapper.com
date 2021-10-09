@@ -1,9 +1,9 @@
 ---
 layout: accessing-url
 uid: aurl
-permalink: /en/tutorials/accessing-url
 title: Accessing a URL from the Browser
 description: This is what happens when you type a URL into your browser's address bar and hit 'Enter'.
+permalink: /:collection/tutorials/:name/
 
 p-1: You enter a URL into the browser's address bar and hit ‘Enter'. The first thing the browser does is following a certain procedure to find the actual Internet Protocol address of the server having access to the content of the website you are trying to visit.
 

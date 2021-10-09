@@ -1,12 +1,9 @@
-// Cookie handling
-// Function to get today + one year
-function plusOneYear() {
+export const plusOneYear = () => {
   let plusOneYear = new Date();
   plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
   return plusOneYear;
-}
-// Function to check the existence of a cookie by name
-function getCookie(cName) {
+};
+export const getCookie = (cName) => {
   let cValue = document.cookie,
     cStart = cValue.indexOf(" " + cName + "=");
   if (cStart == -1) cStart = cValue.indexOf(cName + "=");
@@ -23,9 +20,8 @@ function getCookie(cName) {
     cValue = decodeURI(cValue.substring(cStart, cEnd));
   }
   return cValue;
-}
-// Check language
-function checkCookieLang(pageLang, translation) {
+};
+export const checkCookieLang = (pageLang, translation) => {
   // Get document language
   let docLang = document.documentElement.lang;
   // Get cookie "lang"
@@ -35,18 +31,21 @@ function checkCookieLang(pageLang, translation) {
     // Get today plus one year
     let cExpires = plusOneYear();
     // Set cookie with current page language
-    document.cookie = "lang=" + pageLang + "; path=/; SameSite=strict; expires=" + String(cExpires);
+    document.cookie =
+      "lang=" +
+      pageLang +
+      "; path=/; SameSite=strict; expires=" +
+      String(cExpires);
   } else {
     // Cookie exists
     // Check document language vs. cookie "lang"
     if (docLang != cookie) {
       // Redirect to translation if they are not the same
-      // {{ translation }} is assigned above
       window.location.replace(translation);
     }
   }
-}
-function setLangCookie() {
+};
+export const setLangCookie = () => {
   // Overwrite cookie "lang" when language is changed
   // Get the DE | EN elements on the page
   let langDE = document.getElementById("lang-DE");
@@ -54,24 +53,25 @@ function setLangCookie() {
   // Check if #lang-DE exists (it's not defined on DE pages)
   if (langDE) {
     // Add click event to overwrite cookie "lang"
-    langDE.addEventListener("click", function () {
+    langDE.addEventListener("click", () => {
       let cExpires = plusOneYear(); // Today plus one year
-      document.cookie =
-        "lang=de; path=/; SameSite=strict; expires=" + String(cExpires);
+      document.cookie = `lang=de; path=/; SameSite=strict; expires=${String(
+        cExpires
+      )}`;
     });
   }
   // Check if #lang-EN exists (it's not defined on EN pages)
   if (langEN) {
     // Add click event to overwrite cookie "lang"
-    langEN.addEventListener("click", function () {
+    langEN.addEventListener("click", () => {
       let cExpires = plusOneYear(); // Today plus one year
-      document.cookie =
-        "lang=en; path=/; SameSite=strict; expires=" + String(cExpires);
+      document.cookie = `lang=en; path=/; SameSite=strict; expires=${String(
+        cExpires
+      )}`;
     });
   }
-}
-
-const cookieConsentDE = {
+};
+export const cookieConsentDE = {
   palette: {
     popup: {
       background: "#ffffff",
@@ -89,8 +89,7 @@ const cookieConsentDE = {
     link: "Mehr erfahren",
   },
 };
-
-const cookieConsentEN = {
+export const cookieConsentEN = {
   palette: {
     popup: {
       background: "#ffffff",

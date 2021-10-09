@@ -3,7 +3,6 @@ layout: about
 uid: abt
 title: Über
 description: kmapper erweckt Ihr Projekt zum digitalen Leben und basiert auf den Prinzipien Feedback, Simplicity und Change
-permalink: /de/ueber/
 
 h2-kmapper: kmapper
 

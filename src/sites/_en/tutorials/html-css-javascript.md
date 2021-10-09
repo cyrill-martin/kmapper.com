@@ -1,9 +1,9 @@
 ---
 layout: html-css-javascript
 uid: hcj
-permalink: /en/tutorials/html-css-javascript
 title: HTML, CSS, JavaScript - The Frontend Building Blocks
 description: This is how the building blocks of the website frontend, HTML, CSS, JavaScript, work.
+permalink: /:collection/tutorials/:name/
 
 p-1: HTML (Hypertext Markup Language) is used to mark up website content so browsers can display it in a human-readable form. Think of a large amount of different text markers and some guidelines with instructions on how to mark up a document. E.g. <i>"The main title of the document should be marked-up yellow. Any subtitles should be marked-up green. Use orange for any sub-subtitles. Use blue to mark up all paragraphs. Inside any titles and paragraphs, use red to mark up the letters which should be <b>bold</b>."</i>
 

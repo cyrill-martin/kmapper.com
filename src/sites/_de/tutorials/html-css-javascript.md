@@ -1,9 +1,9 @@
 ---
 layout: html-css-javascript
 uid: hcj
-permalink: /de/tutorials/:name
 title: HTML, CSS, JavaScript - Die Frontend-Bausteine
 description: Eine Übersicht darüber, wie die Frontend-Bausteine HTML, CSS und JavaScript funktionieren und zusammenspielen.
+permalink: /:collection/tutorials/:name/
 
 p-1: HTML (Hypertext Markup Language) wird verwendet, um Website-Inhalte so zu strukturieren, dass Browser sie in einer für Menschen einfach lesbaren Form anzeigen können. Denken Sie an eine große Anzahl verschiedener Leuchtstifte und Richtlinien mit Anweisungen zur Markierung von Text. Z.B. <i>"Der Haupttitel eines Dokuments sollte gelb markiert werden. Alle Untertitel sollten grün markiert werden. Verwenden Sie Orange für alle weiteren Titel. Verwenden Sie Blau, um alle Absätze zu markieren. Verwenden Sie in allen Titeln und Absätzen Rot, um die Buchstaben zu markieren, die <b>fett</b> dargestellt werden sollen."</i>
 

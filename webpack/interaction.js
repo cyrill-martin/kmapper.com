@@ -50,5 +50,3 @@ window.addEventListener("resize", function() {
 		kmapper_link.removeEventListener("mouseout", hideKmap);
 	}
 });
-
-// Cookies are handled in default.html
