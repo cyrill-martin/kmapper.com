@@ -1,30 +1,31 @@
 # kmapper.com
 
-These are the files for the kmapper GmbH website at https://kmapper.com.
+This repository contains the files for the kmapper GmbH website at https://kmapper.com.
+The website is based on Jekyll and Webpack to transpile any custom JavaScript.
+It makes use of the npm package gh-pages in order to push the built files to the gh-pages branch on GitHub from where a GitHub Pages site is being built.
 
 ## Dependencies
 
-- Ruby (>= 2.7.1)
-- bundler (>= 2.2.4)
-- Jekyll (4.2.0)
+- Ruby
+- bundler
+- Jekyll
 - npm
 
 ## Serve and Develop Locally
 
 1. Clone repository
-1. cd into repository
-1. Run `bundle install` for Ruby gems
-1. Run `npm install` for npm packages
-1. Run `npm run start` to transpile JavaScript and start Jekyll server
+1. `cd` into repository
+1. Run `bundle install` to install the needed Ruby gems
+1. Run `npm install` to install the needed npm packages
+1. Run `npm run start` to transpile the JavaScript and start the Jekyll server
    
-   The command will run the commands set in package.json: 
+   Check the "start" script in `package.json`. `npm run start will execute the following`: 
    `./node_modules/.bin/webpack --watch | jekyll serve --config _config.yml,_config_dev.yml`
 
 ### Custom JavaScript
 
-Custom JavaScript goes into the `webpack` directory and it has to be referenced as an entry in `webpack.config.js`. Otherwise it won't be transpiled by Bable.
+Custom JavaScript has to go into the `webpack` directory and each script has to be referenced as an entry in `webpack.config.js`. Otherwise it won't be transpiled by Bable. 
 
 ## Deploy to GitHub Pages
 
-1. Run `npm run build` to transpile JavaScript and build Jekyll files
-2. Run `npm run deploy` to deploy the built files to the gh-pages branch
+Run `npm run deploy` to build all to `public` and push them to the gh-pages branch on GitHub.
