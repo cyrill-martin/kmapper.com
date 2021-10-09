@@ -28,4 +28,4 @@ Custom JavaScript has to go into the `webpack` directory and each script has to 
 
 ## Deploy to GitHub Pages
 
-Run `npm run deploy` to build all to `public` and push them to the gh-pages branch on GitHub.
+Run `npm run deploy` to build all static and transpiled files to the `public` directory and push them to the gh-pages branch on GitHub.
