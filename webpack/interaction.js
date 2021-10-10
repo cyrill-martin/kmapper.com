@@ -3,7 +3,7 @@
 let hamburger = document.querySelector(".hamburger");
 let sitelinks = document.querySelector(".site-links");
 // On click
-hamburger.addEventListener("click", function() {
+hamburger.addEventListener("click", () => {
 	// Toggle class "is-active"
   	hamburger.classList.toggle("is-active");
   	// Do something else, like open/close menu
@@ -24,11 +24,11 @@ hamburger.addEventListener("click", function() {
 let s_width = window.innerWidth;
 let kmapper_link = document.getElementById("kmapper-link");
 
-function showKmap() {
+const showKmap = () => {
 	document.getElementById("kmapper-preview").style.display = "block";
 };
 
-function hideKmap() {
+const hideKmap = () => {
 	document.getElementById("kmapper-preview").style.display = "none";
 };
 
@@ -39,7 +39,7 @@ if (s_width > 832) {
 };
 
 // Check screen resizing
-window.addEventListener("resize", function() {
+window.addEventListener("resize", () => {
 	s_width = window.innerWidth;
 
 	if (s_width > 832) { // Add event listener if big screen
