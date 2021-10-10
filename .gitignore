@@ -4,5 +4,5 @@ public/
 .jekyll-cache/
 .jekyll-metadata
 gradients.scss
-node_modules/
+node_modules
 src/assets/js/*.js
