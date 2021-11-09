@@ -4,24 +4,20 @@ uid: dev
 title: Development
 description: kmapper develops websites, web applications, and web services
 terms: 
-  - REST API
-  - Formalization
-  - Open Data
-  - Python
-  - Flask
-  - XSL
-  - HTML
   - CSS
-  - JavaScript
   - D3.js
+  - Docker
+  - Flask
+  - Formalization
+  - HTML
+  - JavaScript
   - Jekyll
   - Microservice
-  - Docker
-  - JamStack
-  - Monolith
-  - Ruby
-  - Ruby on Rails
   - Project Management
+  - Python
+  - REST API
+  - Vue.js
+  - XSL
 image: circles_en_lato-3-color.png
 ---
 

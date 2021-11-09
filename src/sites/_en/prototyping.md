@@ -4,14 +4,15 @@ uid: prt
 title: Prototyping
 description: kmapper develops working prototype applications to validate your concept and iteratively adapt it
 terms: 
-  - Prototype
   - Design
   - Evaluation
+  - Iteration
   - Minimal Viable Product
+  - Project Management
+  - Prototype
+  - Requirements Engineering
   - Usability Testing
   - User Research
-  - Project Management
-  - Requirements Engineering
 image: circles_en_lato-2-color.png
 --- 
 
