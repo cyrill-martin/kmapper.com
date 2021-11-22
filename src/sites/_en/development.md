@@ -18,6 +18,8 @@ terms:
   - REST API
   - Vue.js
   - XSL
+  - Firebase
+  - Heroku
 image: circles_en_lato-3-color.png
 ---
 

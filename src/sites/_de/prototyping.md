@@ -4,14 +4,15 @@ uid: prt
 title: Prototyping
 description: kmapper entwickelt online nutzbare Prototyp-Applikationen, um Konzepte und Ideen zu validieren und iterativ anzupassen
 terms: 
-  - Prototyp
   - Design
   - Evaluation
+  - Iteration
   - Minimal Viable Product
-  - Usability-Tests
-  - Nutzerforschung
   - Projektmanagement
+  - Prototyp
   - Requirements Engineering
+  - Usability Testing
+  - Nutzerforschung
 image: circles_de_lato-2-color.png
 ---
 
