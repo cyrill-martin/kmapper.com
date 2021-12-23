@@ -11,8 +11,8 @@ layout: default
     </div>
   </div>
 </div>
-{%- assign gradient = "grad-purpleish" -%} 
 {%- for project in page.projects -%}
+{%- assign gradient = "grad-purpleish" -%}
 {%- assign mod = forloop.index | modulo: 2 -%}
 {%- if mod == 0 -%}
 {%- assign gradient = "grad-blueish" -%}

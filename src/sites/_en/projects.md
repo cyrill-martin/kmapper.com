@@ -4,6 +4,61 @@ uid: prj
 title: Projects
 description: With kmapper, you go from idea to architecture to finished application
 projects:
+- title: swisspolls
+  link_text: swisspolls.kmapper.com
+  url: https://swisspolls.kmapper.com
+  image: swisspolls.png
+  image_mobile: swisspolls_mobile.png
+  desc: 
+    <p>
+      Visualizations of the swissvotes data sets of the federal referendums follow-up surveys.
+    </p>
+  stack: 
+    - Vue.js
+    - D3.js
+    - Firebase
+- title: Open Data Search Results
+  link_text: openfirst.ch
+  url: https://openfirst.ch
+  image: openFirst.png
+  image_mobile: openFirst_mobile.png
+  desc: 
+    <p>
+      openfirst.ch is an ongoing project that makes open data sources more accessible. Anyone at the beginning of a web research who wants to get an idea of ​​a certain topic quickly and reliably will be flooded with mostly non-effective results. The search engine openfirst.ch delivers fewer but more qualified hits. For the initial test phase, the results are categorized into media, institutions, statistics, science and Wikipedia.
+    </p>
+  stack: 
+    - Python
+    - Flask
+    - Heroku
+    - Vue.js
+    - Firebase
+- title: Different Perspectives on the Swiss National Council
+  link_text: nationalrat.kmapper.com
+  url: http://nationalrat.kmapper.com
+  image: nationalratEN.png
+  image_mobile: nationalratEN_mobile.png
+  desc: 
+    <p>
+      The dynamic visualization shows the distribution of seats for the 200 members of the National Council in relation to an additional feature.
+    </p>
+  stack: 
+    - Vue.js
+    - D3.js
+- title: Open Data Search Results
+  link_text: openfirst.ch
+  url: https://openfirst.ch
+  image: openFirst.png
+  image_mobile: openFirst_mobile.png
+  desc: 
+    <p>
+      openfirst.ch is an ongoing project that makes open data sources more accessible. Anyone at the beginning of a web research who wants to get an idea of ​​a certain topic quickly and reliably will be flooded with mostly non-effective results. The search engine openfirst.ch delivers fewer but more qualified hits. For the initial test phase, the results are categorized into media, institutions, statistics, science and Wikipedia.
+    </p>
+  stack: 
+    - Python
+    - Flask
+    - Heroku
+    - Vue.js
+    - Firebase
 - title: Domain Ontologies for the Humanities
   link_text: e-editiones.ch
   url: https://e-editiones.ch/ontology
@@ -34,7 +89,8 @@ projects:
       kmapper.org lets you search articles indexed in the <a href="https://doaj.org" target="_blank">DOAJ</a> and visualizes the results based on relevance and scientific discipline.
     </p>
   stack: 
+    - D3.js
     - Ruby on Rails
     - PostgreSQL
-    - D3.js
+    - Heroku
 ---

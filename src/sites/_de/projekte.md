@@ -5,6 +5,46 @@ title: Projekte
 description: kmapper begleitet Sie von der Idee über die Architektur bis hin zur fertigen Applikation
 
 projects:
+- title: swisspolls
+  link_text: swisspolls.kmapper.com
+  url: https://swisspolls.kmapper.com
+  image: swisspolls.png
+  image_mobile: swisspolls_mobile.png
+  desc: 
+    <p>
+      Visualisierungen der swissvotes-Datensätze der Nachbefragungen zu den eidgenössischen Volksabstimmungen.
+    </p>
+  stack: 
+    - Vue.js
+    - D3.js
+    - Firebase
+- title: Unterschiedliche Perspektiven auf den Schweizer Nationalrat
+  link_text: nationalrat.kmapper.com
+  url: http://nationalrat.kmapper.com
+  image: nationalratDE.png
+  image_mobile: nationalratDE_mobile.png
+  desc: 
+    <p>
+      Die dynamische Visualisierung zeigt die Sitzverteilung der 200 Mitglieder des Nationalrats in Relation zu einem zusätzlich wählbaren Merkmal.
+    </p>
+  stack: 
+    - Vue.js
+    - D3.js
+- title: Open Data-Suchresultate
+  link_text: openfirst.ch
+  url: https://openfirst.ch
+  image: openFirst.png
+  image_mobile: openFirst_mobile.png
+  desc: 
+    <p>
+      openfirst.ch ist ein laufendes Projekt, welches offene Datenquellen besser zugänglich macht. Wer am Anfang einer Recherche steht und sich schnell und zuverlässig ein Bild zu einem bestimmten Thema machen will, wird bei einer klassischen Suche von mehrheitlich nicht zielführenden Resultaten überschwemmt. Die Suchmaschine openfirst.ch liefert weniger, aber qualifiziertere Treffer und teilt sie in der Anfangstestphase in die fünf Kategorien Medien, Institutionen, Statistiken, Wissenschaft und Wikipedia ein.
+    </p>
+  stack: 
+    - Python
+    - Flask
+    - Heroku
+    - Vue.js
+    - Firebase
 - title: Domain-Ontologien für die Geisteswissenschaften
   link_text: e-editiones.ch
   url: http://e-editiones.ch/ontology
@@ -33,8 +73,9 @@ projects:
     </p>
     <p>
       Mit kmapper.org suchen Sie im <a href="https://doaj.org" target="_blank">DOAJ</a> indexierte Artikel und die Ergebnisse werden entsprechend ihrer Relevanz und wissenschaftlicher Disziplin visualisiert.
-  stack: 
+  stack:
+    - D3.js 
     - Ruby on Rails
     - PostgreSQL
-    - D3.js
+    - Heroku
 ---
