@@ -1,10 +1,8 @@
 ---
 layout: about
 uid: abt
-title: Über
+title: Über kmapper
 description: kmapper erweckt Ihr Projekt zum digitalen Leben und basiert auf den Prinzipien Feedback, Simplicity und Change
-
-h2-kmapper: kmapper
 
 p-1-kmapper: Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken.
 

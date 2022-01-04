@@ -1,10 +1,8 @@
 ---
 layout: about
 uid: abt
-title: About
+title: About kmapper
 description: kmapper brings your real-world project to digital life and is based on the principles of Feedback, Simplicity, and Change
-
-h2-kmapper: kmapper
 
 p-1-kmapper: The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so. kmapper is about using these technologies to bring your real-world project to digital life.
 
