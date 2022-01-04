@@ -17,21 +17,6 @@ projects:
     - Vue.js
     - D3.js
     - Firebase
-- title: Open Data Search Results
-  link_text: openfirst.ch
-  url: https://openfirst.ch
-  image: openFirst.png
-  image_mobile: openFirst_mobile.png
-  desc: 
-    <p>
-      openfirst.ch is an ongoing project that makes open data sources more accessible. Anyone at the beginning of a web research who wants to get an idea of ​​a certain topic quickly and reliably will be flooded with mostly non-effective results. The search engine openfirst.ch delivers fewer but more qualified hits. For the initial test phase, the results are categorized into media, institutions, statistics, science and Wikipedia.
-    </p>
-  stack: 
-    - Python
-    - Flask
-    - Heroku
-    - Vue.js
-    - Firebase
 - title: Different Perspectives on the Swiss National Council
   link_text: nationalrat.kmapper.com
   url: http://nationalrat.kmapper.com
