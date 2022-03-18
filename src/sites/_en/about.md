@@ -33,7 +33,7 @@ p-2-change: Changes are embraced and new requirements are planned for the next i
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>I'm a Web Application Developer, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines.</p><p>I've worked in research and publishing environments. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
+  desc: <p>I'm a Data & Information Architect and Developer, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines.</p><p>I've worked in research and publishing environments. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
   socials:
     - <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>
