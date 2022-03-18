@@ -33,7 +33,7 @@ p-2-change: Änderungen werden berücksichtigt und neue Anforderungen für die n
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>Ich Daten- & Informationsarchitekt sowie Entwickler, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Inhalten und Daten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
+  desc: <p>Ich bin Daten- & Informationsarchitekt sowie Entwickler, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Inhalten und Daten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
   socials:
     - <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>
