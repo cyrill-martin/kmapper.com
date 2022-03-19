@@ -4,17 +4,14 @@ uid: inf
 title: Data & Information Architecture
 description: kmapper develops the appropriate architecture to present and share your data and information
 terms: 
-  - API Economy
   - Audit
   - Capturing
   - Classification
   - Cleansing
   - Inventory
   - Modeling
-  - Open Data
   - Project Management
   - Requirements Engineering
-  - REST API
   - Structuring
   - User Research
   - Visualization
