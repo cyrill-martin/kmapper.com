@@ -4,9 +4,9 @@ uid: abt
 title: About kmapper
 description: kmapper brings your real-world project to digital life and is based on the principles of Feedback, Simplicity, and Change
 
-p-1-kmapper: The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so. kmapper is about using these technologies to bring your real-world project to digital life.
+p-1-kmapper: kmapper is a singe-person company bringing your real-world project to digital life. The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so.
 
-p-2-kmapper: kmapper is rooted in the open project <a href="https://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research to visualize subjects in an interdisciplinary context.
+p-2-kmapper: kmapper is rooted in the open project <a href="https://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research articles to visualize subjects in an interdisciplinary context.
 
 h3-principles: Principles
 

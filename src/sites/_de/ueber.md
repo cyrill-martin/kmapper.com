@@ -4,9 +4,9 @@ uid: abt
 title: Über kmapper
 description: kmapper erweckt Ihr Projekt zum digitalen Leben und basiert auf den Prinzipien Feedback, Simplicity und Change
 
-p-1-kmapper: Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken.
+p-1-kmapper: kmapper ist eine Ein-Personen-GmbH und bringt Ihr Projekt zum digitalen Leben. Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu.
 
-p-2-kmapper: kmapper geht auf das offene Projekt <a href="https://kmapper.org" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open Access-Forschung nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren.
+p-2-kmapper: kmapper geht auf das offene Projekt <a href="https://kmapper.org" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open Access-Forschungsartikel nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren.
 
 h3-principles: Prinzipien
 
