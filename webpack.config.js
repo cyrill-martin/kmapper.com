@@ -6,6 +6,7 @@ module.exports = {
     handleLanguage: "./webpack/handleLanguage.js",
     jsDemo: "./webpack/jsDemo.js",
     interaction: "./webpack/interaction.js",
+    cookieconsent: "./webpack/cookieconsent.js"
   },
   output: {
     path: path.resolve(__dirname, "./src/assets/js/"),
