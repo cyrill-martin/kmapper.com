@@ -4,13 +4,13 @@ uid: abt
 title: About kmapper
 description: kmapper brings your real-world project to digital life and is based on the principles of Feedback, Simplicity, and Change
 
-p-1-kmapper: kmapper is a single-person company bringing your real-world project to digital life. The Web is the best place to use and share data and information from your domain of knowledge. Web technologies are just the tools to do so.
+p-1-kmapper: kmapper is a single-person company bringing your real-world project to digital life. There are many great places to use and share data and information from your domain of knowledge. Technology is just the tool to do so.
 
 p-2-kmapper: kmapper is rooted in the open project <a href="https://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research articles to visualize subjects in an interdisciplinary context.
 
 h3-principles: Principles
 
-p-1-principles: kmapper advocates short development cycles and is based on the principles of <b>Feedback</b>, <b>Simplicity</b>, and <b>Change</b>.
+p-1-principles: kmapper advocates short project cycles and is based on the principles of <b>Feedback</b>, <b>Simplicity</b>, and <b>Change</b>.
 
 h4-feedback: Feedback
 
@@ -33,9 +33,9 @@ p-2-change: Changes are embraced and new requirements are planned for the next i
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>I'm a web consultant and developer, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring content and data for humans and machines.</p><p>I've worked in research and publishing environments. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
+  desc: <p>I'm a developer and business analyst, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring data and content for humans and machines.</p><p>I've worked in research and publishing environments. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
   socials:
-    - <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a>
+    - <a href="https://www.linkedin.com/in/cyrill-martin/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>
     - <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
 

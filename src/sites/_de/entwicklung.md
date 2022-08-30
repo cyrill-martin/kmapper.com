@@ -2,27 +2,21 @@
 layout: service
 uid: dev
 title: Entwicklung
-description: kmapper entwickelt Websites, Web-Applikationen und Web-Services
+description: kmapper entwickelt Websites, Web-Applikationen, Web-Services und Dokumentationen
 terms: 
-  - HTML/CSS
   - JavaScript
-  - Vue.js
+  - HTML
+  - CSS/SCSS
   - D3.js
-  - Nuxt.js
-  - VuePress
+  - Vue.js
   - Jekyll
   - Python
   - Flask
-  - XSL
-  - SQL
   - NoSQL
+  - SQL
 image: circles_de_lato-3-color.png
 ---
 
-Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen. Sie erhalten die passende Software, um Ihre Website, Web-Applikation oder Web-Services zu finalisieren: 
-
-- als Ergänzung zu Ihrer bestehenden Infrastruktur oder als neue Applikation in der Cloud 
-- inklusive Support 
-- umfassend dokumentiert 
+Sie haben ein Konzept zur Daten- und Informationsarchitektur oder bereits einen validierten Prototypen oder eine erste Version ihrer Dokumentation. Sie erhalten in finalisierter Form ihre Website, ihre Web-Applikation, ihren Web-Service oder ihre Dokumentation.
 
 Nach abgeschlossener Entwicklung lancieren Sie Ihr Projekt digital. 

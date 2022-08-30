@@ -4,13 +4,13 @@ uid: abt
 title: Über kmapper
 description: kmapper erweckt Ihr Projekt zum digitalen Leben und basiert auf den Prinzipien Feedback, Simplicity und Change
 
-p-1-kmapper: kmapper ist eine Ein-Personen-GmbH und bringt Ihr Projekt zum digitalen Leben. Das Web ist der beste Ort, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Web-Technologien sind nur die Werkzeuge dazu.
+p-1-kmapper: kmapper ist eine Ein-Personen-GmbH und bringt Ihr Projekt zum digitalen Leben. Es gibt viele tolle Orte, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Technologie ist nur das Werkzeug dazu.
 
 p-2-kmapper: kmapper geht auf das offene Projekt <a href="https://kmapper.org" target="_blank">kmapper.org</a> zurück. Ein Tool, das Open Access-Forschungsartikel nutzt, um Themen in einem interdisziplinären Kontext zu visualisieren.
 
 h3-principles: Prinzipien
 
-p-1-principles: kmapper befürwortet kurze Entwicklungszyklen und basiert auf den Prinzipien <b>Feedback</b>, <b>Simplicity</b> und <b>Change</b>.
+p-1-principles: kmapper befürwortet kurze Projektzyklen und basiert auf den Prinzipien <b>Feedback</b>, <b>Simplicity</b> und <b>Change</b>.
 
 h4-feedback: Feedback
 
@@ -33,13 +33,11 @@ p-2-change: Änderungen werden berücksichtigt und neue Anforderungen für die n
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>Ich bin Web-Consultant und Entwickler, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Inhalten und Daten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
+  desc: <p>Ich bin Entwickler und Business Analyst, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Daten und Inhalten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
   socials:
-    - <a href="https://www.linkedin.com/in/cyrill-martin-b7177a12b/" target="_blank">LinkedIn</a>
+    - <a href="https://www.linkedin.com/in/cyrill-martin/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>
     - <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
 
 p-karlie: Für den Designteil in Projekten arbeitet kmapper mit der <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, ein Markenbüro für Strategie und Design.
 ---
-
-{{ content }}

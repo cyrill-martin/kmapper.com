@@ -8,7 +8,7 @@ terms:
   - Erfassung
   - Klassifizierung
   - Aufbereitung
-  - Inventar
+  - Inventarisierung
   - Modellierung
   - Projektmanagement
   - Requirements Engineering
@@ -18,11 +18,6 @@ terms:
 image: circles_de_lato-1-color.png
 ---
 
-Nach der ersten Projektphase kennen Sie Strategie und Ziele Ihres Projekts. Zusammen erarbeiten wir ein Architekturkonzept, um Ihre Daten und Informationen passend zu präsentieren und zugänglich zu machen: 
-
-- basierend auf Ihrer Strategie und Ihren Zielen 
-- angepasst an die Bedürfnisse Ihrer Nutzer 
-- unter Berücksichtigung der organisatorischen und technischen Realisierbarkeit 
-- umfassend dokumentiert 
+Nach der ersten Projektphase kennen Sie Strategie und Ziele Ihres Projekts. Zusammen erarbeiten wir ein Architekturkonzept, um Ihre Daten und Informationen passend zu präsentieren und zugänglich zu machen.
 
 Mit dem Konzept zur Daten- und Informationsarchitektur wechseln Sie in die nächste Projektphase. 
