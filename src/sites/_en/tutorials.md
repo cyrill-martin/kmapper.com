@@ -9,9 +9,9 @@ p-1: This series of tutorials provide you with an abstract overview of what happ
 p-2-tutorials: 
 - <a href="/en/tutorials/accessing-url">Accessing a URL from the Browser</a>
 - <a href="/en/tutorials/html-css-javascript">HTML, CSS, JavaScript - The Frontend Building Blocks</a>
-- Cookies (coming later)
-- HTTPS (coming later)
-- The Backend Building Blocks (coming later)
+- Cookies (coming soon)
+- HTTPS (coming soon)
+- The Backend Building Blocks (coming soon)
 
 p-3: Any better understanding of the basic principles, even in a very abstract way, will make it easier for you to work in web projects and talk to web developers. The tutorials avoid going down any rabbit holes of complexity. While they encourage you to be aware of the complexity, they also encourage you to ignore the details for now.
 

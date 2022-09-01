@@ -1,7 +1,7 @@
 ---
 layout: service
 uid: inf
-title: Data & Information Architecture
+title: Curation
 description: kmapper develops the appropriate architecture to present and share your data and information
 terms: 
   - Audit

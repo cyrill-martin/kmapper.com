@@ -3,6 +3,7 @@ layout: home
 uid: hme
 title: Daten. Information. Transfer.
 subtitle: Wissen abgebildet
-description: Es gibt viele tolle Orte, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. Bei kmapper geht es darum, Ihr Projekt mithilfe dieser Technologien zum digitalen Leben zu erwecken.
+tagline: Digitale Projekte in Wissensmanagement und -transfer
+description: Es gibt viele tolle Orte, um Daten und Informationen aus Ihrem Wissensbereich zu nutzen und auszutauschen. kmapper erweckt ihr Projekt zum digitalen Leben.
 permalink: /:collection/
 ---

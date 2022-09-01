@@ -4,18 +4,16 @@ uid: dev
 title: Development
 description: kmapper develops websites, web applications, web services and documentation
 terms: 
-  - HTML/CSS
   - JavaScript
-  - Vue.js
+  - HTML
+  - CSS/SCSS
   - D3.js
-  - Nuxt.js
-  - VuePress
+  - Vue.js
   - Jekyll
   - Python
   - Flask
-  - XSL
-  - SQL
   - NoSQL
+  - SQL
 image: circles_en_lato-3-color.png
 ---
 

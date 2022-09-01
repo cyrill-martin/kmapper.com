@@ -12,6 +12,9 @@ layout: default
 				{%- if page.subtitle -%}
 					<h2>{{ page.subtitle }}</h2>
 				{%- endif -%}
+				{%- if page.tagline -%}
+					<h3 class="tagline">{{ page.tagline }}</h3>
+				{%- endif -%}
 			</div>
 			<img src="{{ "/" | relative_url }}assets/images/kmapper_k.png">
 			<div >
