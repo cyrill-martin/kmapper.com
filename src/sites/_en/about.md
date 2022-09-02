@@ -4,7 +4,7 @@ uid: abt
 title: About kmapper
 description: kmapper supports you and your organization during your knowledge project and is based on the principles of feedback, simplicity, and change
 
-p-1-kmapper: There are many great places to use and share data and information from your domain of knowledge. Technology is just a tool to do so. kmapper is a single-person company supporting you to bring your real-world project to digital life. kmapper's favorite place to do so is the web and web technologies are the best tools for this.
+p-1-kmapper: There are many great places to use and share data and information from your domain of knowledge. Technology is just a tool to do so. kmapper is a single-person company supporting you in curating, organizing, and publishing your data and information. kmapper's favorite place to do so is the web and web technologies are the best tools for this.
 
 p-2-kmapper: kmapper is rooted in the open project <a href="https://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research articles to visualize subjects in an interdisciplinary context.
 
