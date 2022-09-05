@@ -282,7 +282,7 @@ table td { padding-right: 1rem; }
 
 .team-member { position: relative; width: 100%; max-width: 225px; margin-top: 1.5em; }
 
-.service-image p { width: 40%; min-width: 500px; font-size: 0.8rem; text-align: center; }
+.service-image p { width: 40%; min-width: 500px; text-align: center; }
 
 .service-image p img { width: 40%; min-width: 500px; }
 
