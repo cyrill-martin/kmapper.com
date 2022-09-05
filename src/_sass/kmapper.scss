@@ -316,11 +316,15 @@ table {
 }
 
 .service-image {
-  img, p {
+  p {
     width: 40%;
     min-width: 500px;
     font-size: 0.8rem;
     text-align: center;
+    img {
+      width: 40%;
+      min-width: 500px;
+    }
   }
 }
 
@@ -403,6 +407,10 @@ table {
     font-size: 1.4rem;
   }
 
+  h3 {
+    font-size: 1rem;
+  }
+
   .home {
     position: relative;
     width: 100%;
@@ -477,11 +485,13 @@ table {
   }
 
   .service-image {
-    text-align: center;
-    width: 100%;
-    img {
+    p {
       width: 100%;
       min-width: 325px;
+      img {
+        width: 100%;
+        min-width: 325px;
+      }
     }
   }
 

@@ -19,7 +19,9 @@ layout: default
     	</div>
 
       <div class="service-image">
-        <p><img src="{% capture url %}/assets/images/{{ page.image }}{% endcapture %}{{ url | relative_url }}"></p>
+        <p>
+          <img src="{% capture url %}/assets/images/{{ page.image }}{% endcapture %}{{ url | relative_url }}">
+        </p>
         {%- if page.lang == "en" -%}
           <p>Knowledge management cycle</p>
         {%- else -%}
