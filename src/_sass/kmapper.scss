@@ -316,11 +316,11 @@ table {
 }
 
 .service-image {
-  position: relative;
-  width: 100%;
-  img {
+  img, p {
     width: 40%;
     min-width: 500px;
+    font-size: 0.8rem;
+    text-align: center;
   }
 }
 

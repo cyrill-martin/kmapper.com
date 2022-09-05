@@ -5,19 +5,6 @@ title: Projekte
 description: kmapper begleitet Sie von der Idee über die Architektur bis hin zur fertigen Applikation
 
 projects:
-- title: swisspolls
-  link_text: swisspolls.kmapper.com
-  url: https://swisspolls.kmapper.com
-  image: swisspolls.png
-  image_mobile: swisspolls_mobile.png
-  desc: 
-    <p>
-      Visualisierungen der swissvotes-Datensätze der Nachbefragungen zu den eidgenössischen Volksabstimmungen.
-    </p>
-  stack: 
-    - Vue.js
-    - D3.js
-    - Firebase
 - title: Unterschiedliche Perspektiven auf den Schweizer Nationalrat
   link_text: nationalrat.kmapper.com
   url: http://nationalrat.kmapper.com
@@ -44,6 +31,19 @@ projects:
     - Flask
     - Heroku
     - Vue.js
+    - Firebase
+- title: swisspolls
+  link_text: swisspolls.kmapper.com
+  url: https://swisspolls.kmapper.com
+  image: swisspolls.png
+  image_mobile: swisspolls_mobile.png
+  desc: 
+    <p>
+      Visualisierungen der swissvotes-Datensätze der Nachbefragungen zu den eidgenössischen Volksabstimmungen.
+    </p>
+  stack: 
+    - Vue.js
+    - D3.js
     - Firebase
 - title: Domain-Ontologien für die Geisteswissenschaften
   link_text: e-editiones.ch

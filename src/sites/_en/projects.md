@@ -4,19 +4,6 @@ uid: prj
 title: Projects
 description: With kmapper, you go from idea to architecture to finished application
 projects:
-- title: swisspolls
-  link_text: swisspolls.kmapper.com
-  url: https://swisspolls.kmapper.com
-  image: swisspolls.png
-  image_mobile: swisspolls_mobile.png
-  desc: 
-    <p>
-      Visualizations of the swissvotes data sets of the federal referendums follow-up surveys.
-    </p>
-  stack: 
-    - Vue.js
-    - D3.js
-    - Firebase
 - title: Different Perspectives on the Swiss National Council
   link_text: nationalrat.kmapper.com
   url: http://nationalrat.kmapper.com
@@ -43,6 +30,19 @@ projects:
     - Flask
     - Heroku
     - Vue.js
+    - Firebase
+- title: swisspolls
+  link_text: swisspolls.kmapper.com
+  url: https://swisspolls.kmapper.com
+  image: swisspolls.png
+  image_mobile: swisspolls_mobile.png
+  desc: 
+    <p>
+      Visualizations of the swissvotes data sets of the federal referendums follow-up surveys.
+    </p>
+  stack: 
+    - Vue.js
+    - D3.js
     - Firebase
 - title: Domain Ontologies for the Humanities
   link_text: e-editiones.ch
