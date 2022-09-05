@@ -1,10 +1,5 @@
 <div class="site-imprint-sm">
-  {{ site.company }}
-  {%- if page.lang == "de" -%}
-    &nbsp;{{ site.companyAddOn_de }}<br>
-  {%- else -%}
-    &nbsp;{{ site.companyAddOn_en }}<br>
-  {%- endif -%}
+  {{ site.company }} <br>
   Austrasse 52 <br>
   4051 Basel <br>
   {%- if page.lang == "de" -%}
@@ -18,5 +13,11 @@
   <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </div>
 <div class="copyright-statement">
-  &#169; {{ 'now' | date: "%Y" + 1 }} {{ site.company }}
+  &#169; {{ 'now' | date: "%Y" + 1 }} {{ site.company }} &#183;&nbsp;
+  {%- if page.lang == "de" -%}
+  <a href="{{ "/" | relative_url }}de/impressum/">Impressum</a>
+  {%- else -%}
+  <a href="{{ "/" | relative_url }}en/imprint/">Imprint</a>
+  {%- endif -%}
+  
 </div>
