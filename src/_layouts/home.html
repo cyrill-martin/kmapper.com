@@ -15,6 +15,9 @@ layout: default
 				{%- if page.tagline -%}
 					<h3 class="tagline">{{ page.tagline }}</h3>
 				{%- endif -%}
+				{%- if page.deliverables -%}
+					<h4 class="deliverables">{{ page.deliverables }}</h3>
+				{%- endif -%}
 			</div>
 			<img src="{{ "/" | relative_url }}assets/images/kmapper_k.png">
 			<div >

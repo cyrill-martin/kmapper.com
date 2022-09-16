@@ -212,6 +212,14 @@ table {
       margin-top: 0;
       font-weight: 400;
     }
+    h4 {
+      margin-top: 0;
+      // font-weight: 400;
+    }
+  }
+
+  .tagline {
+    margin-bottom: 0;
   }
 
   img {
@@ -319,7 +327,6 @@ table {
   p {
     width: 40%;
     min-width: 500px;
-    font-size: 0.8rem;
     text-align: center;
     img {
       width: 40%;
@@ -402,15 +409,15 @@ table {
   h1 {
     font-size: 1.8rem;
   }
-
   h2 {
     font-size: 1.4rem;
   }
-
   h3 {
     font-size: 1rem;
   }
-
+  h4 {
+    font-size: 0.9rem;
+  }
   .home {
     position: relative;
     width: 100%;

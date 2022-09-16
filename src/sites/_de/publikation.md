@@ -11,9 +11,10 @@ terms:
   - Integrieren
   - Einsetzen
   - Rapportieren
-  - Vermitteln
   - Teilen
+  - Vermitteln
 image: publikation.png
 ---
 
-Die Daten und Informationen, die Sie mit Ihren Nutzern teilen möchten, werden ihnen zugänglich gemacht. 
+Die Daten und Informationen, die Sie mit Ihren Nutzern teilen möchten, werden ihnen zugänglich gemacht.<br>
+Als Website, Webservice, API oder Dokumentation. 

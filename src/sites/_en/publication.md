@@ -16,4 +16,5 @@ terms:
 image: publication.png
 --- 
 
-The data and information you intend to distribute to your users is being made accessible to them.
+The data and information you intend to distribute to your users is being made accessible to them.<br>
+As a website, webservice, API, or documentation.

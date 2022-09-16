@@ -16,6 +16,6 @@ terms:
 image: organization.png
 ---
 
-The curated subset of data and information you intend to distributed to your users is being thoroughly tapped in and documented.
+The curated subset of data and information you intend to distribute to your users is being thoroughly tapped in and documented.
 
 With the organized data and information, you move to the next project phase:
