@@ -1,7 +1,7 @@
 ---
 layout: projects
 uid: prj
-title: Projects
+title: Public Projects
 description: With kmapper, you go from idea to architecture to finished application
 projects:
 - title: Different Perspectives on the Swiss National Council

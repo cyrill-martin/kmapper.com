@@ -19,7 +19,7 @@ It makes use of the npm package gh-pages in order to push the built files to the
 1. Run `npm install` to install the needed npm packages
 1. Run `npm run start` to transpile the JavaScript and start the Jekyll server
    
-   Check the "start" script in `package.json`. `npm run start will execute the following`: 
+   Check the "start" script in `package.json`. `npm run start` will execute the following: 
    `./node_modules/.bin/webpack --watch | jekyll serve --config _config.yml,_config_dev.yml`
 
 ### Custom JavaScript

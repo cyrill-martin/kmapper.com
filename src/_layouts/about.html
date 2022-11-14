@@ -8,6 +8,16 @@ layout: default
     <!-- Show page title -->
     <h1>{{ page.title }}</h1>
     {%- endif -%}
+    <h3>{{ page.h3-clients }}</h3>
+    <p>{{ page.p1-clients }}</p>
+    <ul>
+      {%- for client in page.clients -%}
+        <li>{{ client.name }}</li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <div class="col-12">
+    <h3>{{ page.h3-about }}</h3>
     <p>{{ page.p-1-kmapper }}</p>
     <p>{{ page.p-2-kmapper }}</p>
     <h3>{{ page.h3-principles }}</h3>

@@ -1,10 +1,22 @@
 ---
 layout: about
 uid: abt
-title: About kmapper
+title: kmapper
 description: kmapper supports you and your organization during your knowledge project and is based on the principles of feedback, simplicity, and change
 
-p-1-kmapper: There are many great places to use and share data and information from your domain of knowledge. Technology is just a tool to do so. kmapper is a single-person company supporting you in curating, organizing, and publishing your data and information. kmapper's favorite place to do so is the web and web technologies are the best tools for this.
+h3-clients: Clients
+
+p1-clients: Companies and organizations kmapper has worked with&#58;
+
+clients:
+- name: Karger Publishers
+- name: Federal Office of Public Health FOPH
+- name: Mosanna Therapeutics AG
+- name: openfirst.ch
+
+h3-about: About
+
+p-1-kmapper: There are many great places to use and share data and information from your domain of knowledge. Technology is just a tool to do so. kmapper is a one-person company dedicated to helping you curate, organize and publish your data and information. kmapper's favorite place to do so is the web and web technologies are the best tools for this.
 
 p-2-kmapper: kmapper is rooted in the open project <a href="https://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research articles to visualize subjects in an interdisciplinary context.
 
@@ -33,7 +45,7 @@ p-2-change: Changes are embraced and new requirements are planned for the next i
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>I'm a developer and business analyst, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring data and content for humans and machines.</p><p>I've worked in research and publishing environments before founding kmapper GmbH. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
+  desc: <p>I'm a developer, business analyst, and requirements engineer, dedicated to interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring data and content for humans and machines.</p><p>I've worked in research and publishing environments before founding kmapper GmbH. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
   socials:
     - <a href="https://www.linkedin.com/in/cyrill-martin/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>

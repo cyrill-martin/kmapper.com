@@ -1,8 +1,20 @@
 ---
 layout: about
 uid: abt
-title: Über kmapper
+title: kmapper
 description: kmapper unterstützt Sie und Ihre Organisation bei Ihrem Wissensprojekt und basiert auf den Prinzipien Feedback, Simplicity und Change
+
+h3-clients: Kunden
+
+p1-clients: Unternehmen und Organisationen, mit denen kmapper zusammengearbeitet hat&#58;
+
+clients:
+- name: Karger Publishers
+- name: Bundesamt für Gesundheit BAG
+- name: Mosanna Therapeutics AG
+- name: openfirst.ch
+
+h3-about: Über
 
 p-1-kmapper: Es gibt viele grossartige Orte, an denen Sie Daten und Informationen aus Ihrem Wissensbereich nutzen und teilen können. Technologie ist nur ein Werkzeug, um dies zu tun. kmapper ist ein Ein-Personen-Unternehmen, das Sie bei der Kuration, Organisation und Publikation Ihrer Daten und Informationen unterstützt. kmappers bevorzugter Ort dafür ist das Web, und Web-Technologien sind die besten Werkzeuge dazu.
 
@@ -33,7 +45,7 @@ p-2-change: Änderungen werden berücksichtigt und neue Anforderungen für die n
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>Ich bin Entwickler und Business Analyst, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Daten und Inhalten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet, bevor ich die kmapper GmbH gegründet habe. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
+  desc: <p>Ich bin Entwickler, Business Analyst und Requirements Engineer, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Daten und Inhalten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet, bevor ich die kmapper GmbH gegründet habe. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
   socials:
     - <a href="https://www.linkedin.com/in/cyrill-martin/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>

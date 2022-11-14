@@ -1,7 +1,7 @@
 ---
 layout: projects
 uid: prj
-title: Projekte
+title: Öffentliche Projekte
 description: kmapper begleitet Sie von der Idee über die Architektur bis hin zur fertigen Applikation
 
 projects:
