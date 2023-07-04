@@ -45,11 +45,11 @@ p-2-change: Änderungen werden berücksichtigt und neue Anforderungen für die n
 people:
 - name: Cyrill Martin
   image: cyrill.png
-  desc: <p>Ich bin Entwickler, Business Analyst und Requirements Engineer, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Daten und Inhalten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet, bevor ich die kmapper GmbH gegründet habe. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
+  desc: <p>Ich bin ein kreativer Data Consultant, der sich interdisziplinären Perspektiven auf die Informationsbeschaffung und den Wissenstransfer gewidmet hat - erfahren in der Strukturierung von Daten und Inhalten für Mensch und Maschine.</p><p>Ich habe im Forschungs- und Verlagswesen gearbeitet, bevor ich die kmapper GmbH gegründet habe. Hier können Sie einen Blick in meinen Lebenslauf werfen&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a>.</p>
   socials:
     - <a href="https://www.linkedin.com/in/cyrill-martin/" target="_blank">LinkedIn</a>
     - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>
     - <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
 
-p-karlie: Für den Designteil in Projekten arbeitet kmapper mit der <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>, ein Markenbüro für Strategie und Design.
+p-karlie: Logo-Designs von <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>.
 ---
