@@ -18,7 +18,7 @@ projects:
 - title: Different Perspectives on the Swiss parliament
   link_text: parlament.kmapper.com
   url: https://parlament.kmapper.com
-  image: nationalrat.kmapper.com_EN.png
+  image: parlament.kmapper.com_EN.png
   desc: 
     <p>
       The dynamic visualization shows the distribution of seats for members of the Swiss parliament in relation to an additional feature.
