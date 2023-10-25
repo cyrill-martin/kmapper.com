@@ -16,13 +16,13 @@ projects:
   stack: 
     - Vue.js
     - D3.js
-- title: Unterschiedliche Perspektiven auf den Schweizer Nationalrat
-  link_text: nationalrat.kmapper.com
-  url: http://nationalrat.kmapper.com
+- title: Unterschiedliche Perspektiven auf das Schweizer Parlament
+  link_text: parlament.kmapper.com
+  url: https://parlament.kmapper.com
   image: nationalrat.kmapper.com_DE.png
   desc: 
     <p>
-      Die dynamische Visualisierung zeigt die Sitzverteilung der 200 Mitglieder des Nationalrats in Relation zu einem zusätzlich wählbaren Merkmal.
+      Die dynamische Visualisierung zeigt die Sitzverteilung der Mitglieder des Schweizer Parlaments in Relation zu einem zusätzlich wählbaren Merkmal.
     </p>
   stack: 
     - Vue.js

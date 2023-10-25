@@ -15,13 +15,13 @@ projects:
   stack: 
     - Vue.js
     - D3.js
-- title: Different Perspectives on the Swiss National Council
-  link_text: nationalrat.kmapper.com
-  url: http://nationalrat.kmapper.com
+- title: Different Perspectives on the Swiss parliament
+  link_text: parlament.kmapper.com
+  url: https://parlament.kmapper.com
   image: nationalrat.kmapper.com_EN.png
   desc: 
     <p>
-      The dynamic visualization shows the distribution of seats for the 200 members of the National Council in relation to an additional feature.
+      The dynamic visualization shows the distribution of seats for members of the Swiss parliament in relation to an additional feature.
     </p>
   stack: 
     - Vue.js
