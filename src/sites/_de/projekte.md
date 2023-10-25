@@ -27,19 +27,6 @@ projects:
   stack: 
     - Vue.js
     - D3.js
-- title: Open Data-Suchresultate
-  link_text: openfirst.ch
-  url: https://openfirst.ch
-  image: openfirst.ch_.png
-  desc: 
-    <p>
-      openfirst.ch ist ein laufendes Projekt, welches offene Datenquellen besser zugänglich macht. Wer am Anfang einer Recherche steht und sich schnell und zuverlässig ein Bild zu einem bestimmten Thema machen will, wird bei einer klassischen Suche von mehrheitlich nicht zielführenden Resultaten überschwemmt. Die Suchmaschine openfirst.ch liefert weniger, aber qualifiziertere Treffer und teilt sie in der Anfangstestphase in die fünf Kategorien Medien, Institutionen, Statistiken, Wissenschaft und Wikipedia ein.
-    </p>
-  stack: 
-    - Python
-    - Flask
-    - Vue.js
-    - Google Firebase
 - title: swisspolls
   link_text: swisspolls.kmapper.com
   url: https://swisspolls.kmapper.com
@@ -54,7 +41,7 @@ projects:
     - Google Firebase
 - title: Themen im interdisziplinären Kontext visualisiert
   link_text: kmapper.org
-  url: https://kmapper.org/doaj?q=sustainability
+  url: https://kmapper.org
   image: kmapperOrg.png
   desc:
     <p>
