@@ -12,7 +12,6 @@ clients:
 - name: Karger Publishers
 - name: Federal Office of Public Health FOPH
 - name: Mosanna Therapeutics AG
-- name: openfirst.ch
 
 h3-about: About
 

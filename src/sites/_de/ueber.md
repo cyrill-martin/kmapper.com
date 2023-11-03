@@ -12,7 +12,6 @@ clients:
 - name: Karger Publishers
 - name: Bundesamt für Gesundheit BAG
 - name: Mosanna Therapeutics AG
-- name: openfirst.ch
 
 h3-about: Über
 
