@@ -13,7 +13,7 @@ terms:
   - Bewerten
   - Filtern
   - Inventarisieren
-image: kuration.png
+image: curation.png
 ---
 
 Basierend auf Ihren speziellen Kriterien und den Informationen, die Sie mit Ihren Nutzern teilen möchten, wird eine Auswahl von Daten und Informationen getroffen.

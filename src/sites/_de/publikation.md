@@ -13,7 +13,7 @@ terms:
   - Rapportieren
   - Teilen
   - Vermitteln
-image: publikation.png
+image: publication.png
 ---
 
 Die Daten und Informationen, die Sie mit Ihren Nutzern teilen möchten, werden ihnen zugänglich gemacht.<br>

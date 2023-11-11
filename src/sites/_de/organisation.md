@@ -13,7 +13,7 @@ terms:
   - Testen
   - Evaluieren
   - Iterieren
-image: organisation.png
+image: organization.png
 ---
 
 Die kuratierte Auswahl von Daten und Informationen, die Sie mit Ihren Nutzern teilen möchten, wird gründlich erschlossen und dokumentiert.
