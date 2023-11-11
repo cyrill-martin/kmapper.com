@@ -9,9 +9,6 @@ p-1: Diese Reihe von Tutorials soll einen Überblick darüber geben, was passier
 p-2-tutorials: 
 - <a href="/de/tutorials/url-aufrufen">Eine URL mit dem Browser aufrufen</a>
 - <a href="/de/tutorials/html-css-javascript">HTML, CSS, JavaScript - Die Frontend-Bausteine</a>
-- Cookies (coming soon)
-- HTTPS (coming soon)
-- Die Backend-Bausteine (coming soon)
 
 p-3: Ein besseres Verständnis der grundlegenden Prinzipien, wenn auch auf sehr abstrakter Ebene, erleichtert die Arbeit in Web-Projekten und das Gespräch mit Web-Entwicklern. Die Tutorials vermeiden es, sich in Details zu verlieren. Während sie ermutigen, sich der Komplexität der Dinge bewusst zu werden, ermutigen sie auch, die Details zu ignorieren. 
 
