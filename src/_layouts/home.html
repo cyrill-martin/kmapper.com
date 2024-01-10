@@ -12,8 +12,18 @@ layout: default
 				{%- if page.subtitle -%}
 					<h2>{{ page.subtitle }}</h2>
 				{%- endif -%}
-				{%- if page.tagline -%}
-					<h3 class="tagline">{{ page.tagline }}</h3>
+				{%- if page.lang == "de" -%}
+					<h3 class="tagline">
+						<a href="{{ "/" | relative_url }}de/kuration/" class="tagline-nav">Kuration</a>, 
+						<a href="{{ "/" | relative_url }}de/organisation/" class="tagline-nav">Organisation</a> und  
+						<a href="{{ "/" | relative_url }}de/publikation/" class="tagline-nav">Publikation</a> Ihrer Daten und Informationen
+					</h3>
+				{%- else -%}
+					<h3 class="tagline">
+						<a href="{{ "/" | relative_url }}en/curation/" class="tagline-nav">Curation</a>, 
+						<a href="{{ "/" | relative_url }}en/organization/" class="tagline-nav">organization</a>, and  
+						<a href="{{ "/" | relative_url }}en/publication/" class="tagline-nav">publication</a> of your data and information
+					</h3>
 				{%- endif -%}
 				{% comment %}
 				{%- if page.deliverables -%}

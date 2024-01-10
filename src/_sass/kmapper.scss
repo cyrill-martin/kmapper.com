@@ -214,12 +214,23 @@ table {
     }
     h4 {
       margin-top: 0;
-      // font-weight: 400;
     }
   }
 
   .tagline {
     margin-bottom: 0;
+  }
+
+  .tagline-nav {
+    background: #333447;
+    color: white;
+    // text-decoration: underline;
+  }
+
+  .tagline-nav:hover {
+    text-decoration: none;
+    color: white;
+    background: #514efd;
   }
 
   img {
