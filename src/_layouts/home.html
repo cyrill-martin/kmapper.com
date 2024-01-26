@@ -6,36 +6,42 @@ layout: default
 
 		<div class="home">
 			<div class="site-titles">
-				{%- if page.title and page.title != "Index" -%}
+				<!-- {%- if page.title and page.title != "Index" -%}
 					<h1>{{ page.title }}</h1>
-				{%- endif -%}
-				{%- if page.subtitle -%}
+				{%- endif -%} -->
+				<!-- {%- if page.subtitle -%}
 					<h2>{{ page.subtitle }}</h2>
-				{%- endif -%}
+				{%- endif -%} -->
 				{%- if page.lang == "de" -%}
-					<h3 class="tagline">
+					<h1 class="tagline">
+						Agentur für die<br />
 						<a href="{{ "/" | relative_url }}de/kuration/" class="tagline-nav">Kuration</a>, 
-						<a href="{{ "/" | relative_url }}de/organisation/" class="tagline-nav">Organisation</a> und  
-						<a href="{{ "/" | relative_url }}de/publikation/" class="tagline-nav">Publikation</a> Ihrer Daten und Informationen
-					</h3>
+						<a href="{{ "/" | relative_url }}de/organisation/" class="tagline-nav">Organisation</a> und
+						<a href="{{ "/" | relative_url }}de/publikation/" class="tagline-nav">Publikation</a><br />
+						Ihrer Daten und Informationen
+					</h1>
 				{%- else -%}
-					<h3 class="tagline">
-						<a href="{{ "/" | relative_url }}en/curation/" class="tagline-nav">Curation</a>, 
-						<a href="{{ "/" | relative_url }}en/organization/" class="tagline-nav">organization</a>, and  
-						<a href="{{ "/" | relative_url }}en/publication/" class="tagline-nav">publication</a> of your data and information
-					</h3>
+					<h1 class="tagline">
+						Agency for the<br />
+						<a href="{{ "/" | relative_url }}en/curation/" class="tagline-nav">curation</a>,
+						<a href="{{ "/" | relative_url }}en/organization/" class="tagline-nav">organization</a>, and
+						<a href="{{ "/" | relative_url }}en/publication/" class="tagline-nav">publication</a><br />
+						of your data and information
+					</h1>
 				{%- endif -%}
-				{% comment %}
+				<div class="home-terms">
+  		  	{{ page.terms | join: " &#183; " }}
+    		</div>
+				<!-- {% comment %}
 				{%- if page.deliverables -%}
 					<h4 class="deliverables">{{ page.deliverables }}</h3>
 				{%- endif -%}
-				{% endcomment  %}
+				{% endcomment  %} -->
 			</div>
 			<img src="{{ "/" | relative_url }}assets/images/kmapper_k.png">
 			<div >
 				{{ content }}
 			</div>
 		</div>
-
 	</div>
 </div>

@@ -218,13 +218,12 @@ table {
   }
 
   .tagline {
-    margin-bottom: 0;
+    margin: 6rem 0;
   }
 
   .tagline-nav {
     background: #333447;
     color: white;
-    // text-decoration: underline;
   }
 
   .tagline-nav:hover {
@@ -319,6 +318,12 @@ table {
   bottom: $margin * 2;
   right: $margin * 2;
   font-size: 0.8rem;
+}
+
+.home-terms {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-top: 2rem;
 }
 
 .service-terms {
