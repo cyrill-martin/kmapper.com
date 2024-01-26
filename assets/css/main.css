@@ -248,7 +248,7 @@ table td { padding-right: 1rem; }
 
 .home .site-titles h4 { margin-top: 0; }
 
-.home .tagline { margin: 6rem 0; }
+.home .tagline { margin: 1rem 0; }
 
 .home .tagline-nav { background: #333447; color: white; }
 
@@ -286,7 +286,7 @@ table td { padding-right: 1rem; }
 
 .copyright-statement { position: fixed; bottom: 1rem; right: 1rem; font-size: 0.8rem; }
 
-.home-terms { font-size: 1.125rem; font-weight: bold; margin-top: 2rem; }
+.home-terms { font-size: 1.125rem; font-weight: bold; margin-top: 1.5rem; }
 
 .service-terms { font-size: 1.125rem; font-weight: bold; margin-bottom: 50px; }
 
