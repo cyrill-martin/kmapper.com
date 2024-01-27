@@ -1,7 +1,7 @@
 ---
 layout: service
 uid: org
-title: Datenorganisation
+title: Organisation
 description: kmapper organisiert Ihre Daten und Informationen, für Sie und Ihre Nutzer. 
 terms: 
   - Anordnen

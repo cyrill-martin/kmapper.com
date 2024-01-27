@@ -1,7 +1,7 @@
 ---
 layout: service
 uid: pub 
-title: Data Publication
+title: Publication
 description: kmapper distributes and publishes your data and information to your users.
 terms: 
   - Design
