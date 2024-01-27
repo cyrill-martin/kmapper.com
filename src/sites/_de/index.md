@@ -1,10 +1,12 @@
 ---
 layout: home
+lang: de
 uid: hme
+title: Kuration, Organisation und Publikation von Ihren Daten und Informationen
 terms: 
  - Business-Analyse
  - Requirements Engineering
  - Entwicklung
-description: Agentur in Basel für die Kuration, Organisation und Publikation Ihrer Daten und Informationen.
+description: kmapper ist eine Agentur in Basel für die Kuration, Organisation und Publikation Ihrer Daten und Informationen. Im Angebot sind Business-Analyse, Requirements Engineering und Entwicklung.
 permalink: /:collection/
 ---

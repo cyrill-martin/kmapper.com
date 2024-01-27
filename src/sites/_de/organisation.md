@@ -1,18 +1,19 @@
 ---
 layout: service
 uid: org
-title: Organisation
-description: kmapper organisiert die kuratierten Daten und Informationen, die Sie mit Ihren Nutzern teilen möchten
+title: Datenorganisation
+description: kmapper organisiert Ihre Daten und Informationen, für Sie und Ihre Nutzer. 
 terms: 
+  - Anordnen
+  - Aggregieren
   - Klassifizieren
-  - Indexieren
   - Strukturieren
-  - Bereinigen
-  - Transformieren
+  - Abbilden
   - Modellieren
-  - Testen
-  - Evaluieren
-  - Iterieren
+  - Speichern
+  - Transformieren
+  - Aktualisieren
+  - Abfragen
 image: organization.png
 ---
 

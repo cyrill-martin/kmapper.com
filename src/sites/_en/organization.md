@@ -1,18 +1,19 @@
 ---
 layout: service
 uid: org
-title: Organization
-description: kmapper organized the curated data and information that should be distributed to your users
+title: Data Organization
+description: kmapper organizes your data and information for you and your users.
 terms: 
+  - Arrange
+  - Aggregate
   - Classify
-  - Index
   - Structure
-  - Cleanse
-  - Transform
+  - Map
   - Model
-  - Test
-  - Evaluate
-  - Iterate
+  - Store
+  - Transform
+  - Update
+  - Query
 image: organization.png
 ---
 

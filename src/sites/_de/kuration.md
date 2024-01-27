@@ -1,18 +1,19 @@
 ---
 layout: service
 uid: cur
-title: Kuration
-description: kmapper kuratiert die Daten und Informationen, die Ihren Nutzern zugänglich gemacht werden sollen
+title: Datenkuration
+description: kmapper kuratiert die für Sie und Ihre Nutzer relevanten Daten und Informationen.
 terms: 
+  - Entdecken
   - Sammeln
-  - Selektieren
-  - Parsen
-  - Analysieren
-  - Begutachten
   - Validieren
-  - Bewerten
   - Filtern
-  - Inventarisieren
+  - Aufbereiten
+  - Anreichern
+  - Annotieren
+  - Bewahren 
+  - Analysieren
+  - Visualisieren
 image: curation.png
 ---
 

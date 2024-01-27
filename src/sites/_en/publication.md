@@ -1,18 +1,19 @@
 ---
 layout: service
 uid: pub 
-title: Publication
-description: kmapper makes data and information accessible to your users
+title: Data Publication
+description: kmapper distributes and publishes your data and information to your users.
 terms: 
   - Design
-  - Visualize
-  - Guide
   - Develop
-  - Integrate
-  - Deploy
+  - Plot
+  - Visualize
+  - Customize
   - Report
-  - Share
   - Transfer
+  - Distribute
+  - Share
+  - Export
 image: publication.png
 --- 
 
