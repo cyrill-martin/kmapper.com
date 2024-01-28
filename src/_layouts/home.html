@@ -2,8 +2,7 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-12">
-
+  <div class="col-12">
 		<div class="home">
 			<div class="site-titles">
 				{%- if page.lang == "de" -%}
@@ -23,9 +22,12 @@ layout: default
 						of your data and information
 					</h1>
 				{%- endif -%}
-				<div class="home-terms">
+				<!-- <div class="home-terms">
   		  	{{ page.terms | join: " &#183; " }}
-    		</div>
+    		</div> -->
+				<h2>
+  		  	{{ page.terms | join: " &#183; " }}
+    		</h2>
 			</div>
 			<img src="{{ "/" | relative_url }}assets/images/kmapper_k.png">
 			<div >

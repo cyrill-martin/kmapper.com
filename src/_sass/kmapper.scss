@@ -3,8 +3,6 @@
 // Import partials
 @import "cookieconsent", "simple-grid", "hamburgers/hamburgers";
 
-$logo-width: 120px;
-$margin: 0.5rem;
 $opacity: 0.8;
 
 // blueish
@@ -166,6 +164,63 @@ $grad-4-5: linear-gradient(
   background: $grad-4-5;
 }
 
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+$margin: 0.5rem;
+$dark-grey: #333447;
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: $dark-grey;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  // word breaks
+  // these are technically the same, but use both
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  // adds a hyphen where the word breaks, if supported
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
 a {
   color: #514efd;
   text-decoration: none;
@@ -182,11 +237,9 @@ ul {
 }
 
 table {
-  // Like p
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.8;
-
   td {
     padding-right: 1rem;
   }
@@ -201,37 +254,27 @@ table {
     position: absolute;
     top: $margin * 0.1;
 
-    h1 {
-      margin-bottom: 0;
+    .tagline {
+      margin: 1rem 0;
+
+      .tagline-nav {
+        background: #333447;
+        color: white;
+      }
+
+      .tagline-nav:hover {
+        text-decoration: none;
+        color: white;
+        background: #514efd;
+      }
+
     }
-    h2 {
-      margin-top: 0;
-      font-weight: 400;
-    }
-    h3 {
-      margin-top: 0;
-      font-weight: 400;
-    }
-    h4 {
-      margin-top: 0;
+    .home-terms {
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-top: 1.5rem;
     }
   }
-
-  .tagline {
-    margin: 1rem 0;
-  }
-
-  .tagline-nav {
-    background: #333447;
-    color: white;
-  }
-
-  .tagline-nav:hover {
-    text-decoration: none;
-    color: white;
-    background: #514efd;
-  }
-
   img {
     margin-top: $margin * 2;
     height: 100%;
@@ -249,9 +292,9 @@ table {
   z-index: 10;
 
   .site-logo {
-    width: $logo-width;
+    width: 120px;
     img {
-      width: $logo-width;
+      width: 120px;
     }
   }
 
@@ -262,11 +305,12 @@ table {
   }
 
   .site-links {
-    #services {
+
+    .site-services {
       font-size: 1.1em;
     }
 
-    #projects {
+    .site-projects {
       margin-top: 1.2rem;
 
       #kmapper-preview {
@@ -282,7 +326,7 @@ table {
       }
     }
 
-    #info {
+    .site-info {
       position: fixed;
       bottom: 180px;
     }
@@ -318,12 +362,6 @@ table {
   bottom: $margin * 2;
   right: $margin * 2;
   font-size: 0.8rem;
-}
-
-.home-terms {
-  font-size: 1.125rem;
-  font-weight: bold;
-  margin-top: 1.5rem;
 }
 
 .service-terms {
@@ -426,7 +464,7 @@ table {
     font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
   }
   h3 {
     font-size: 1rem;
@@ -481,11 +519,11 @@ table {
         margin: $margin * 2 0 $margin * 4 0;
       }
 
-      #projects {
+      .site-projects {
         margin-top: 2rem;
       }
 
-      #info {
+      .site-info {
         position: relative;
         top: 0;
         margin-top: 2rem;
