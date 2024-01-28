@@ -114,40 +114,6 @@
 
 .cc-floating.cc-theme-edgeless .cc-btn + .cc-btn { margin-left: 0; }
 
-html, body { height: 100%; width: 100%; margin: 0; padding: 0; left: 0; top: 0; font-size: 100%; }
-
-* { font-family: "Lato", Helvetica, sans-serif; color: #333447; line-height: 1.5; }
-
-h1 { font-size: 2.5rem; overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; }
-
-h2 { font-size: 2rem; }
-
-h3 { font-size: 1.375rem; }
-
-h4 { font-size: 1.125rem; }
-
-h5 { font-size: 1rem; }
-
-h6 { font-size: 0.875rem; }
-
-p { font-size: 1.125rem; font-weight: 400; line-height: 1.8; }
-
-.font-light { font-weight: 300; }
-
-.font-regular { font-weight: 400; }
-
-.font-heavy { font-weight: 700; }
-
-.left { text-align: left; }
-
-.right { text-align: right; }
-
-.center { text-align: center; margin-left: auto; margin-right: auto; }
-
-.justify { text-align: justify; }
-
-.hidden-sm { display: none; }
-
 .container { width: 100%; }
 
 @media only screen and (min-width: 33.75em) { .container { width: 100%; } }
@@ -186,7 +152,7 @@ p { font-size: 1.125rem; font-weight: 400; line-height: 1.8; }
 
 .col-12-sm { width: 96%; }
 
-@media only screen and (min-width: 45em) { .col-1 { width: 4.3333333333%; } .col-2 { width: 12.6666666667%; } .col-3 { width: 21%; } .col-4 { width: 29.3333333333%; } .col-5 { width: 37.6666666667%; } .col-6 { width: 46%; } .col-7 { width: 54.3333333333%; } .col-8 { width: 62.6666666667%; } .col-9 { width: 71%; } .col-10 { width: 79.3333333333%; } .col-11 { width: 87.6666666667%; } .col-12 { width: 96%; } .hidden-sm { display: block; } }
+@media only screen and (min-width: 45em) { .col-1 { width: 4.3333333333%; } .col-2 { width: 12.6666666667%; } .col-3 { width: 21%; } .col-4 { width: 29.3333333333%; } .col-5 { width: 37.6666666667%; } .col-6 { width: 46%; } .col-7 { width: 54.3333333333%; } .col-8 { width: 62.6666666667%; } .col-9 { width: 71%; } .col-10 { width: 79.3333333333%; } .col-11 { width: 87.6666666667%; } .col-12 { width: 96%; } }
 
 /*! Hamburgers @description Tasty CSS-animated hamburgers @author Jonathan Suh @jonsuh @site https://jonsuh.com/hamburgers @link https://github.com/jonsuh/hamburgers */
 .hamburger { padding: 10px 10px; display: inline-block; cursor: pointer; transition-property: opacity, filter; transition-duration: 0.15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; }
@@ -226,6 +192,20 @@ p { font-size: 1.125rem; font-weight: 400; line-height: 1.8; }
 
 .grad-greenish { background: -webkit-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: -o-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: -ms-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: -moz-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: linear-gradient(to left, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); }
 
+html, body { height: 100%; width: 100%; margin: 0; padding: 0; left: 0; top: 0; font-size: 100%; }
+
+* { font-family: 'Lato', Helvetica, sans-serif; color: #333447; line-height: 1.5; }
+
+h1 { font-size: 2.5rem; overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; }
+
+h2 { font-size: 1.5rem; }
+
+h3 { font-size: 1.375rem; }
+
+h4 { font-size: 1.125rem; }
+
+p { font-size: 1.125rem; font-weight: 400; line-height: 1.8; }
+
 a { color: #514efd; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
@@ -240,19 +220,13 @@ table td { padding-right: 1rem; }
 
 .home .site-titles { position: absolute; top: 0.05rem; }
 
-.home .site-titles h1 { margin-bottom: 0; }
+.home .site-titles .tagline { margin: 1rem 0; }
 
-.home .site-titles h2 { margin-top: 0; font-weight: 400; }
+.home .site-titles .tagline .tagline-nav { background: #333447; color: white; }
 
-.home .site-titles h3 { margin-top: 0; font-weight: 400; }
+.home .site-titles .tagline .tagline-nav:hover { text-decoration: none; color: white; background: #514efd; }
 
-.home .site-titles h4 { margin-top: 0; }
-
-.home .tagline { margin: 1rem 0; }
-
-.home .tagline-nav { background: #333447; color: white; }
-
-.home .tagline-nav:hover { text-decoration: none; color: white; background: #514efd; }
+.home .site-titles .home-terms { font-size: 1.125rem; font-weight: bold; margin-top: 1.5rem; }
 
 .home img { margin-top: 1rem; height: 100%; width: auto; }
 
@@ -266,15 +240,15 @@ table td { padding-right: 1rem; }
 
 .site-nav .site-lang { position: fixed; top: 1rem; right: 1rem; }
 
-.site-nav .site-links #services { font-size: 1.1em; }
+.site-nav .site-links .site-services { font-size: 1.1em; }
 
-.site-nav .site-links #projects { margin-top: 1.2rem; }
+.site-nav .site-links .site-projects { margin-top: 1.2rem; }
 
-.site-nav .site-links #projects #kmapper-preview { display: none; }
+.site-nav .site-links .site-projects #kmapper-preview { display: none; }
 
-.site-nav .site-links #projects #kmapper-preview img { position: relative; top: -95px; left: 80px; width: 80px; z-index: -1; }
+.site-nav .site-links .site-projects #kmapper-preview img { position: relative; top: -95px; left: 80px; width: 80px; z-index: -1; }
 
-.site-nav .site-links #info { position: fixed; bottom: 180px; }
+.site-nav .site-links .site-info { position: fixed; bottom: 180px; }
 
 .site-nav .site-links .site-page { font-weight: bold; margin: 0.5rem 0 0.5rem 0; }
 
@@ -285,8 +259,6 @@ table td { padding-right: 1rem; }
 .site-imprint-sm { position: fixed; bottom: 1rem; font-size: 0.9em; }
 
 .copyright-statement { position: fixed; bottom: 1rem; right: 1rem; font-size: 0.8rem; }
-
-.home-terms { font-size: 1.125rem; font-weight: bold; margin-top: 1.5rem; }
 
 .service-terms { font-size: 1.125rem; font-weight: bold; margin-bottom: 50px; }
 
@@ -320,6 +292,6 @@ table td { padding-right: 1rem; }
 
 @media only screen and (min-width: 45em) { .site-links { margin-top: 2.2rem; display: block !important; } }
 
-@media only screen and (max-width: 45em) { h1 { font-size: 1.8rem; } h2 { font-size: 1.4rem; } h3 { font-size: 1rem; } h4 { font-size: 0.9rem; } .home { position: relative; width: 100%; height: auto; } .home img { margin-top: 1rem; width: 100%; height: auto; } .hamburger { position: fixed; float: right; top: 0.5rem; right: 0.5rem; display: block; z-index: 20; } .site-nav { position: relative; top: 0; left: 0; } .site-nav .site-logo { padding-top: 0; } .site-nav .site-links { display: none; position: fixed; top: 0; right: 0; padding-left: 2rem; background-color: white; width: 80%; height: 100%; } .site-nav .site-links .site-lang { position: relative; top: 0; left: 0; margin: 1rem 0 2rem 0; } .site-nav .site-links #projects { margin-top: 2rem; } .site-nav .site-links #info { position: relative; top: 0; margin-top: 2rem; } .site-imprint-sm { position: relative; top: 0; left: 0; } .copyright-statement { position: relative; top: 0; left: 0; text-align: center; margin-top: 1rem; } .service-image p { width: 100%; min-width: 325px; } .service-image p img { width: 100%; min-width: 325px; } }
+@media only screen and (max-width: 45em) { h1 { font-size: 1.8rem; } h2 { font-size: 1.25rem; } h3 { font-size: 1rem; } h4 { font-size: 0.9rem; } .home { position: relative; width: 100%; height: auto; } .home img { margin-top: 1rem; width: 100%; height: auto; } .hamburger { position: fixed; float: right; top: 0.5rem; right: 0.5rem; display: block; z-index: 20; } .site-nav { position: relative; top: 0; left: 0; } .site-nav .site-logo { padding-top: 0; } .site-nav .site-links { display: none; position: fixed; top: 0; right: 0; padding-left: 2rem; background-color: white; width: 80%; height: 100%; } .site-nav .site-links .site-lang { position: relative; top: 0; left: 0; margin: 1rem 0 2rem 0; } .site-nav .site-links .site-projects { margin-top: 2rem; } .site-nav .site-links .site-info { position: relative; top: 0; margin-top: 2rem; } .site-imprint-sm { position: relative; top: 0; left: 0; } .copyright-statement { position: relative; top: 0; left: 0; text-align: center; margin-top: 1rem; } .service-image p { width: 100%; min-width: 325px; } .service-image p img { width: 100%; min-width: 325px; } }
 
 /*# sourceMappingURL=main.css.map */
