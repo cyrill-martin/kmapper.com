@@ -2,9 +2,24 @@
 layout: projects
 uid: prj
 title: Public Projects
-description: With kmapper, you go from idea to architecture to finished application
+description: With kmapper, you go from idea to publication
 projects:
-- title: Different Perspectives on the Swiss parliament
+- title: Mapping Open Knowledge and SDGs 
+  link_text: kmapper.org
+  url: https://kmapper.org
+  image: kmapperOrg.png
+  image_mobile: kmapperOrg_mobile.png
+  desc: 
+    <p>
+      Tackling complex real-world problems needs interdisciplinary research and an open knowledge landscape easy to navigate. kmapper is such a knowledge mapper.
+    </p>
+    <p>
+      With kmapper.org, you can search for open access articles that are indexed in <a href="https://openalex.org/"" target="_blank">OpenAlex</a>, and visualize the results according to their relevance for the sustainable development goals (SDGs) and research fields.
+    </p>
+  stack:
+    - Vue.js 
+    - D3.js 
+- title: Different Perspectives on the Swiss Parliament
   link_text: parlament.kmapper.com
   url: https://parlament.kmapper.com
   image: parlament.kmapper.com_EN.png
@@ -16,21 +31,6 @@ projects:
     - Python
     - Vue.js
     - D3.js
-- title: Visualizing Subjects in an Interdisciplinary Context
-  link_text: kmapper.org
-  url: https://kmapper.org
-  image: kmapperOrg.png
-  image_mobile: kmapperOrg_mobile.png
-  desc: 
-    <p>
-      Tackling complex real-world problems needs interdisciplinary research and an open knowledge landscape easy to navigate. kmapper is such a knowledge mapper.
-    </p>
-    <p>
-      With kmapper.org, you can search for Open Access articles that are indexed in <a href=“https://openalex.org/” target=“_blank”>OpenAlex</a>, and visualize the results according to their relevance for the sustainable development goals (SDGs) and scientific concepts.
-    </p>
-  stack:
-    - Vue.js 
-    - D3.js 
 - title: Does Money Buy Citations?
   link_text: cyrill-martin.github.io/money-and-citations
   url: https://cyrill-martin.github.io/money-and-citations/

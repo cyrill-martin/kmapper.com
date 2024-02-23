@@ -2,9 +2,23 @@
 layout: projects
 uid: prj
 title: Öffentliche Projekte
-description: kmapper begleitet Sie von der Idee über die Architektur bis hin zur fertigen Applikation
+description: kmapper begleitet Sie von der Idee bis hin zur fertigen Publikation
 
 projects:
+- title: Mapping Open Knowledge und SDGs
+  link_text: kmapper.org
+  url: https://kmapper.org
+  image: kmapperOrg.png
+  desc:
+    <p>
+      Die Bewältigung komplexer Probleme erfordert interdisziplinäre Forschung und eine offene, einfach zu navigierende Wissenslandschaft. kmapper ist so ein Knowledge Mapper.
+    </p>
+    <p>
+      Mit kmapper.org können Sie nach Open Access-Artikeln suchen, die in <a href="https://openalex.org/" target="_blank">OpenAlex</a> indexiert sind, und die Ergebnisse nach ihrer Relevanz für die globalen Ziele der Nachhaltigkeit (SDGs) und ihrer Forschungsfelder visualisieren.
+    </p>
+  stack:
+    - Vue.js 
+    - D3.js 
 - title: Unterschiedliche Perspektiven auf das Schweizer Parlament
   link_text: parlament.kmapper.com
   url: https://parlament.kmapper.com
@@ -17,20 +31,6 @@ projects:
     - Python
     - Vue.js
     - D3.js
-- title: Themen im interdisziplinären Kontext visualisiert
-  link_text: kmapper.org
-  url: https://kmapper.org
-  image: kmapperOrg.png
-  desc:
-    <p>
-      Die Bewältigung komplexer Probleme erfordert interdisziplinäre Forschung und eine offene, einfach zu navigierende Wissenslandschaft. kmapper ist so ein Knowledge Mapper.
-    </p>
-    <p>
-      Mit kmapper.org können Sie nach Open Access-Artikeln suchen, die in <a href="https://openalex.org/" target="_blank">OpenAlex</a> indexiert sind, und die Ergebnisse nach ihrer Relevanz für die globalen Ziele der Nachhaltigkeit (SDGs) und wissenschaftliche Konzepte visualisieren.
-    </p>
-  stack:
-    - Vue.js 
-    - D3.js 
 - title: Does Money Buy Citations?
   link_text: cyrill-martin.github.io/money-and-citations
   url: https://cyrill-martin.github.io/money-and-citations/
@@ -43,18 +43,6 @@ projects:
     - R 
     - Vue.js
     - D3.js
-# - title: swisspolls
-#   link_text: swisspolls.kmapper.com
-#   url: https://swisspolls.kmapper.com
-#   image: swisspolls.kmapper.com_.png
-#   desc: 
-#     <p>
-#       Visualisierungen der swissvotes-Datensätze der Nachbefragungen zu den eidgenössischen Volksabstimmungen.
-#     </p>
-#   stack: 
-#     - Vue.js
-#     - D3.js
-#     - Google Firebase
 # - title: Domain-Ontologien für die Geisteswissenschaften
 #   link_text: e-editiones.ch
 #   url: http://e-editiones.ch/ontology
