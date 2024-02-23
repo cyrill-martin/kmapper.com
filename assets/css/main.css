@@ -246,7 +246,7 @@ table td { padding-right: 1rem; }
 
 .site-nav .site-links .site-projects #kmapper-preview { display: none; }
 
-.site-nav .site-links .site-projects #kmapper-preview img { position: relative; top: -95px; left: 80px; width: 80px; z-index: -1; }
+.site-nav .site-links .site-projects #kmapper-preview img { position: relative; top: -60px; left: 100px; width: 80px; z-index: -1; }
 
 .site-nav .site-links .site-info { position: fixed; bottom: 180px; }
 
