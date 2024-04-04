@@ -47,7 +47,6 @@ people:
   desc: <p>I am a creative Data Consultant dedicated to exploring interdisciplinary perspectives on information retrieval and knowledge transfer - skilled in structuring data and content for humans and machines.</p><p>I've worked in research and publishing environments before founding kmapper GmbH. You can have a look at my CV here&#58; <a href="https://cyrill-martin.github.io/" target="_blank">cyrill-martin.github.io</a></p>
   socials:
     - <a href="https://www.linkedin.com/in/cyrill-martin/" target="_blank">LinkedIn</a>
-    - <a href="https://twitter.com/cyrill_martin/" target="_blank">Twitter</a>
     - <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
 
 p-karlie: Logo designs by <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>.
