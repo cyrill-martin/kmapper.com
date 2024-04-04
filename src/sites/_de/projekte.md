@@ -11,12 +11,21 @@ projects:
   image: kmapperOrg.png
   desc:
     <p>
-      Die Bewältigung komplexer Probleme erfordert interdisziplinäre Forschung und eine offene, einfach zu navigierende Wissenslandschaft. kmapper ist so ein Knowledge Mapper.
-    </p>
-    <p>
-      Mit kmapper.org können Sie nach Open Access-Artikeln suchen, die in <a href="https://openalex.org/" target="_blank">OpenAlex</a> indexiert sind, und die Ergebnisse nach ihrer Relevanz für die globalen Ziele der Nachhaltigkeit (SDGs) und ihrer Forschungsfelder visualisieren.
+      kmapper.org sucht nach Open Access-Artikeln, die in <a href="https://openalex.org/" target="_blank">OpenAlex</a> indexiert sind, und visualisiert die Ergebnisse nach ihrer Relevanz für die globalen Ziele der Nachhaltigkeit (SDGs) und ihrer Forschungsfelder.
     </p>
   stack:
+    - Vue.js 
+    - D3.js 
+- title: Basel-Stadt&#058; Zu- und Wegzüge seit 2006
+  link_text: migration-bs.kmapper.com
+  url: https://migration-bs.kmapper.com
+  image: migrationBS.png
+  desc:
+    <p>
+      Visualisierung von Zu- und Wegzügen zwischen Basel und verschiedenen Teilen der Welt.
+    </p>
+  stack:
+    - R 
     - Vue.js 
     - D3.js 
 - title: Unterschiedliche Perspektiven auf das Schweizer Parlament
