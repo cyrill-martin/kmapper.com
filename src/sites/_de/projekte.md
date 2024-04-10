@@ -42,7 +42,7 @@ projects:
     - D3.js
 - title: Does Money Buy Citations?
   link_text: money-and-citations.kmapper.com
-  url: http://money-and-citations.kmapper.com
+  url: https://money-and-citations.kmapper.com
   image: cyrill-martin.github.io_money-and-citations_.png
   desc: 
     <p>
