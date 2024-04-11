@@ -3,7 +3,7 @@ const webpack = require("webpack");
 
 module.exports = {
   entry: {
-    handleLanguage: "./webpack/handleLanguage.js",
+    handleCookies: "./webpack/handleCookies.js",
     jsDemo: "./webpack/jsDemo.js",
     interaction: "./webpack/interaction.js",
     cookieconsent: "./webpack/cookieconsent.js"

@@ -3,6 +3,7 @@ export const plusOneYear = () => {
   plusOneYear.setFullYear(plusOneYear.getFullYear() + 1);
   return plusOneYear;
 };
+
 export const getCookie = (cName) => {
   let cValue = document.cookie,
     cStart = cValue.indexOf(" " + cName + "=");
@@ -21,6 +22,7 @@ export const getCookie = (cName) => {
   }
   return cValue;
 };
+
 export const checkCookieLang = (pageLang, translation) => {
   // Get document language
   let docLang = document.documentElement.lang;
@@ -45,6 +47,7 @@ export const checkCookieLang = (pageLang, translation) => {
     }
   }
 };
+
 export const setLangCookie = () => {
   // Overwrite cookie "lang" when language is changed
   // Get the DE | EN elements on the page
@@ -71,6 +74,43 @@ export const setLangCookie = () => {
     });
   }
 };
+
+export const checkAnalyticsConsent = () => {
+  // Check cookie from cookieconsent
+  let analyticsConsent = getCookie("cookieconsent_status")
+  analyticsConsent === "deny" || analyticsConsent === null ? null : loadGoogleAnalytics()
+}
+
+export const addCookieConsentEventListener = () => {
+  window.addEventListener("load", function() {
+    // Find the Allow button element
+    let allowButton = document.querySelector(".cc-btn.cc-allow");
+    // Add click event listener to the Allow button
+    allowButton.addEventListener("click", function() {
+      loadGoogleAnalytics();
+    });
+  });
+}
+
+function loadGoogleAnalytics() {
+  // Create a script element for Google Analytics
+  let gaScript = document.createElement("script");
+  gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-JWT33TKH0S";
+  gaScript.async = true;
+
+  // Get the first element in the head section (should be the first child)
+  let firstHeadElement = document.head.firstChild;
+
+  // Insert the script element before the first element in the head section
+  document.head.insertBefore(gaScript, firstHeadElement);
+
+  // Define the gtag function to configure Google Analytics
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-JWT33TKH0S");
+}
+
 export const cookieConsentDE = {
   palette: {
     popup: {
@@ -79,30 +119,33 @@ export const cookieConsentDE = {
     },
     button: {
       background: "#514efd",
-    },
+    }
   },
   position: "bottom-right",
+  type: "opt-in",
   content: {
     message:
-      "Diese Website platziert ein Cookie, um sich an Ihre ausgewählte Sprache zu erinnern.",
-    dismiss: "Verstanden",
+      "Diese Website nutzt Cookies von Google Analytics, um die Website und Ihre Erfahrung zu verbessern.",
     link: "Mehr erfahren",
-  },
+    allow: "Akzeptieren",
+    deny: "Ablehnen"
+  }
 };
+
 export const cookieConsentEN = {
   palette: {
     popup: {
       background: "#ffffff",
-      text: "#333447",
+      text: "#333447"
     },
     button: {
-      background: "#514efd",
-      message: "test",
+      background: "#514efd"
     },
   },
   position: "bottom-right",
+  type: "opt-in",
   content: {
     message:
-      "This website places one cookie to remember your selected language.",
-  },
+      "This website uses cookies from Google Analytics to improve the website and your experience.",
+  }
 };
