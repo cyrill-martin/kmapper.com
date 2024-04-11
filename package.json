@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyrill-martin/kmapper-GmbH.git"
+    "url": "git+https://github.com/cyrill-martin/kmapper.com.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cyrill-martin/kmapper-GmbH/issues"
+    "url": "https://github.com/cyrill-martin/kmapper.com/issues"
   },
-  "homepage": "https://github.com/cyrill-martin/kmapper-GmbH",
+  "homepage": "https://github.com/cyrill-martin/kmapper.com",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
