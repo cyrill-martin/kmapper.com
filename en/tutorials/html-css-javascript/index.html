@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- This is to get the url of the translated page (stored here in liquid variable 'translation') --><head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML, CSS, JavaScript - The Frontend Building Blocks | kmapper</title>
+	<meta name="description" content="This is how the building blocks of the website frontend, HTML, CSS, JavaScript, work." />
+	<link rel="canonical" href="https://kmapper.com/en/tutorials/html-css-javascript/" />
+	<meta property="og:locale" content="en" />
+	<meta property="og:title" content="HTML, CSS, JavaScript - The Frontend Building Blocks" />
+	<meta property="og:description" content="This is how the building blocks of the website frontend, HTML, CSS, JavaScript, work." />
+	<meta property="og:url" content="https://kmapper.com/en/tutorials/html-css-javascript/" />
+	<meta property="og:site_name" content="kmapper" />
+	<meta property="og:image" content="https://kmapper.com/assets/images/kmapper_social.png" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:image" content="https://kmapper.com/assets/images/kmapper_social.png" />
+	<meta property="twitter:title" content="HTML, CSS, JavaScript - The Frontend Building Blocks" />
+	<script type="application/ld+json">
+		{"url":"https://kmapper.com/en/tutorials/html-css-javascript/","@type":"WebPage","description":"This is how the building blocks of the website frontend, HTML, CSS, JavaScript, work.","headline":"HTML, CSS, JavaScript - The Frontend Building Blocks","mainEntityOfPage":{"@type":"WebPage","@id":"https://kmapper.com/en/tutorials/html-css-javascript/"},"image":"https://kmapper.com/assets/images/kmapper_k.png","@context":"https://schema.org"}
+	</script>
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://kmapper.com/favicon.ico?">
+</head>
+<body>
+    <script type="text/javascript" src="/assets/js/handleCookies.js"></script>
+    <script type="text/javascript">
+      kmapper.checkCookieLang("en", "/de/tutorials/html-css-javascript/");
+      const cookieMsgDE = kmapper.cookieConsentDE;
+      const cookieMsgEN = kmapper.cookieConsentEN;
+    </script>
+    <div class="container">
+      <div class="row">
+        <div class="col-3 navigation"><button class="hamburger hamburger--boring" type="button">
+   <span class="hamburger-box">
+     <span class="hamburger-inner"></span>
+   </span>
+</button>
+
+<div class="site-nav"><div class="site-logo">
+      <a href="/"><img src="/assets/images/kmapper_k_3b.png"></a>
+    </div>
+
+    <div class="site-links">
+
+      <div class="site-lang">
+        <!-- /de/tutorials/html-css-javascript/ is assigned in default.html -->
+        <a id="lang-DE" href="/de/tutorials/html-css-javascript/">DE</a> | <b>EN</b>
+      </div>
+
+      <div class="site-services">
+        <div class="site-page">
+          <a href="/en/curation/">Curation</a>
+        </div>
+        <div class="site-page">
+          <a href="/en/organization/">Organization</a>
+        </div>
+        <div class="site-page">
+          <a href="/en/publication/">Publication</a>
+        </div>
+      </div>
+      <div class="site-projects">
+        <div class="site-page">
+          <a id="kmapper-link" href="https://kmapper.org/" target="_blank">kmapper.org</a>
+        </div>
+        <div id="kmapper-preview">
+          <img src="/assets/images/kmapper_preview.png">
+        </div>
+      </div>
+      <div class="site-info">
+        <div class="site-page">
+          <a href="/en/about/">About</a>
+        </div>
+        <div class="site-page">
+          <a href="/en/projects/">Public Projects</a>
+        </div>
+        <div class="site-page">
+          <a href="/en/tutorials/">Tutorials</a>
+        </div>
+      </div>
+
+    </div></div>
+</div>
+        <div class="col-9 content">
+          <div class="row">
+  <div class="col-12 tutorial">
+    <h1>Web Tutorials</h1><!-- Show page title -->
+    <h2>HTML, CSS, JavaScript - The Frontend Building Blocks</h2><h3>HTML</h3>
+    <p>
+      HTML (Hypertext Markup Language) is used to mark up website content so browsers can display it in a human-readable form. Think of a large amount of different text markers and some guidelines with instructions on how to mark up a document. E.g. <i>"The main title of the document should be marked-up yellow. Any subtitles should be marked-up green. Use orange for any sub-subtitles. Use blue to mark up all paragraphs. Inside any titles and paragraphs, use red to mark up the letters which should be <b>bold</b>."</i>
+    </p>
+    <p class="tutorial-image">
+      <img
+        class="image-portrait"
+        src="/assets/images/tutorials/html-css-javascript/html-css-javascript-1_en.png"
+      />
+    </p>
+    <p>
+      Instead of text markers, HTML makes use of <b>HTML tags</b>. An HTML tag has a name (instead of a color) to indicate what is being marked up. There’s an <b>opening tag</b> and an <b>ending tag</b> to wrap parts of a text in order to indicate where the markup starts and ends. There's also a guideline on which tags to use for which parts of a text. E.g. the main title of a text should be wrapped in a <b>h1</b> tag (h1 for heading 1). Any subtitles should be wrapped in <b>h2</b> tags. Sub-subtitles go into <b>h3</b> tags, etc. Paragraphs are wrapped inside <b>p</b> tags and letters which should be bold are wrapped inside <b>b</b> tags. There are many more tags available, of course. In the image below you can also see an <b>i</b> tag for <i>italic</i>.
+    </p>
+    <p class="tutorial-image">
+      <img
+        style="max-width: 380px; width: 100%"
+        src="/assets/images/tutorials/html-css-javascript/html-css-javascript-2_en.png"
+      />
+    </p>
+    <p>
+      When displaying an HTML response, browsers take care of not showing you any of the actual tags but they consider them by the use of default styles. For any text inside an h1 tag, browsers will use a bigger font. For paragraphs (p tag), they will add some spacing before and after the marked up text, etc. However, website creators might not want the browsers to apply their default stylings. Maybe they want to see different spacings between paragraphs and different font sizes for titles.
+    </p>
+    <p class="tutorial-image">
+      <img
+        class="image-landscape"
+        src="/assets/images/tutorials/html-css-javascript/html-css-javascript-6_en.png"
+      />
+    </p>
+    <p>
+      Such custom styles are achieved by introducing <b>CSS</b> (cascading style sheets).
+    </p>
+    <h3>CSS</h3>
+    <p>
+      Styles declared in CSS are part of the additional resources your browser might request when you access a URL. So, the initial HTML response probably lists at least one CSS resource declaring the custom styles for this current HTML response. In its simplest form, CSS lets you write down the names of the HTML tags and declare custom styles for these, overriding the browser's default ones. There is much, much more to CSS than this simple approach but this should be enough to get the idea. Just keep in mind that any CSS is tightly bound to an HTML response. CSS requested in the context of one response has no effect on the styles of another one, unless they are referencing the exact same CSS.
+    </p>
+    <p>
+      While accessing the URL of this tutorial, the HTML response also listed some CSS as one of the additional resources to be requested by your browser. The CSS instructs your browser to override its default styles by applying a different font, using a very dark greyish blue as the text color, using different font sizes for titles, and applying different line heights for titles and paragraphs. Don't worry about the details of CSS syntax. Just be aware that any CSS goes hand in hand with a corresponding HTML document.
+    </p>
+    <p class="tutorial-image">
+      <img
+        style="max-width: 600px; width: 100%"
+        src="/assets/images/tutorials/html-css-javascript/html-css-javascript-7_en.png"
+      />
+    </p>
+    <p>
+      On most websites you have some user experience in the form of interactions. Maybe you click a button and some additional elements are loaded to the website. Maybe you get notified that you missed entering some crucial information when trying to check out and order something online. The changes of the website usually happen without a reload of the website or the requests of new HTML and stylings - it's really just parts of the website that change. This website experience you are so used to is achieved through the use of <b>JavaScript</b>.
+    </p>
+    <div id="js-demo-div">
+      <h3>JavaScript</h3>
+      <p>
+        JavaScript is a regular programming language with its own syntax and ways of writing instructions a computer can execute. The common browsers come with a so-called <b>JavaScript engine</b> and <b>JavaScript runtime</b> in order to execute JavaScript code. Remember that JavaScript is part of the additional resources your browser might request when accessing a URL. So, JavaScript developers write code to be executed in your browser. You might have come across the term <b>client-side</b> code or client-side programming, which describes exactly that&#58; providing or writing programming code to be executed in the browsers (the clients) of the website visitors. This is as opposed to <b>server-side</b> code or server-side programming, which is about programming code running in the backend, on the server, of a website.
+      </p>
+      <p>
+        The JavaScript runtimes in browsers are powerful tools. They enable JavaScript developers to write instructions for your browser like performing additional requests to some servers, "listening" to click events on the current website and act on them by executing more code , or storing data in and also reading data from your browser.
+      </p>
+      <p>
+        Feel free to click on below buttons in order to execute some client-side Javascript code in your browser.
+      </p>
+    </div>
+    <p style="text-align: center">
+      <button class="demo-button" id="change-button">
+        Change this website
+      </button>
+      <button class="demo-button" id="info-button">
+        Show some information
+      </button>
+    </p>
+    <p>
+      While accessing the URL of this tutorial, the HTML response also listed some JavaScript code as one of the additional resources to be requested by your browser. The code instructs your browser to "listen" to clicks on each of the above two buttons and to execute corresponding code when a click happens. You don't need to understand JavaScript syntax but I hope you now have an idea of client-side JavaScript code and its powerful role in your website experiences.
+    </p>
+    <p class="tutorial-image">
+      <img
+        style="max-width: 600px; width: 100%"
+        src="/assets/images/tutorials/html-css-javascript/html-css-javascript-9_en.png"
+      />
+    </p>
+  </div>
+</div>
+<script type="text/javascript" src="/assets/js/jsDemo.js" async></script>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-12"><div class="site-imprint-sm">
+  kmapper GmbH <br>
+  Austrasse 52 <br>
+  4051 Basel <br>Switzerland<br>
+  <br>
+  +41 79 745 62 05<br>
+  <a href="mailto:mail@kmapper.com">mail@kmapper.com</a>
+</div>
+<div class="copyright-statement">
+  &#169; 2024 kmapper GmbH &#183;&nbsp;<a href="/en/imprint/">Imprint</a></div>
+</div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      kmapper.setLangCookie();
+      kmapper.addCookieConsentEventListener();
+      kmapper.checkAnalyticsConsent();
+    </script>
+    <script type="text/javascript" src="/assets/js/interaction.js"></script>
+    <script type="text/javascript" src="/assets/js/cookieconsent.js" data-cfasync=”false”></script><script type="text/javascript">
+      window.cookieconsent.initialise(cookieMsgEN);
+    </script></body>
+</html>
