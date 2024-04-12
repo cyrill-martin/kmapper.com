@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/cyrill-martin/kmapper.com/issues"
   },
-  "homepage": "https://github.com/cyrill-martin/kmapper.com",
+  "homepage": "https://github.com/cyrill-martin/kmapper.com/",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
