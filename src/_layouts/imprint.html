@@ -10,7 +10,7 @@ layout: default
 			<h1>{{ page.title }}</h1>
 		{%- endif -%}
 
-		<h4>Kontaktadresse</h4>
+		<h2>Verantwortliche Instanz</h2>
 
 		<p>
 			{{ site.company }}<br>
@@ -36,13 +36,13 @@ layout: default
 			</table>
 		</p>
 
-		<h4>Vertretungsberechtigte Person(en)</h4>
+		<h2>Vertretungsberechtigte Personen</h2>
 
 		<p>
 			Cyrill Martin, Geschäftsführer
 		</p>
 
-		<h4>Handelsregistereintrag</h4>
+		<h2>Handelsregistereintrag</h2>
 
 		<p>
 			<table>
@@ -61,211 +61,332 @@ layout: default
 			</table>
 		</p>
 
-		<h4>Mehrwehrtsteuernummer</h4>
+		<h2>Mehrwehrtsteuernummer</h2>
 
 		<p>{{ site.hr_number }} MWST</p>
 		
-		<h3>Haftungsausschluss</h3>
+		<h2>Haftungsausschluss</h2>
 
 		<p>
-			Der Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.
+			Der Autor übernimmt keine Gewähr für die Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.
 		</p>
 
 		<p>
-			Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen.
+			Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, die aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen.
 		</p>
 
 		<p>
-			Alle Angebote sind unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne besondere Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.
+			Alle Angebote sind freibleibend. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.
 		</p>
 
-		<h4>Haftungsausschluss für Links</h4>
+		<h2>Haftungsausschluss für Inhalte und Links</h2>
 
 		<p>
-			Verweise und Links auf Webseiten Dritter liegen ausserhalb des Verantwortungsbereichs der kmapper GmbH. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des jeweiligen Nutzers.
+			Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des jeweiligen Nutzers.
 		</p>
 
-		<h4>Urheberrechte</h4>
+		<h2>Urheberrechtserklärung</h2>
 
 		<p>
-			Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website, gehören ausschliesslich <b>der Firma kmapper</b> oder den speziell genannten Rechteinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.
+			Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website, gehören ausschliesslich kmapper GmbH oder den speziell genannten Rechteinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.
 		</p>
 
 		<p>
-			Quelle: <a href="https://www.swissanwalt.ch" target="_blank" rel="noopener">SwissAnwalt</a>
+			Quelle: <a href="https://brainbox.swiss/" target="_blank" rel="noopener">BrainBox Solutions</a>
 		</p>
 
-		<h3>Datenschutzerklärung</h3>
+		<h2>Datenschutzerklärung</h2>
+
+		<p>Zuletzt aktualisiert am: 30.04.2024</p>
+
+		<h3>Welche Dienste wir nutzen</h3>
 
 		<p>
-			Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
-			<br><br>
+			<ul>
+					<li>Google Ads</li>
+					<li>Google Analytics</li>
+					<li>Google Fonts API</li>
+			</ul>
+		</p>
+
+		<h3>Kontaktinformationen</h3>
+
+		<p>
+			Verantwortlich für die Datenbearbeitungen, die über diese Website erfolgen, ist:
+			<br /><br />
 			{{ site.company }}<br>
 			Austrasse 52<br>
 			4051 Basel<br>
 			{%- if page.lang == "de" -%}
-				Schweiz<br>
+					Schweiz<br />
 			{%- else -%}
-				Switzerland<br>
+					Switzerland<br />
 			{%- endif -%}
-			<br>
 			<table>
-				<tr>
-    				<td>Telefon:</td>
-    				<td>{{ site.telephone }}</td>
-    			</tr>
-    			<tr>
-    				<td>E-Mail:</td>
-    				<td><a href="mailto:{{ site.email_cyrill }}">{{ site.email_cyrill }}</a></td>
-  				</tr>
-  				<tr>
-  					<td>Website:</td>
-  					<td><a href="{{ "/" | relative_url }}">https://kmapper.com</a></td>
-  				</tr>
+					<tr>
+						<td>Datenschutzverantwortliche Person:</td>
+						<td>Cyrill Martin</td>
+					</tr>
+					<tr>
+						<td>Telefon:</td>
+						<td>{{ site.telephone }}</td>
+					</tr>
+					<tr>
+						<td>E-Mail:</td>
+						<td><a href="mailto:{{ site.email_cyrill }}">{{ site.email_cyrill }}</a></td>
+					</tr>
 			</table>
 		</p>
 
-		<h4>Allgemeiner Hinweis</h4>
+		<h3>Allgemeine Grundsätze</h3>
+
+		<h4>Welche Daten sammeln wir von Ihnen und von wem erhalten wir diese Daten?</h4>
 
 		<p>
-			Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und den datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+			In erster Linie bearbeiten wir Personendaten, die Sie uns übermitteln oder die wir beim Betrieb unserer Website sammeln. Unter Umständen erhalten wir Personendaten über Sie auch von Dritten. Das können folgende Kategorien sein:
 		</p>
 
 		<p>
-			In Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.
+			<ul>
+					<li>Personenstammdaten (Name, Adresse, Geburtsdaten, etc.)</li>
+					<li>Kontaktdaten (Handynummer, E-Mailadresse, etc.)</li>
+					<li>Finanzdaten (bspw. Kontoangaben)</li>
+					<li>Onlinekennungen (bspw. Cookie-Kennung, IP-Adressen)</li>
+					<li>Standort- und Verkehrsdaten</li>
+					<li>Ton- und Bildaufnahmen</li>
+					<li>besonders schützenswerte Daten (bspw. biometrische Daten oder Angaben über Ihre Gesundheit)</li>
+			</ul>
+		</p>
+
+		<h4>Unter welchen Voraussetzungen bearbeiten wir Ihre Daten?</h4>
+
+		<p>
+			Wir behandeln Ihre Daten vertraulich und gemäss den in dieser Datenschutzerklärung festgelegten Zwecken. Wir achten dabei auf eine transparente und verhältnismässige Bearbeitung.
 		</p>
 
 		<p>
-			Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+			Falls wir ausnahmsweise nicht in der Lage sind, diese Grundsätze zu befolgen, kann die Datenbearbeitung trotzdem rechtmässig sein, weil ein Rechtfertigungsgrund vorliegt. Als Rechtfertigungsgrund kommt namentlich in Frage:
 		</p>
 
 		<p>
-			Durch die Nutzung dieser Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäss der nachfolgenden Beschreibung einverstanden. Diese Website kann grundsätzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit möglich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.
+			<ul>
+					<li>Ihre Einwilligung</li>
+					<li>Die Durchführung eines Vertrages oder vorvertraglicher Massnahmen</li>
+					<li>Unsere berechtigten Interessen, sofern Ihre Interessen nicht überwiegen</li>
+			</ul>
 		</p>
 
-		<h4>Datenschutzerklärung für Cookies</h4>
+		<h4>Wie können Sie Ihre Einwilligung widerrufen?</h4>
 
 		<p>
-			Diese Website verwendet Cookies. Das sind kleine Textdateien, die es möglich machen, auf dem Endgerät des Nutzers spezifische, auf den Nutzer bezogene Informationen zu speichern, während er die Website nutzt. Cookies ermöglichen es, insbesondere Nutzungshäufigkeit und Nutzeranzahl der Seiten zu ermitteln, Verhaltensweisen der Seitennutzung zu analysieren, aber auch unser Angebot kundenfreundlicher zu gestalten. Cookies bleiben über das Ende einer Browser-Sitzung gespeichert und können bei einem erneuten Seitenbesuch wieder aufgerufen werden. Wenn Sie das nicht wünschen, sollten Sie Ihren Internetbrowser so einstellen, dass er die Annahme von Cookies verweigert.
-		</p>
-
-		<p>
-			Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste, vor allem im Fall des Trackings, über die US-amerikanische Seite <a href="http://www.aboutads.info/choices/" target="_blank" rel="noopener">http://www.aboutads.info/choices/</a> oder die EU-Seite <a href="http://www.youronlinechoices.com/" target="_blank" rel="noopener">http://www.youronlinechoices.com/</a> erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses Onlineangebotes genutzt werden können.
-		</p>
-
-		<h4>Datenschutzerklärung für SSL-/TLS-Verschlüsselung</h4>
-
-		<p>
-			Diese Website nutzt aus Gründen der Sicherheit und zum Schutz der übertragung vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
+			Haben Sie uns eine Einwilligung zur Bearbeitung Ihrer personenbezogenen Daten für bestimmte Zwecke erteilt, bearbeiten wir Ihre Daten im Rahmen dieser Einwilligung, soweit wir keinen anderen Rechtfertigungsgrund haben.
 		</p>
 
 		<p>
-			Wenn die SSL bzw. TLS Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
+			Sie haben jederzeit die Möglichkeit, Ihre Einwilligung zu widerrufen indem Sie eine E-Mail an die im Impressum genannte Adresse schicken. Bereits erfolgte Datenverarbeitungen sind davon nicht betroffen.
 		</p>
 
-<!-- 		<h4>Dienste von Dritten</h4>
+		<h4>In welchen Fällen können wir Ihre Daten an Dritte weitergeben?</h4>
+
+		<h5>Grundsatz</h5>
 
 		<p>
-			Diese Website verwenden allenfalls Google Maps für das Einbetten von Karten, Google Invisible reCAPTCHA für den Schutz gegen Bots und Spam sowie YouTube für das Einbetten von Videos.
-		</p>
-
-		<p>
-			Diese Dienste der amerikanischen Google LLC verwenden unter anderem Cookies und infolgedessen werden Daten an Google in den USA übertragen, wobei wir davon ausgehen, dass in diesem Rahmen kein personenbezogenes Tracking allein durch die Nutzung unserer Website stattfindet.
-		</p>
-
-		<p>
-			Google hat sich verpflichtet, einen angemessenen Datenschutz gemäss dem amerikanisch-europäischen und dem amerikanisch-schweizerischen Privacy Shield zu gewährleisten.
+			Wir sind unter Umständen darauf angewiesen, die Dienste Dritter oder von verbundenen Unternehmen in Anspruch zu nehmen und diese mit der Verarbeitung Ihrer Daten zu beauftragen (sog. Auftragsverarbeiter). Kategorien der Empfänger sind namentlich:
 		</p>
 
 		<p>
-			Weitere Informationen finden sich in der <a href='https://policies.google.com/privacy?hl=de' target="_blank" rel="noopener" style="color: inherit;">Datenschutzerklärung von Google</a>.
-		</p> -->
-
-		<h4>Datenschutzerklärung für Widerspruch Werbe-Mails</h4>
-
-		<p>
-			Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
-		</p>
-
-<!-- 		<h4>Datenschutzerklärung für Twitter</h4>
-
-		<p>
-			Diese Website verwendet Funktionen von Twitter, Inc., 1355 Market St, Suite 900, San Francisco, CA 94103, USA. Bei Aufruf unserer Seiten mit Twitter-Plug-Ins wird eine Verbindung zwischen Ihrem Browser und den Servern von Twitter aufgebaut. Dabei werden bereits Daten an Twitter übertragen. Besitzen Sie einen Twitter-Account, können diese Daten damit verknüpft werden. Wenn Sie keine Zuordnung dieser Daten zu Ihrem Twitter-Account wünschen, loggen Sie sich bitte vor dem Besuch unserer Seite bei Twitter aus. Interaktionen, insbesondere das Anklicken eines „Re-Tweet“-Buttons werden ebenfalls an Twitter weitergegeben. Mehr erfahren Sie unter <a href="https://twitter.com/privacy" target="_blank" style="color: inherit;">https://twitter.com/privacy</a>.
-		</p>
-
-		<h4>Datenschutzerklärung für LinkedIn</h4>
-
-		<p>
-			Wir setzen innerhalb unseres Onlineangebotes die Marketing-Dienste des sozialen Netzwerks LinkedIn der LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Ireland (&laquo;LinkedIn&raquo;) ein.
+			<ul>
+					<li>Buchhaltung, Treuhand und Revisionsunternehmen</li>
+					<li>Beratungsunternehmen (Rechtsberatung, Steuern, etc.)</li>
+					<li>IT-Dienstleister (Webhosting, Support, Clouddienste, Webseitengestaltung, etc.)</li>
+					<li>Zahlungsdienstleister</li>
+					<li>Anbieter von Tracking-, Conversion- und Werbedienstleistungen</li>
+			</ul>
 		</p>
 
 		<p>
-			Diese verwenden Cookies, also Textdateien, die auf Ihrem Computer gespeichert werden. Dies ermöglicht uns eine Analyse der Benutzung der Internetseite durch Sie. So können wir beispielsweise den Erfolg unserer Anzeigen messen und Nutzern Produkte anzeigen, für die sie sich zuvor interessiert haben.
+			Wir stellen sicher, dass diese Dritten und unsere verbundenen Unternehmen die Voraussetzungen des Datenschutzes einhalten und Ihre personenbezogenen Daten vertraulich behandeln.
 		</p>
 
 		<p>
-			Erfasst werden dadurch z.B. Informationen zum Betriebssystem, zum Browser, die von Ihnen zuvor aufgerufene Internetseite (Referrer-URL), welche Webseiten der Nutzer aufgesucht, welche Angebote der Nutzer angeklickt hat, und Datum und Uhrzeit Ihres Besuchs auf unserer Internetseite.
+			Unter Umständen sind wir auch verpflichtet, Ihre personenbezogenen Daten an Behörden bekanntzugeben.
+		</p>
+
+		<h5>Besuch unserer Social-Media-Kanäle</h5>
+
+		<p>
+			Wir haben eventuell auf unserer Website Links zu unseren Social-Media-Kanälen eingebettet. Das ist für Sie jeweils ersichtlich (typischerweise über entsprechende Symbole). Klicken Sie auf die Symbole, werden Sie auf unsere Social-Media-Kanäle weitergeleitet.
 		</p>
 
 		<p>
-			Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Internetseite werden pseudonymisiert an einen Server von LinkedIn in den USA übertragen und dort gespeichert. LinkedIn speichert also nicht den Namen oder die E-Mailadresse des jeweiligen Nutzers. Die oben genannten Daten werden vielmehr nur demjenigen zugeordnet, bei dem das Cookie erzeugt wurde. Dies gilt nicht, sofern der Nutzer LinkedIn eine Verarbeitung ohne Pseudonymisierung erlaubt hat oder ein LinkedIn-Konto hat.
+			Die Social Media Anbieter erfahren in diesem Fall, dass Sie von unserer Website auf deren Plattform zugreifen. Die Social Media Anbieter können die so erhobenen Daten für eigene Zwecke nutzen. Wir weisen darauf hin, dass wir keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch die Betreiber erhalten.
+		</p>
+
+		<h5>Weitergabe ins Ausland</h5>
+
+		<p>
+			Unter Umständen kann es im Rahmen der Auftragsbearbeitung zu Übermittlung Ihrer personenbezogenen Daten an Unternehmen im Ausland kommen. Diese Unternehmen sind im gleichen Umfang zum Datenschutz verpflichtet, wie wir selbst. Die Übermittlung kann weltweit stattfinden.
 		</p>
 
 		<p>
-			Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall möglicherweise nicht sämtliche Funktionen dieser Internetseite vollumfänglich werden nutzen können. Der Nutzung Ihrer Daten können sie auch direkt bei LinkedIn widersprechen: <a href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out" target="_blank" rel="noopener">https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a>.
+			Entspricht das Datenschutzniveau nicht demjenigen des der Schweiz, so nehmen wir eine vorgängige Risikoeinschätzung vor und stellen vertraglich sicher, dass der gleiche Schutz wie in der Schweiz garantiert wird (bspw. mittels der neuen Standardvertragsklauseln der EU-Kommission oder anderen, gesetzlich vorgegebenen Massnahmen). Sollte unsere Risikoeinschätzung negativ ausfallen, ergreifen wir zusätzliche technische Massnahmen zum Schutz Ihrer Daten. Sie können die Standardvertragsklauseln der EU-Kommission abrufen unter folgendem Link: <a href="https://commission.europa.eu/publications/standard-contractual-clauses-controllers-and-processors-eueea_de" target="_blank">https://commission.europa.eu/publications/standard-contractual-clauses-controllers-and-processors-eueea_de</a>
+		</p>
+
+		<h4>Wie lange bewahren wir Ihre Daten auf?</h4>
+
+		<p>
+			Wir speichern personenbezogene Daten nur so lange, wie dies erforderlich ist, um die einzelnen Zwecke, zu denen die Daten erhoben wurden, zu erfüllen.
 		</p>
 
 		<p>
-			Wir nutzen LinkedIn Analytics, um die Nutzung unserer Website analysieren und regelmässig verbessern zu können. über die gewonnenen Statistiken können wir unser Angebot verbessern und für Sie als Nutzer interessanter ausgestalten. Alle LinkedIn Unternehmen haben die Standardvertragsklauseln angenommen, um zu gewährleisten, dass der für die Entwicklung, Durchführung und Erhaltung der Dienste notwendige Datenverkehr in die USA und Singapur auf rechtmässige Weise stattfindet. Sofern wir die Nutzer um eine Einwilligung bitten, ist die Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. a DSGVO. Ansonsten ist Rechtsgrundlage für die Nutzung von LinkedIn Analytics Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+			Daten, die wir bei Ihrem Besuch auf unserer Website speichern, werden während zwölf Monaten aufbewahrt. Eine Ausnahme gilt für Analyse- und Trackingdaten, die länger aufbewahrt werden können.
+		</p>   
+
+		<p>
+			Vertragsdaten speichern wir länger, da wir dazu durch gesetzliche Vorschriften verpflichtet sind. Wir müssen insbesondere geschäftliche Kommunikation, geschlossene Verträge und Buchungsbelege bis zu 10 Jahren aufbewahren. Soweit wir solche Daten von Ihnen nicht mehr zur Durchführung der Dienstleistungen benötigen, werden die Daten gesperrt und wir verwenden sie nur noch für Zwecke der Rechnungslegung und für Steuerzwecke.
+		</p>
+
+		<h4>Wie schützen wir Ihre Daten?</h4>
+
+		<p>
+			Wir werden Ihre Daten sicher aufbewahren und alle angemessenen Massnahmen ergreifen, um Ihre Daten vor Verlust, Zugriff, Missbrauch oder Änderungen zu schützen.
 		</p>
 
 		<p>
-			Informationen des Drittanbieters: LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2 Ireland; <a href="https://www.linkedin.com/legal/user-agreement?_l=de_DE" target="_blank" rel="noopener">Nutzervereinbarung</a> und <a href="https://www.linkedin.com/legal/privacy-policy?_l=de_DE" target="_blank" rel="noopener">Datenschutzerklärung</a>.
-		</p> -->
+			Unsere Vertragspartner und Mitarbeitende, die Zugang zu Ihren Daten haben, sind zur Einhaltung der datenschutzrechtlichen Bestimmungen verpflichtet. In manchen Fällen wird es erforderlich sein, dass wir Ihre Anfragen an mit uns verbundene Unternehmen weiterreichen. Auch in diesen Fällen werden Ihre Daten vertraulich behandelt.
+		</p>
 
-		<h4>Urheberrechte</h4>
+		<p>   
+			Innerhalb unserer Webseite verwenden wir das SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird.
+		</p>
+
+		<h4>Welche Rechte haben Sie?</h4>
+
+		<h5>Auskunftsrecht</h5>
 
 		<p>
-			Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website, gehören ausschliesslich dem Betreiber dieser Website oder den speziell genannten Rechteinhabern. Für die Reproduktion von sämtlichen Dateien, ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.
+			Sie können jederzeit eine Auskunft über die von uns über Sie gespeicherten Daten verlangen. Wir bitten Sie, Ihr Auskunftsgesuch zusammen mit einem Identitätsnachweis an <a href="mailto:mail@kmapper.com">mail@kmapper.com</a> zu senden.
 		</p>
 
 		<p>
-			Wer ohne Einwilligung des jeweiligen Rechteinhabers eine Urheberrechtsverletzung begeht, kann sich strafbar und allenfalls schadenersatzpflichtig machen.
-		</p>
-
-		<h4>Allgemeiner Haftungsausschluss</h4>
-
-		<p>
-			Alle Angaben unseres Internetangebotes wurden sorgfältig geprüft. Wir bemühen uns, unser Informationsangebot aktuell, inhaltlich richtig und vollständig anzubieten. Trotzdem kann das Auftreten von Fehlern nicht völlig ausgeschlossen werden, womit wir keine Garantie für Vollständigkeit, Richtigkeit und Aktualität von Informationen auch journalistisch-redaktioneller Art übernehmen können. Haftungsansprüche aus Schäden materieller oder ideeller Art, die durch die Nutzung der angebotenen Informationen verursacht wurden, sind ausgeschlossen, sofern kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.
+			Sie haben ausserdem das Recht, Ihre Daten in einem gängigen Dateiformat zu erhalten, wenn wir Ihre Daten automatisiert bearbeiten, und wenn:
 		</p>
 
 		<p>
-			Der Herausgeber kann nach eigenem Ermessen und ohne Ankündigung Texte verändern oder löschen und ist nicht verpflichtet, Inhalte dieser Website zu aktualisieren. Die Benutzung bzw. der Zugang zu dieser Website geschieht auf eigene Gefahr des Besuchers. Der Herausgeber, seine Auftraggeber oder Partner sind nicht verantwortlich für Schäden, wie direkte, indirekte, zufällige, vorab konkret zu bestimmende oder Folgeschäden, die angeblich durch den Besuch dieser Website entstanden sind und übernehmen hierfür folglich keine Haftung.
+			<ul>
+					<li>Sie Ihre Einwilligung für die Bearbeitung dieser Daten erteilt haben; oder</li>
+					<li>Sie Daten im Zusammenhang mit dem Abschluss oder der Abwicklung eines Vertrags bekannt gegeben haben.</li>
+			</ul>
 		</p>
 
 		<p>
-			Der Herausgeber übernimmt ebenfalls keine Verantwortung und Haftung für die Inhalte und die Verfügbarkeit von Website Dritter, die über externe Links dieser Website erreichbar sind. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich. Der Herausgeber distanziert sich damit ausdrücklich von allen Inhalten Dritter, die möglicherweise straf- oder haftungsrechtlich relevant sind oder gegen die guten Sitten verstossen.
-		</p>
-
-		<h4>Änderungen</h4>
-
-		<p>
-			Wir können diese Datenschutzerklärung jederzeit ohne Vorankündigung anpassen. Es gilt die jeweils aktuelle, auf unserer Website publizierte Fassung. Soweit die Datenschutzerklärung Teil einer Vereinbarung mit Ihnen ist, werden wir Sie im Falle einer Aktualisierung über die änderung per E-Mail oder auf andere geeignete Weise informieren.
-		</p>
-
-		<h4>Fragen an den Datenschutzbeauftragten</h4>
-
-		<p>
-			Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz zu Beginn der Datenschutzerklärung aufgeführten, verantwortlichen Person in unserer Organisation.
+			Wir können die Auskunft bzw. Datenherausgabe einschränken oder verweigern, wenn dies unseren gesetzlichen Verpflichtungen, berechtigten eigenen oder öffentlichen Interessen oder Interessen einer Drittperson entgegensteht.
 		</p>
 
 		<p>
-			Basel, 25.01.2021
+			Die Bearbeitung Ihres Gesuchs unterliegt der gesetzlichen Bearbeitungsfrist von 30 Tagen. Diese Frist dürfen wir jedoch aufgrund von hohem Anfragevolumen, aus rechtlichen oder technischen Gründen oder weil wir nähere Angaben von Ihnen benötigen, verlängern. Sie werden über die Fristverlängerung rechtzeitig mindestens in Textform informiert.
+		</p>
+
+		<h5>Löschung und Berichtigung</h5>
+
+		<p>
+			Sie haben jederzeit die Möglichkeit, die Löschung oder Berichtigung Ihrer Daten zu verlangen. Wir können das Gesuch abweisen, wenn gesetzliche Vorschriften uns zur längeren bzw. unveränderten Aufbewahrung verpflichten oder ein Erlaubnistatbestand Ihrem Gesuch entgegensteht.
+		</p>   
+			
+		<p>
+			Bitte beachten Sie, dass die Ausübung Ihrer Rechte unter Umständen im Konflikt mit vertraglichen Abmachungen stehen und entsprechende Auswirkungen auf die Vertragsdurchführung haben kann (z.B. vorzeitige Vertragsauflösung oder Kostenfolgen).
+		</p>
+
+		<h5>Rechtsweg</h5>
+
+		<p>
+			Sind Sie von der Bearbeitung personenbezogener Daten betroffen, haben Sie das Recht, Ihre Rechte gerichtlich durchzusetzen oder bei der zuständigen Aufsichtsbehörde eine Meldung einzureichen. Die zuständige Aufsichtsbehörde in der Schweiz ist der Eidgenössische Datenschutz- und Öffentlichkeitsbeauftragte: <a href="https://www.edoeb.admin.ch" target="_blank">https://www.edoeb.admin.ch</a>
+		</p>
+
+		<h4>Änderungen an der Datenschutzerklärung</h4>
+
+		<p>
+			Wir können diese Datenschutzerklärung jederzeit ändern. Die Änderungen werden auf https://kmapper.com veröffentlicht, Sie werden nicht gesondert darüber informiert.
+		</p>
+
+		<h3>Einzelne Datenverarbeitungsvorgänge</h3>
+
+		<h4>Bereitstellen der Webseite und Erstellung von Logfiles</h4>
+
+		<h5>Welche Informationen erhalten wir und wie nutzen wir sie?</h5>
+
+		<p>
+			Indem Sie https://kmapper.com besuchen, werden auf unseren Servern oder auf Servern von Dienstleistungen und Produkten, die wir beziehen und / oder installiert haben, bestimmte Daten automatisch zu Zwecken der Systemadministration, für statistische oder für Sicherungszwecke oder für Trackingzwecke gespeichert. Es handelt sich dabei um:
 		</p>
 
 		<p>
-			Quelle: <a href="https://www.swissanwalt.ch" target="_blank" rel="noopener">SwissAnwalt</a>
+			<ul>
+					<li>Den Namen Ihres Internetserviceproviders</li>
+					<li>Ihre IP-Adresse (unter Umständen)</li>
+					<li>Die Version Ihrer Browser-Software</li>
+					<li>Das Betriebssystem des Rechners mit dem auf die URL zugegriffen wird</li>
+					<li>Das Datum und die Uhrzeit des Zugriffs</li>
+					<li>Die Webseite, von der aus Sie URL besuchen</li>
+					<li>Die Suchwörter, die Sie benutzt haben, um die URL finden</li>
+			</ul>
 		</p>
 
+		<h5>Weshalb dürfen wir diese Daten bearbeiten?</h5>
+
+		<p>
+			Diese Daten können keiner bestimmten Person zugeordnet werden und es findet keine Zusammenführung dieser Daten mit anderen Datenquellen statt. Die Speicherung der Logfiles erfolgt, um die Funktionsfähigkeit der Webseite zu garantieren und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Hierin besteht unser berechtigtes Interesse.
+		</p>
+
+		<h5>Wie können Sie die Datenerfassung verhindern?</h5>
+
+		<p>
+			Die Daten werden nur solange gespeichert, wie dies zur Erreichung des Zweckes Ihrer Erhebung notwendig ist. Dementsprechend werden die Daten nach Beendigung jeder Sitzung gelöscht. Die Speicherung der Logfiles ist für den Betrieb der Webseite zwingend notwendig, Sie haben daher keine Möglichkeit dagegen Widerspruch zu erheben.
+		</p>
+
+		<h3>Google Ads</h3>
+
+		<p>
+			Wir nutzen auf unserer Webseite den Dienst Google Ads, einen Online-Werbedienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (nachfolgend "Google"). Google Ads ermöglicht es uns, Werbeanzeigen in den Google-Suchergebnissen sowie im Google-Werbenetzwerk zu schalten.
+		</p>
+
+		<h3>Google Analytics</h3>
+
+		<p>
+			Wir verwenden auf unserer Website Google Analytics, einen Webanalysedienst der Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; "Google"). Google Analytics verwendet sogenannte "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen.
+		</p>
+
+		<p>
+			Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Website wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt.
+		</p>
+
+		<p>
+			Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen.
+		</p>   
+
+		<p>
+			Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
+		</p>   
+
+		<p>
+			Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">https://tools.google.com/dlpage/gaoptout</a>.
+		</p>
+
+		<h3>Google Fonts API</h3>
+
+		<p>
+			Auf unserer Website nutzen wir die Google Fonts API, einen Dienst der Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; "Google"), um Schriftarten (Fonts) einzubinden. Durch die Einbindung dieser Schriftarten wird Ihr Browser beim Aufrufen unserer Website eine Verbindung zu den Servern von Google herstellen, um die Schriftarten herunterzuladen und korrekt anzuzeigen.
+		</p>
+
+		<p>
+			Durch diese Verbindung können Daten, insbesondere Ihre IP-Adresse und Informationen über den von Ihnen genutzten Browser, an Google übermittelt und auf Servern von Google gespeichert werden. Diese Server können sich in den USA oder anderen Ländern befinden.
+		</p>   
+
+		<p>
+			Wenn Sie die Übertragung von Daten im Rahmen der Google Fonts API verhindern möchten, können Sie in Ihren Browsereinstellungen den Zugriff auf die Domain fonts.googleapis.com blockieren. Bitte beachten Sie, dass in diesem Fall unsere Website möglicherweise nicht korrekt angezeigt wird.
+		</p>
+
+		<p>
+			Quelle: <a href="https://brainbox.swiss/" target="_blank" rel="noopener">BrainBox Solutions</a>
+		</p>
 	</div>
 </div>
