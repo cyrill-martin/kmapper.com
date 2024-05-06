@@ -15,7 +15,7 @@ clients:
 
 h3-about: Über kmapper
 
-p-1-kmapper: kmapper ist ein winziges Unternehmen, das Sie bei der <b>Kuration</b>, <b>Organisation</b> und <b>Publikation</b> Ihrer Daten und Informationen unterstützt. Es führt Projekte unabhängig und effizient durch, bietet spezialisierte freiberufliche Dienstleistungen durch Partnerschaften an und arbeitet mit grösseren Teams zusammen, um externe Ressourcen bereitzustellen.
+p-1-kmapper: kmapper ist ein winziges Unternehmen, das Sie bei der <b>Kuration</b>, <b>Organisation</b> und <b>Publikation</b> Ihrer Daten und Informationen unterstützt. Es führt Projekte unabhängig und effizient durch, bietet spezialisierte Feelance-Dienstleistungen durch Partnerschaften an und arbeitet mit grösseren Teams zusammen, um externe Ressourcen bereitzustellen.
 
 p-2-kmapper: kmapper bildet Ihre Brücke zwischen Daten- und Informationskomplexität und Nutzerfreundlichkeit. Eine sorgfältige <b>Business-Analyse</b> und ein umfassendes <b>Requirements Engineering</b> sorgen für die präzise Erfassung der Bedürfnisse und Ziele. Dies bildet die Grundlage für die <b>Entwicklung</b> massgeschneiderter Lösungen, die den Wissenstransfer fördern und die Daten- und Informationsnutzung verbessern.
 
