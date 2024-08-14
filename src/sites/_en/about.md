@@ -17,9 +17,11 @@ h3-about: About kmapper
 
 p-1-kmapper: kmapper is a tiny company that helps you curate, organize, and publish your data and information. It independently manages projects with efficiency, offers specialized freelance services through partnerships, and collaborates with larger teams to provide external resources.
 
-p-2-kmapper: kmapper forms your bridge between data and information complexity and user-friendliness. A careful <b>business analysis</b> and comprehensive <b>requirements engineering</b> ensure that needs and goals are precisely recorded. This forms the basis for the <b>development</b> of tailor-made solutions that promote knowledge transfer and improve the use of data and information.
+p-2-kmapper: kmapper bridges the gap between complex data and information and user-friendly insights. A careful <b>business analysis</b> and comprehensive <b>requirements engineering</b> ensure that needs and goals are precisely recorded. This forms the basis for the <b>development</b> of tailor-made solutions that promote knowledge transfer and improve the use of data and information. 
 
-p-3-kmapper: The company is rooted in the open project <a href="https://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research articles to visualize subjects in an interdisciplinary context. In its early first version, it was known as "The Knowledge Mapper", or in short&#58; kmapper.
+p-3-kmapper: kmapper works closely with clients to co-create customized solutions that align with their unique circumstances, resources, and goals. By avoiding generic approaches, kmapper empowers clients and their teams to own and sustain the solutions developed throughout the engagement. 
+
+p-4-kmapper: The company is rooted in the open project <a href="https://kmapper.org" target="_blank">kmapper.org</a>. A tool making use of open access research articles to visualize subjects in an interdisciplinary context. In its early first version, it was known as "The Knowledge Mapper", or in short&#58; kmapper.
 
 people:
 - name: Cyrill Martin
