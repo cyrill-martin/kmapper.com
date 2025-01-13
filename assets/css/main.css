@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@font-face { font-family: "Lato"; src: url("https://kmapper.com/assets/fonts/Lato-Regular.ttf") format("truetype"); font-weight: 400; }
+
+@font-face { font-family: "Lato"; src: url("https://kmapper.com/assets/fonts/Lato-Bold.ttf") format("truetype"); font-weight: 700; }
+
 .background-k { background-image: url("https://kmapper.com/assets/images/kmapper_k.png"); background-repeat: no-repeat; background-size: 35% auto; background-position: 0 1%; }
 
 /*Cookie Consent*/
@@ -194,7 +197,7 @@
 
 html, body { height: 100%; width: 100%; margin: 0; padding: 0; left: 0; top: 0; font-size: 100%; }
 
-* { font-family: 'Lato', Helvetica, sans-serif; color: #333447; line-height: 1.5; }
+* { font-family: "Lato", Helvetica, sans-serif; color: #333447; line-height: 1.5; }
 
 h1 { font-size: 2.5rem; overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; }
 
@@ -228,7 +231,7 @@ table td { padding-right: 1rem; }
 
 .home .site-titles .tagline .tagline-nav:hover { text-decoration: none; color: white; background: #514efd; }
 
-.home .site-titles .home-terms { font-size: 1.125rem; font-weight: bold; margin-top: 1.5rem; }
+.home .site-titles .home-terms { font-size: 1.125rem; font-weight: 700; margin-top: 1.5rem; }
 
 .home img { margin-top: 1rem; height: 100%; width: auto; }
 
@@ -244,15 +247,15 @@ table td { padding-right: 1rem; }
 
 .site-nav .site-links .site-services { font-size: 1.1em; }
 
-.site-nav .site-links .site-projects { margin-top: 1.2rem; }
+.site-nav .site-links .site-projects { margin-top: 2rem; }
 
 .site-nav .site-links .site-projects #kmapper-preview { display: none; }
 
 .site-nav .site-links .site-projects #kmapper-preview img { position: relative; top: -60px; left: 100px; width: 80px; z-index: -1; }
 
-.site-nav .site-links .site-info { position: fixed; bottom: 180px; }
+.site-nav .site-links .site-info { margin-top: 2rem; }
 
-.site-nav .site-links .site-page { font-weight: bold; margin: 0.5rem 0 0.5rem 0; }
+.site-nav .site-links .site-page { font-weight: 700; margin: 0.5rem 0 0.5rem 0; }
 
 .site-nav .site-links .site-page a { position: relative; text-decoration: none; display: inline-block; color: #333447; padding: 0 1px; }
 
@@ -262,7 +265,7 @@ table td { padding-right: 1rem; }
 
 .copyright-statement { position: fixed; bottom: 1rem; right: 1rem; font-size: 0.8rem; }
 
-.service-terms { font-size: 1.125rem; font-weight: bold; margin-bottom: 50px; }
+.service-terms { font-size: 1.125rem; font-weight: 700; margin-bottom: 50px; }
 
 .team-member { position: relative; width: 100%; max-width: 225px; margin-top: 1.5em; }
 
@@ -280,20 +283,10 @@ table td { padding-right: 1rem; }
 
 .project .project-image-mobile img { width: 56%; }
 
-.project .stack { font-weight: bold; margin-right: 1rem; }
-
-.tutorial .tutorial-image { text-align: center; }
-
-.tutorial .tutorial-sidenote { padding: 1rem; background: -webkit-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: -o-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: -ms-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: -moz-linear-gradient(right, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); background: linear-gradient(to left, rgba(243, 236, 10, 0.8) 0%, rgba(188, 214, 48, 0.8) 60%, rgba(156, 203, 59, 0.8) 100%); }
-
-.tutorial .image-landscape { max-width: 800px; width: 100%; }
-
-.tutorial .image-portrait { max-width: 500px; width: 100%; }
-
-.tutorial .demo-button { background-color: #43a6dd; color: white; font-weight: bold; border: none; border-radius: 4px; padding: 0.5rem; cursor: pointer; margin: 1rem; }
+.project .stack { font-weight: 700; margin-right: 1rem; }
 
 @media only screen and (min-width: 45em) { .site-links { margin-top: 2.2rem; display: block !important; } }
 
-@media only screen and (max-width: 45em) { h1 { font-size: 1.8rem; } h2 { font-size: 1.25rem; } h3 { font-size: 1rem; } h4 { font-size: 0.9rem; } h5 { font-size: 0.8rem; } .home { position: relative; width: 100%; height: auto; } .home img { margin-top: 1rem; width: 100%; height: auto; } .hamburger { position: fixed; float: right; top: 0.5rem; right: 0.5rem; display: block; z-index: 20; } .site-nav { position: relative; top: 0; left: 0; } .site-nav .site-logo { padding-top: 0; } .site-nav .site-links { display: none; position: fixed; top: 0; right: 0; padding-left: 2rem; background-color: white; width: 80%; height: 100%; } .site-nav .site-links .site-lang { position: relative; top: 0; left: 0; margin: 1rem 0 2rem 0; } .site-nav .site-links .site-projects { margin-top: 2rem; } .site-nav .site-links .site-info { position: relative; top: 0; margin-top: 2rem; } .site-imprint-sm { position: relative; top: 0; left: 0; } .copyright-statement { position: relative; top: 0; left: 0; text-align: center; margin-top: 1rem; } .service-image p { width: 100%; min-width: 325px; } .service-image p img { width: 100%; min-width: 325px; } }
+@media only screen and (max-width: 45em) { h1 { font-size: 1.8rem; } h2 { font-size: 1.25rem; } h3 { font-size: 1rem; } h4 { font-size: 0.9rem; } h5 { font-size: 0.8rem; } .home { position: relative; width: 100%; height: auto; } .home img { margin-top: 1rem; width: 100%; height: auto; } .hamburger { position: fixed; float: right; top: 0.5rem; right: 0.5rem; display: block; z-index: 20; } .site-nav { position: relative; top: 0; left: 0; } .site-nav .site-logo { padding-top: 0; } .site-nav .site-links { display: none; position: fixed; top: 0; right: 0; padding-left: 2rem; background-color: white; width: 80%; height: 100%; } .site-nav .site-links .site-lang { position: relative; top: 0; left: 0; margin: 1rem 0 2rem 0; } .site-imprint-sm { position: relative; top: 0; left: 0; } .copyright-statement { position: relative; top: 0; left: 0; text-align: center; margin-top: 1rem; } .service-image p { width: 100%; min-width: 325px; } .service-image p img { width: 100%; min-width: 325px; } }
 
 /*# sourceMappingURL=main.css.map */
