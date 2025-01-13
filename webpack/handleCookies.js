@@ -78,6 +78,11 @@ export const setLangCookie = () => {
   }
 };
 
+function deleteCookie(name) {
+  console.log("delete", name);
+  document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+}
+
 export const checkCookieConsent = () => {
   // Check cookie from cookieconsent
   let cookieConsent = getCookie("cookieconsent_status");
@@ -88,9 +93,14 @@ export const addCookieConsentEventListener = () => {
   window.addEventListener("load", function () {
     // Find the Allow button element
     let allowButton = document.querySelector(".cc-btn.cc-allow");
-    // Add click event listener to the Allow button
+    // Add click event listener to the allow button
     allowButton.addEventListener("click", function () {
       setLangCookie();
+    });
+
+    let declineButton = document.querySelector(".cc-btn.cc-deny");
+    declineButton.addEventListener("click", function () {
+      deleteCookie("lang");
     });
   });
 };
