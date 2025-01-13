@@ -4,7 +4,6 @@ const webpack = require("webpack");
 module.exports = {
   entry: {
     handleCookies: "./webpack/handleCookies.js",
-    jsDemo: "./webpack/jsDemo.js",
     interaction: "./webpack/interaction.js",
     cookieconsent: "./webpack/cookieconsent.js"
   },

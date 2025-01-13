@@ -2,11 +2,25 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@font-face {
+  font-family: "Lato";
+  src: url("{{site.url}}{{ site.baseurl }}/assets/fonts/Lato-Regular.ttf")
+    format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("{{site.url}}{{ site.baseurl }}/assets/fonts/Lato-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+}
+
 .background-k {
-	background-image: url("{{site.url}}{{ site.baseurl }}/assets/images/kmapper_k.png");
-	background-repeat: no-repeat;
-	background-size: 35% auto;
-	background-position: 0 1%;
+  background-image: url("{{site.url}}{{ site.baseurl }}/assets/images/kmapper_k.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position: 0 1%;
 }
 
 @import "kmapper";

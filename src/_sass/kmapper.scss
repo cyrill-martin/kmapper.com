@@ -164,12 +164,10 @@ $grad-4-5: linear-gradient(
   background: $grad-4-5;
 }
 
-
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+// @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 $margin: 0.5rem;
 $dark-grey: #333447;
-
 
 html,
 body {
@@ -183,7 +181,7 @@ body {
 }
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   color: $dark-grey;
   line-height: 1.5;
 }
@@ -271,11 +269,10 @@ table {
         color: white;
         background: #514efd;
       }
-
     }
     .home-terms {
       font-size: 1.125rem;
-      font-weight: bold;
+      font-weight: 700;
       margin-top: 1.5rem;
     }
   }
@@ -309,13 +306,12 @@ table {
   }
 
   .site-links {
-
     .site-services {
       font-size: 1.1em;
     }
 
     .site-projects {
-      margin-top: 1.2rem;
+      margin-top: 2rem;
 
       #kmapper-preview {
         display: none;
@@ -331,12 +327,11 @@ table {
     }
 
     .site-info {
-      position: fixed;
-      bottom: 180px;
+      margin-top: 2rem;
     }
 
     .site-page {
-      font-weight: bold;
+      font-weight: 700;
       margin: $margin 0 $margin 0;
 
       a {
@@ -370,7 +365,7 @@ table {
 
 .service-terms {
   font-size: 1.125rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 50px;
 }
 
@@ -412,44 +407,8 @@ table {
   }
 
   .stack {
-    font-weight: bold;
+    font-weight: 700;
     margin-right: 1rem;
-  }
-}
-
-.tutorial {
-  .tutorial-image {
-    text-align: center;
-  }
-
-  .tutorial-sidenote {
-    padding: 1rem;
-    background: $grad-4-1;
-    background: $grad-4-2;
-    background: $grad-4-3;
-    background: $grad-4-4;
-    background: $grad-4-5;
-  }
-
-  .image-landscape {
-    max-width: 800px;
-    width: 100%;
-  }
-
-	.image-portrait {
-		max-width: 500px;
-		width: 100%;
-	}
-
-  .demo-button {
-    background-color: #43a6dd;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 4px;
-    padding: 0.5rem;
-    cursor: pointer;
-    margin: 1rem;
   }
 }
 
@@ -526,15 +485,10 @@ table {
         margin: $margin * 2 0 $margin * 4 0;
       }
 
-      .site-projects {
-        margin-top: 2rem;
-      }
-
-      .site-info {
-        position: relative;
-        top: 0;
-        margin-top: 2rem;
-      }
+      // .site-info {
+      //   position: relative;
+      //   top: 0;
+      // }
     }
   }
 
