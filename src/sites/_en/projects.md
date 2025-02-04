@@ -37,8 +37,8 @@ projects:
       - Vue.js
       - D3.js
   - title: Different Perspectives on the Swiss Parliament
-    link_text: parlament.kmapper.ch
-    url: https://parlament.kmapper.ch
+    link_text: parlament.kmapper.com
+    url: https://parlament.kmapper.com
     image: parlament.kmapper.com_EN.png
     desc: <p>
       The dynamic visualization shows the distribution of seats for members of the Swiss parliament in relation to an additional feature.
