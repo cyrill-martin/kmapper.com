@@ -12,6 +12,12 @@ clients:
   - name: Karger Publishers
   - name: Bundesamt für Gesundheit BAG
   - name: Mosanna Therapeutics AG
+  - name: Governance Advisors AG
+  - name: Aufträge im Subcontracting für&#58;
+
+subcontracting:
+  - name: Nexeco AG
+  - name: Karlie GmbH
 
 h3-about: Über kmapper
 

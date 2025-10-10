@@ -412,6 +412,10 @@ table {
   }
 }
 
+.clients li {
+  line-height: 1.75;
+}
+
 // if the screen is greater than $breakpoint-med
 @media only screen and (min-width: $breakpoint-med) {
   // always, always show .site-pages!

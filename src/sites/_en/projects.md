@@ -4,15 +4,15 @@ uid: prj
 title: Public Projects
 description: With kmapper, you go from idea to publication
 projects:
-  - title: Mapping Open Knowledge and SDGs
-    link_text: kmapper.org
-    url: https://kmapper.org
-    image: kmapperOrg.png
-    image_mobile: kmapperOrg_mobile.png
+  - title: Characteristics of SMI Board Directors
+    link_text: data.governance-advisors.ch
+    url: https://data.governance-advisors.ch/
+    image: data.governance-advisors.ch.png
     desc: <p>
-      kmapper.org searches for open access articles that are indexed in <a href="https://openalex.org/"" target="_blank">OpenAlex</a> and visualizes the results according to their relevance for the sustainable development goals (SDGs) and research fields.
+      The dynamic heat map shows how SMI board composition has changed over time.
       </p>
     stack:
+      - R
       - Vue.js
       - D3.js
   - title: Grand Council of Basel-Stadt
@@ -21,6 +21,17 @@ projects:
     image: grosserRatBaselStadt.png
     desc: <p>
       The dynamic visualization shows the distribution of seats for members of the Grand Council of Basel-Stadt in relation to an additional feature.
+      </p>
+    stack:
+      - Vue.js
+      - D3.js
+  - title: Mapping Open Knowledge and SDGs
+    link_text: kmapper.org
+    url: https://kmapper.org
+    image: kmapperOrg.png
+    image_mobile: kmapperOrg_mobile.png
+    desc: <p>
+      kmapper.org searches for open access articles that are indexed in <a href="https://openalex.org/"" target="_blank">OpenAlex</a> and visualizes the results according to their relevance for the sustainable development goals (SDGs) and research fields.
       </p>
     stack:
       - Vue.js

@@ -5,14 +5,15 @@ title: Öffentliche Projekte
 description: kmapper begleitet Sie von der Idee bis hin zur fertigen Publikation
 
 projects:
-  - title: Mapping Open Knowledge und SDGs
-    link_text: kmapper.org
-    url: https://kmapper.org
-    image: kmapperOrg.png
+  - title: Characteristics of SMI Board Directors
+    link_text: data.governance-advisors.ch
+    url: https://data.governance-advisors.ch/
+    image: data.governance-advisors.ch.png
     desc: <p>
-      kmapper.org sucht nach Open Access-Artikeln, die in <a href="https://openalex.org/" target="_blank">OpenAlex</a> indexiert sind, und visualisiert die Ergebnisse nach ihrer Relevanz für die globalen Ziele der Nachhaltigkeit (SDGs) und ihrer Forschungsfelder.
+      Die dynamische Heatmap zeigt, wie sich die Zusammensetzung der SMI-Verwaltungsräte im Laufe der Zeit verändert hat.
       </p>
     stack:
+      - R
       - Vue.js
       - D3.js
   - title: Grosser Rat Basel-Stadt
@@ -21,6 +22,16 @@ projects:
     image: grosserRatBaselStadt.png
     desc: <p>
       Die dynamische Visualisierung zeigt die Sitzverteilung der Mitglieder des Grossen Rates Basel-Stadt in Relation zu einem zusätzlich wählbaren Merkmal.
+      </p>
+    stack:
+      - Vue.js
+      - D3.js
+  - title: Mapping Open Knowledge und SDGs
+    link_text: kmapper.org
+    url: https://kmapper.org
+    image: kmapperOrg.png
+    desc: <p>
+      kmapper.org sucht nach Open Access-Artikeln, die in <a href="https://openalex.org/" target="_blank">OpenAlex</a> indexiert sind, und visualisiert die Ergebnisse nach ihrer Relevanz für die globalen Ziele der Nachhaltigkeit (SDGs) und ihrer Forschungsfelder.
       </p>
     stack:
       - Vue.js
