@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -26,14 +26,14 @@ company: kmapper GmbH
 hr_number: CHE-409.729.612
 hr_place: Basel-Stadt
 
-email: mail@kmapper.com
-email_cyrill: cyrill.martin@kmapper.com
+email: mail@kmapper.ch
+email_cyrill: cyrill.martin@kmapper.ch
 telephone: +41 79 745 62 05
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kmapper.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections_dir: sites
-collections: 
+collections:
   de:
     output: true
     permalink: /:collection/:name/
@@ -41,7 +41,7 @@ collections:
     output: true
     permalink: /:collection/:name/
 
-defaults: 
+defaults:
   - scope:
       path: ""
       type: "de"

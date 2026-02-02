@@ -37,5 +37,5 @@ people:
       - <a href="https://www.linkedin.com/in/cyrill-martin/" target="_blank">LinkedIn</a>
       - <a href="https://github.com/cyrill-martin/" target="_blank">GitHub</a>
 
-p-karlie: Logo designs by <a href="https://www.hejkarlie.ch/english-2" target="_blank">Karlie GmbH</a>.
+p-karlie: Logo designs by <a href="https://www.hejkarlie.ch/" target="_blank">Karlie GmbH</a>.
 ---

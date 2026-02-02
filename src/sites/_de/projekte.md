@@ -16,6 +16,16 @@ projects:
       - R
       - Vue.js
       - D3.js
+  - title: Geschichte Kinderbüro
+    link_text: geschichte.kibue.ch
+    url: https://geschichte.kibue.ch/
+    image: kibue.png
+    desc: <p>
+      Als Teil der Karlie GmbH umgesetzte Website, auf der Nutzer:innen per Panning durch Kacheln die Geschichte des Kinderbüros Basel entdecken.
+      </p>
+    stack:
+      - Vue.js
+      - Konzept und Design von Karlie GmbH
   - title: Grosser Rat Basel-Stadt
     link_text: grosserrat-bs.kmapper.ch
     url: https://grosserrat-bs.kmapper.ch/
